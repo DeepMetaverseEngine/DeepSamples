@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemTemplate type="DeepCore.GameData.Zone.ItemTemplate">
+  <BodySize>1.00</BodySize>
+  <BuyCostMoney>False</BuyCostMoney>
+  <ClientVisible>True</ClientVisible>
+  <DropEffect>
+    <BindBody>False</BindBody>
+    <BindBodyDirection>True</BindBodyDirection>
+    <BlurBeginTime>0</BlurBeginTime>
+    <BlurEndTime>0</BlurEndTime>
+    <BlurStrength>0.00</BlurStrength>
+    <BlurWaitTime>0</BlurWaitTime>
+    <CameraBeginTime>0</CameraBeginTime>
+    <CameraDistance>0.00</CameraDistance>
+    <CameraEndTime>0</CameraEndTime>
+    <CameraWaitTime>0</CameraWaitTime>
+    <EarthQuakeMS>0</EarthQuakeMS>
+    <EarthQuakeXYZ>0.00</EarthQuakeXYZ>
+    <EffectTimeMS>0</EffectTimeMS>
+    <IsLoop>False</IsLoop>
+    <Name>/res/effect/eff_npc_refresh_01.assetBundles</Name>
+    <ScaleToBodySize>0.00</ScaleToBodySize>
+    <WarnDegree>80.00</WarnDegree>
+    <WarnScaleX>1.00</WarnScaleX>
+    <WarnScaleZ>1.00</WarnScaleZ>
+    <WarnSpeed>1.00</WarnSpeed>
+    <WarnType>WARNING_TYPE_NONE</WarnType>
+    <property.SerialNumber>28457</property.SerialNumber>
+  </DropEffect>
+  <DropForAll>True</DropForAll>
+  <DropMoneyMax>0</DropMoneyMax>
+  <DropMoneyMin>0</DropMoneyMin>
+  <EquipBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <FileName>/res/unit/32001_NVcrystal.assetBundles</FileName>
+  <GotCoolDownTimeMS>500</GotCoolDownTimeMS>
+  <GotOnUse>False</GotOnUse>
+  <HoldingLimit>0</HoldingLimit>
+  <ID>10000</ID>
+  <IsDuplicateInventory>True</IsDuplicateInventory>
+  <IsInventoryUseable>False</IsInventoryUseable>
+  <LifeTimeMS>100000</LifeTimeMS>
+  <MaxStackCount>100000000</MaxStackCount>
+  <Name>矿</Name>
+  <NoLifeTime>False</NoLifeTime>
+  <Pickable>True</Pickable>
+  <PickTimeMS>1000</PickTimeMS>
+  <PlayerOnly>True</PlayerOnly>
+  <Properties type="SampleBattle.Plugins.SampleItemProperties" />
+  <RemoveOnFinishPick>True</RemoveOnFinishPick>
+  <SellGotMoney>False</SellGotMoney>
+  <SyncToServer>True</SyncToServer>
+  <UseBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <UseCoolDownTimeMS>0</UseCoolDownTimeMS>
+  <UseInProgressTimeMS>0</UseInProgressTimeMS>
+  <property.EditorPath>物品/矿(10000)</property.EditorPath>
+</ItemTemplate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="true" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="79" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,239,79" lock="true" name="bt_gamestart" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="Serif,48,0" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="239" x="357.0" y="557.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/login/login0.png.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="16" img="static/login/login.png.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="150" local_bounds="0,0,250,150" lock="false" name="cvs_information" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="250" x="111.0" y="170.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="43" local_bounds="0,0,240,43" lock="false" name="lb_name" text="我是角色的名字" textBorderAlpha="100.0" textBorderColor="ff380505" textColor="fff1e69e" textFont="方正黑体简体,28,1" textFontSize="" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="240" x="0.0" y="0.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="10" imageAtlas="" imagePath="" local_bounds="0,0,230,10" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="230" x="0.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="43.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/login/lightline.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,90,30" lock="false" name="lb_lv" text="狂战士" textBorderAlpha="100.0" textBorderColor="ff380505" textColor="ffda9747" textFont="方正黑体简体,26,1" textFontSize="" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="90" x="-1.0" y="52.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="27" local_bounds="0,0,100,27" lock="false" name="lb_rank" text="少校" textBorderAlpha="100.0" textBorderColor="ff380505" textColor="ffda9747" textFont="方正黑体简体,26,0" textFontSize="" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="100" x="99.0" y="52.0" z="0.0"/>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="30" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,100,30" lock="true" name="bt_change" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="false" visible_content="true" width="100" x="729.0" y="466.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/back.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="100" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,100,100" lock="true" name="bt_return" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="100" x="2.0" y="3.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/login/back1.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/login/back.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

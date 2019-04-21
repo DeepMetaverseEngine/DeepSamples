@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="false" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="58" imageAtlas="" imagePath="" local_bounds="0,0,434,58" lock="false" name="ib_choosejob" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="434" x="238.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="1.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/character_build/dice_character.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="63" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,86,63" lock="false" name="bt_return" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="86" x="18.0" y="571.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/character_build/back0.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/character_build/back.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

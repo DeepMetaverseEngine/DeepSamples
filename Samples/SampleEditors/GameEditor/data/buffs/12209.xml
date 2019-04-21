@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuffTemplate type="DeepCore.GameData.Zone.BuffTemplate">
+  <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <BodyHitSize>0.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>0.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <ExclusiveCatgory>0</ExclusiveCatgory>
+  <ExclusivePriority>0</ExclusivePriority>
+  <FirstTimeEnable>True</FirstTimeEnable>
+  <HitIntervalMS>0</HitIntervalMS>
+  <ID>12209</ID>
+  <IsCancelBySelf>False</IsCancelBySelf>
+  <IsDuplicating>False</IsDuplicating>
+  <IsHarmful>False</IsHarmful>
+  <IsInvincible>False</IsInvincible>
+  <IsInvisible>False</IsInvisible>
+  <IsNoneBlock>True</IsNoneBlock>
+  <IsOverlay>False</IsOverlay>
+  <IsPassive>False</IsPassive>
+  <IsRemoveOnSenderRemoved>False</IsRemoveOnSenderRemoved>
+  <IsSilent>False</IsSilent>
+  <KeyFrames element_type="DeepCore.GameData.Zone.BuffTemplate+KeyFrame" />
+  <LifeTimeMS>30000</LifeTimeMS>
+  <MakeAvatar>True</MakeAvatar>
+  <MakeStun>False</MakeStun>
+  <MaxOverlay>1</MaxOverlay>
+  <Name>钢铁之心-变身</Name>
+  <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <UnitBaseSkillID>
+    <AutoLaunch>True</AutoLaunch>
+    <Priority>0</Priority>
+    <SkillID>2200400</SkillID>
+    <property.SerialNumber>360127</property.SerialNumber>
+  </UnitBaseSkillID>
+  <UnitChangeSkills>True</UnitChangeSkills>
+  <UnitFileName>/res/unit/12301_machine.assetBundles</UnitFileName>
+  <UnitKeepSkillsID element_type="System.Int32" />
+  <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill">
+    <element>
+      <AutoLaunch>True</AutoLaunch>
+      <Priority>0</Priority>
+      <SkillID>0</SkillID>
+      <property.SerialNumber>757738</property.SerialNumber>
+    </element>
+    <element>
+      <AutoLaunch>True</AutoLaunch>
+      <Priority>0</Priority>
+      <SkillID>0</SkillID>
+      <property.SerialNumber>757739</property.SerialNumber>
+    </element>
+  </UnitSkills>
+  <property.EditorPath>BUFF/状态特效/炼金师技能状态/钢铁之心-变身(12209)</property.EditorPath>
+</BuffTemplate>

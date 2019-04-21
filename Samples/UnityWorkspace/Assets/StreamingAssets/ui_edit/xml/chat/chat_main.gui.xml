@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="false" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="619" local_bounds="0,0,566,619" lock="false" name="cvs_chat" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="566" x="242.0" y="17.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="80" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" isChecked="false" local_bounds="0,0,60,80" lock="false" name="tbt_lock" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="60" x="498.0" y="545.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_unlock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="472" local_bounds="0,0,60,472" lock="false" name="cvs_channel " uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="60" x="499.0" y="63.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="66" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="dynamic/ui_chat/text_zhonghe2.png" imageTextUp="dynamic/ui_chat/text_zhonghe.png" isChecked="true" local_bounds="0,0,49,66" lock="false" name="tbt_all" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="49" x="1.0" y="3.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg4.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="66" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="dynamic/ui_chat/text_shijie2.png" imageTextUp="dynamic/ui_chat/text_shijie.png" isChecked="false" local_bounds="0,0,49,66" lock="false" name="tbt_world" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="49" x="2.0" y="72.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="66" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="dynamic/ui_chat/text_quyu2.png" imageTextUp="dynamic/ui_chat/text_quyu.png" isChecked="false" local_bounds="0,0,49,66" lock="false" name="tbt_area" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="49" x="2.0" y="140.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="66" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="dynamic/ui_chat/text_jiaoyi2.png" imageTextUp="dynamic/ui_chat/text_jiaoyi.png" isChecked="false" local_bounds="0,0,49,66" lock="false" name="tbt_trade" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="49" x="2.0" y="207.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="66" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="dynamic/ui_chat/text_gonghui2.png" imageTextUp="dynamic/ui_chat/text_gonghui.png" isChecked="false" local_bounds="0,0,49,66" lock="false" name="tbt_union" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="49" x="3.0" y="274.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="66" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="dynamic/ui_chat/text_duiwu2.png" imageTextUp="dynamic/ui_chat/text_duiwu.png" isChecked="false" local_bounds="0,0,49,66" lock="false" name="tbt_team" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="49" x="2.0" y="342.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="66" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="dynamic/ui_chat/text_xitong2.png" imageTextUp="dynamic/ui_chat/text_xitong.png" isChecked="false" local_bounds="0,0,49,66" lock="false" name="tbt_system" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="49" x="2.0" y="410.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_bg3.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="616" local_bounds="0,0,508,616" lock="false" name="cvs_main" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="508" x="0.0" y="2.0" z="0.0">
+<layout bdc="ff000000" bgc="e0161217" clip="23" img="dynamic/ui_chat/talk_bg_kuang.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="50" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,50,50" lock="false" name="btn_close" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="50" x="499.0" y="4.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_down2.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_down.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="50" local_bounds="0,0,505,50" lock="false" name="cvs_horn" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="505" x="2.0" y="1.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/talk_fenge.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UETextBox Text="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,443,30" lock="false" name="tb_horn" textColor="ffffffff" text_shadow_alpha="1.0" text_shadow_dcolor="ff000000" text_shadow_x="0" text_shadow_y="0" text_size="22" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="443" x="42.0" y="12.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UETextBox>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="45" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,45,45" lock="false" name="btn_horn" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="45" x="9.0" y="4.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/icon_trumpet.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/icon_trumpet.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="479" local_bounds="0,0,495,479" lock="false" name="cvs_show" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="495" x="7.0" y="67.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEScrollPan BorderSize="4" EnableElasticity="true" EnableScrollH="false" EnableScrollV="true" ShowSlider="true" clip_local_bounds="false" clipbounds="false" elasticity_time="4.0" enable="true" enable_childs="true" height="479" local_bounds="0,0,495,479" lock="false" name="sp_show" scroll_acc="0.9" scroll_fade_time_max="20.0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="495" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="100" local_bounds="0,0,482,100" lock="false" name="cvs_talk" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="482" x="6.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="100" local_bounds="0,0,482,100" lock="false" name="cvs_talk1" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="482" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="81" imageAtlas="" imagePath="" local_bounds="0,0,61,81" lock="false" name="ib_head" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="61" x="0.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/hud/target/1.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="25" local_bounds="0,0,73,25" lock="false" name="lb_channelname" text="【世界】" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="方正黑体简体,20,0" textFontSize="" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="73" x="61.0" y="7.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,177,30" lock="false" name="lb_character" text="玩家名" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="方正黑体简体,20,0" textFontSize="" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="177" x="133.0" y="4.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UETextBox Text="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="51" local_bounds="0,0,320,51" lock="false" name="tb_talk" textColor="ffffffff" text_shadow_alpha="1.0" text_shadow_dcolor="ff000000" text_shadow_x="0" text_shadow_y="0" text_size="22" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="320" x="63.0" y="35.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc9ccce" clip="18" img="dynamic/ui_chat/talk_bar2.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+</com.g2d.studio.ui.edit.gui.UETextBox>
+<com.g2d.studio.ui.edit.gui.UETextBox Text="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="51" local_bounds="0,0,320,51" lock="false" name="tb_talk1" textColor="ffffffff" text_shadow_alpha="1.0" text_shadow_dcolor="ff000000" text_shadow_x="0" text_shadow_y="0" text_size="22" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="320" x="63.0" y="35.0" z="0.0">
+<layout bdc="ff000000" bgc="ff87b532" clip="18" img="dynamic/ui_chat/talk_bar.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+</com.g2d.studio.ui.edit.gui.UETextBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="50" local_bounds="0,0,482,50" lock="false" name="cvs_talk2" uiAnchor="" uiEffect="" userData="" userTag="0" visible="false" visible_content="true" width="482" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UEScrollPan>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="72" local_bounds="0,0,502,72" lock="false" name="cvs_input" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="502" x="6.0" y="545.0" z="0.0">
+<layout bdc="ff000000" bgc="9e03000a" clip="18" img="dynamic/ui_chat/talk_bg.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UETextInput Text="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="40" isPassword="false" is_readonly="false" local_bounds="0,0,290,40" lock="false" name="ti_input" textColor="ffffffff" textFont="方正黑体简体,22,0" textFontSize="22" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="290" x="57.0" y="19.0" z="0.0">
+<layout bdc="ff000000" bgc="ffebeae1" clip="16" img="dynamic/ui_chat/text_bar.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+</com.g2d.studio.ui.edit.gui.UETextInput>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="60" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,50,60" lock="false" name="btn_yuyin" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="50" x="-1.0" y="7.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/icon_talk0.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/icon_talk.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="60" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,50,60" lock="false" name="btn_biaoqing" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="50" x="363.0" y="9.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/icon_expression0.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/icon_expression.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="50" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,80,50" lock="false" name="btn_enter" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="80" x="416.0" y="13.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_enter2.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/button_enter.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="72" local_bounds="0,0,502,72" lock="false" name="cvs_input1" uiAnchor="" uiEffect="" userData="" userTag="0" visible="false" visible_content="true" width="502" x="6.0" y="545.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="50" imageAtlas="" imagePath="" local_bounds="0,0,50,50" lock="false" name="ib_tishi" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="50" x="43.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="14.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/icon_gantanhao.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,389,30" lock="false" name="lb_tishi" text="你必须加入一个队伍才可在才此频道发言" textBorderAlpha="30.0" textBorderColor="ff000000" textColor="ffa88650" textFont="方正黑体简体,20,0" textFontSize="" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="389" x="86.0" y="24.0" z="0.0"/>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="72" local_bounds="0,0,502,72" lock="false" name="cvs_input2" uiAnchor="" uiEffect="" userData="" userTag="0" visible="false" visible_content="true" width="502" x="6.0" y="545.0" z="0.0">
+<layout bdc="ff000000" bgc="9e03000a" clip="18" img="dynamic/ui_chat/talk_bg.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="60" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,50,60" lock="false" name="btn_jianpan" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="50" x="-1.0" y="7.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/icon_keyboard.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/ui_chat/icon_keyboard.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="41" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,288,41" lock="false" name="btn_talk" text="按住说话" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="方正黑体简体,24,0" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffcacaca" userData="" userTag="0" visible="true" visible_content="true" width="288" x="58.0" y="18.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ff5c5b58" clip="13" img="dynamic/ui_chat/button_talk_bg.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+<layout bdc="ff000000" bgc="ff312f2d" clip="11" img="dynamic/ui_chat/button_talk_2bg.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

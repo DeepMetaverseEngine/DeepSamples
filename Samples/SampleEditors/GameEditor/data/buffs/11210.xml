@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuffTemplate type="DeepCore.GameData.Zone.BuffTemplate">
+  <BindingEffect>
+    <BindBody>True</BindBody>
+    <BindBodyDirection>True</BindBodyDirection>
+    <BindPartName>Buff_Head</BindPartName>
+    <BlurBeginTime>0</BlurBeginTime>
+    <BlurEndTime>0</BlurEndTime>
+    <BlurStrength>0.00</BlurStrength>
+    <BlurWaitTime>0</BlurWaitTime>
+    <CameraBeginTime>0</CameraBeginTime>
+    <CameraDistance>0.00</CameraDistance>
+    <CameraEndTime>0</CameraEndTime>
+    <CameraWaitTime>0</CameraWaitTime>
+    <EarthQuakeMS>0</EarthQuakeMS>
+    <EarthQuakeXYZ>0.00</EarthQuakeXYZ>
+    <EffectTimeMS>4000</EffectTimeMS>
+    <IsLoop>False</IsLoop>
+    <Name>/res/effect/50000_state/vfx_60201_light.assetBundles</Name>
+    <ScaleToBodySize>0.00</ScaleToBodySize>
+    <WarnDegree>80.00</WarnDegree>
+    <WarnScaleX>1.00</WarnScaleX>
+    <WarnScaleZ>1.00</WarnScaleZ>
+    <WarnSpeed>1.00</WarnSpeed>
+    <WarnType>WARNING_TYPE_NONE</WarnType>
+    <property.SerialNumber>80751</property.SerialNumber>
+  </BindingEffect>
+  <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <BodyHitSize>0.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>0.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <ExclusiveCatgory>0</ExclusiveCatgory>
+  <ExclusivePriority>0</ExclusivePriority>
+  <FirstTimeEnable>True</FirstTimeEnable>
+  <HitIntervalMS>0</HitIntervalMS>
+  <ID>11210</ID>
+  <IsCancelBySelf>False</IsCancelBySelf>
+  <IsDuplicating>False</IsDuplicating>
+  <IsHarmful>False</IsHarmful>
+  <IsInvincible>False</IsInvincible>
+  <IsInvisible>False</IsInvisible>
+  <IsNoneBlock>False</IsNoneBlock>
+  <IsOverlay>False</IsOverlay>
+  <IsPassive>False</IsPassive>
+  <IsRemoveOnSenderRemoved>False</IsRemoveOnSenderRemoved>
+  <IsSilent>False</IsSilent>
+  <KeyFrames element_type="DeepCore.GameData.Zone.BuffTemplate+KeyFrame" />
+  <LifeTimeMS>6000</LifeTimeMS>
+  <MakeAvatar>False</MakeAvatar>
+  <MakeStun>False</MakeStun>
+  <MaxOverlay>1</MaxOverlay>
+  <Name>狂风打击-消耗增加（无绑定特效）</Name>
+  <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <UnitChangeSkills>False</UnitChangeSkills>
+  <UnitKeepSkillsID element_type="System.Int32" />
+  <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
+  <property.EditorPath>BUFF/状态特效/狂战士技能状态/狂风打击-消耗增加（无绑定特效）(11210)</property.EditorPath>
+</BuffTemplate>

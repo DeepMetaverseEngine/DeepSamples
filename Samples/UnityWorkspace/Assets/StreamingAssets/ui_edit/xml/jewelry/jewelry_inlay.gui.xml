@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="false" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="67" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,128,67" lock="false" name="btn_xiangqian" text="镶  嵌" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="方正黑体简体,22,0" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="10" uiAnchor="" uiEffect="" unfocusTextColor="ffffffff" userData="" userTag="0" visible="true" visible_content="true" width="128" x="190.0" y="501.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/common_new/button_green.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/common_new/button_orange.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,125,30" lock="false" name="lb_price" text="100" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="方正黑体简体,24,0" textFontSize="" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="125" x="240.0" y="503.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="29" local_bounds="0,0,31,29" lock="false" name="cvs_gold" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="31" x="210.0" y="502.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/common_2/icon_money.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="417" local_bounds="0,0,360,417" lock="false" name="cvs_main" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="360" x="77.0" y="79.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="181" imageAtlas="" imagePath="" local_bounds="0,0,181,181" lock="false" name="ib_loop1" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="181" x="91.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="82.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="1" img="dynamic/jewelry/enchant_frame_shade.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="280" imageAtlas="" imagePath="" local_bounds="0,0,280,280" lock="false" name="ib_loop2" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="280" x="43.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="34.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="1" img="dynamic/jewelry/enchant_frame_shade2.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="75" local_bounds="0,0,75,75" lock="false" name="cvs_zhuzhuangbei" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="75" x="143.0" y="42.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/jewelry/jewel_bar_not_put.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="75" local_bounds="0,0,75,75" lock="false" name="cvs_zhuitem" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="75" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="224" local_bounds="0,0,364,224" lock="false" name="cvs_gem" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="364" x="-3.0" y="185.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="117" local_bounds="0,0,362,117" lock="false" name="cvs_kong" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="362" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="75" local_bounds="0,0,75,75" lock="false" name="cvs_gem1" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="75" x="22.0" y="5.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="75" local_bounds="0,0,75,75" lock="false" name="cvs_item_cvs" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="75" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="false" enable_childs="true" height="75" local_bounds="0,0,75,75" lock="false" name="cvs_zhuangtai1" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="75" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/jewelry/jewel_bar_not_put.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="false" enable_childs="true" height="75" local_bounds="0,0,75,75" lock="false" name="cvs_zhuangtai2" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="75" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/jewelry/jewel_bar_put.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="false" enable_childs="true" height="75" local_bounds="0,0,75,75" lock="false" name="cvs_zhuangtai3" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="75" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/jewelry/jewel_bar_inlay.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,82,30" lock="false" name="lb_gem1name" text="10级红宝石" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffcacaca" textFont="方正黑体简体,22,0" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="82" x="-3.0" y="82.0" z="0.0"/>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="104" local_bounds="0,0,357,104" lock="false" name="cvs_shuxing" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="357" x="0.0" y="128.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="35" local_bounds="0,0,35,35" lock="false" name="cvs_shuxing1" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="35" x="41.0" y="15.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,120,30" lock="false" name="lb_shuxing1" text="200防御力" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ff67ba7c" textFont="方正黑体简体,22,0" textFontSize="22" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="120" x="75.0" y="18.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="35" local_bounds="0,0,35,35" lock="false" name="cvs_shuxing2" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="35" x="194.0" y="15.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,120,30" lock="false" name="lb_shuxing2" text="200防御力" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ff67ba7c" textFont="方正黑体简体,22,0" textFontSize="22" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="120" x="229.0" y="18.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="35" local_bounds="0,0,35,35" lock="false" name="cvs_shuxing3" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="35" x="41.0" y="57.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,120,30" lock="false" name="lb_shuxing3" text="200防御力" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ff67ba7c" textFont="方正黑体简体,22,0" textFontSize="22" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="120" x="75.0" y="60.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="35" local_bounds="0,0,35,35" lock="false" name="cvs_shuxing4" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="35" x="194.0" y="58.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,120,30" lock="false" name="lb_shuxing4" text="200防御力" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ff67ba7c" textFont="方正黑体简体,22,0" textFontSize="22" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="120" x="229.0" y="60.0" z="0.0"/>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entry>
+<!--
+<OUTPUT>		.\output\effect.xml
+<IMAGE_OUTPUT>	.\output\
+<FORMAT_NUMBER_ARRAY_1D>    <>,
+<FORMAT_STRING_ARRAY_1D>	<>,
+<FORMAT_ARRAY_1D>			<>,
+<FORMAT_ARRAY_2D>			{<>},
+<FIXED_STRING_ARRAY>		char,
+-->
+<IMAGE_TYPE>png
+</IMAGE_TYPE>
+<IMAGE_TILE>false
+</IMAGE_TILE>
+<IMAGE_GROUP>true
+</IMAGE_GROUP>
+
+
+<resource images_count="13" map_count="0" sprite_count="0" >
+	
+	
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="0" name="anger_burst" size="12" 
+		all_width="301" 
+		all_height="200"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="100" height="50" data="burst1" />
+		<clip index="1" x="100" y="0" width="100" height="50" data="burst2" />
+		<clip index="2" x="200" y="0" width="100" height="50" data="burst3" />
+		<clip index="3" x="0" y="50" width="100" height="50" data="burst4" />
+		<clip index="4" x="101" y="50" width="100" height="50" data="burst5" />
+		<clip index="5" x="201" y="50" width="100" height="50" data="burst6" />
+		<clip index="6" x="0" y="100" width="100" height="50" data="burst7" />
+		<clip index="7" x="100" y="100" width="100" height="50" data="burst8" />
+		<clip index="8" x="200" y="100" width="100" height="50" data="burst9" />
+		<clip index="9" x="0" y="150" width="100" height="50" data="burst10" />
+		<clip index="10" x="100" y="150" width="100" height="50" data="burst11" />
+		<clip index="11" x="200" y="150" width="100" height="50" data="burst12" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="1" name="anger_normal" size="6" 
+		all_width="150" 
+		all_height="100"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="50" height="50" data="normal1" />
+		<clip index="1" x="50" y="0" width="50" height="50" data="normal2" />
+		<clip index="2" x="100" y="0" width="50" height="50" data="normal3" />
+		<clip index="3" x="0" y="50" width="50" height="50" data="normal4" />
+		<clip index="4" x="50" y="50" width="50" height="50" data="normal5" />
+		<clip index="5" x="100" y="50" width="50" height="50" data="normal6" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="2" name="Btn_choose" size="6" 
+		all_width="440" 
+		all_height="300"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="220" height="100" data="choose1" />
+		<clip index="1" x="220" y="0" width="220" height="100" data="choose2" />
+		<clip index="2" x="0" y="100" width="220" height="100" data="choose3" />
+		<clip index="3" x="220" y="100" width="220" height="100" data="choose4" />
+		<clip index="4" x="0" y="200" width="220" height="100" data="choose5" />
+		<clip index="5" x="220" y="200" width="220" height="100" data="choose6" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="3" name="Btn_revolve" size="13" 
+		all_width="512" 
+		all_height="512"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="128" height="128" data="revolve1" />
+		<clip index="1" x="128" y="0" width="128" height="128" data="revolve2" />
+		<clip index="2" x="256" y="0" width="128" height="128" data="revolve3" />
+		<clip index="3" x="384" y="0" width="128" height="128" data="revolve4" />
+		<clip index="4" x="0" y="128" width="128" height="128" data="revolve5" />
+		<clip index="5" x="128" y="128" width="128" height="128" data="revolve6" />
+		<clip index="6" x="256" y="128" width="128" height="128" data="revolve7" />
+		<clip index="7" x="384" y="128" width="128" height="128" data="revolve8" />
+		<clip index="8" x="0" y="256" width="128" height="128" data="revolve9" />
+		<clip index="9" x="128" y="256" width="128" height="128" data="revolve10" />
+		<clip index="10" x="256" y="256" width="128" height="128" data="revolve11" />
+		<clip index="11" x="384" y="256" width="128" height="128" data="revolve12" />
+		<clip index="12" x="0" y="384" width="128" height="128" data="revolve13" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="4" name="Cvs_task" size="12" 
+		all_width="600" 
+		all_height="522"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="200" height="128" data="task1" />
+		<clip index="1" x="200" y="0" width="200" height="128" data="task2" />
+		<clip index="2" x="400" y="10" width="200" height="128" data="task3" />
+		<clip index="3" x="0" y="128" width="200" height="128" data="task4" />
+		<clip index="4" x="200" y="128" width="200" height="128" data="task5" />
+		<clip index="5" x="400" y="138" width="200" height="128" data="task6" />
+		<clip index="6" x="0" y="256" width="200" height="128" data="task7" />
+		<clip index="7" x="200" y="262" width="200" height="128" data="task8" />
+		<clip index="8" x="400" y="266" width="200" height="128" data="task9" />
+		<clip index="9" x="0" y="384" width="200" height="128" data="task10" />
+		<clip index="10" x="200" y="390" width="200" height="128" data="task11" />
+		<clip index="11" x="400" y="394" width="200" height="128" data="task12" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="5" name="Icon_box" size="6" 
+		all_width="300" 
+		all_height="201"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="100" height="100" data="box1" />
+		<clip index="1" x="100" y="0" width="100" height="100" data="box2" />
+		<clip index="2" x="200" y="0" width="100" height="100" data="box3" />
+		<clip index="3" x="0" y="101" width="100" height="100" data="box4" />
+		<clip index="4" x="100" y="100" width="100" height="100" data="box5" />
+		<clip index="5" x="200" y="100" width="100" height="100" data="box6" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="6" name="scene_process" size="10" 
+		all_width="384" 
+		all_height="336"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="80" height="80" data="grain1" />
+		<clip index="1" x="81" y="0" width="80" height="80" data="grain2" />
+		<clip index="2" x="161" y="0" width="80" height="80" data="grain3" />
+		<clip index="3" x="0" y="80" width="80" height="80" data="grain5" />
+		<clip index="4" x="242" y="0" width="80" height="80" data="grain4" />
+		<clip index="5" x="80" y="80" width="128" height="128" data="bolt1" />
+		<clip index="6" x="256" y="208" width="128" height="128" data="bolt5" />
+		<clip index="7" x="208" y="80" width="128" height="128" data="bolt2" />
+		<clip index="8" x="0" y="208" width="128" height="128" data="bolt3" />
+		<clip index="9" x="128" y="208" width="128" height="128" data="bolt4" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="7" name="skill_box" size="6" 
+		all_width="384" 
+		all_height="256"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="128" height="128" data="skill1" />
+		<clip index="1" x="128" y="0" width="128" height="128" data="skill2" />
+		<clip index="2" x="256" y="0" width="128" height="128" data="skill3" />
+		<clip index="3" x="0" y="128" width="128" height="128" data="skill4" />
+		<clip index="4" x="128" y="128" width="128" height="128" data="skill5" />
+		<clip index="5" x="256" y="128" width="128" height="128" data="skill6" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="8" name="skill_cooling" size="10" 
+		all_width="480" 
+		all_height="640"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="160" height="160" data="cooling1" />
+		<clip index="1" x="160" y="0" width="160" height="160" data="cooling2" />
+		<clip index="2" x="320" y="12" width="160" height="160" data="cooling3" />
+		<clip index="3" x="0" y="160" width="160" height="160" data="cooling4" />
+		<clip index="4" x="160" y="172" width="160" height="160" data="cooling5" />
+		<clip index="5" x="320" y="172" width="160" height="160" data="cooling6" />
+		<clip index="6" x="0" y="320" width="160" height="160" data="cooling7" />
+		<clip index="7" x="160" y="332" width="160" height="160" data="cooling8" />
+		<clip index="8" x="320" y="332" width="160" height="160" data="cooling9" />
+		<clip index="9" x="0" y="480" width="160" height="160" data="cooling10" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="9" name="talk_breath" size="6" 
+		all_width="256" 
+		all_height="164"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="64" height="64" data="breath1" />
+		<clip index="1" x="64" y="0" width="64" height="64" data="breath2" />
+		<clip index="2" x="192" y="0" width="64" height="64" data="breath3" />
+		<clip index="3" x="128" y="0" width="64" height="64" data="breath4" />
+		<clip index="4" x="0" y="64" width="100" height="100" data="task_breath0" />
+		<clip index="5" x="100" y="64" width="100" height="100" data="task_breath1" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="10" name="task_box" size="13" 
+		all_width="384" 
+		all_height="522"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="128" height="128" data="task1" />
+		<clip index="1" x="128" y="0" width="128" height="128" data="task2" />
+		<clip index="2" x="256" y="2" width="128" height="128" data="task3" />
+		<clip index="3" x="0" y="128" width="128" height="128" data="task4" />
+		<clip index="4" x="128" y="128" width="128" height="128" data="task5" />
+		<clip index="5" x="256" y="130" width="128" height="128" data="task6" />
+		<clip index="6" x="0" y="256" width="128" height="128" data="task7" />
+		<clip index="7" x="128" y="256" width="128" height="128" data="task8" />
+		<clip index="8" x="256" y="258" width="128" height="128" data="task9" />
+		<clip index="9" x="0" y="384" width="128" height="128" data="task10" />
+		<clip index="10" x="128" y="384" width="128" height="128" data="task11" />
+		<clip index="11" x="256" y="386" width="128" height="128" data="task12" />
+		<clip index="12" x="246" y="512" width="10" height="10" data="task13" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="11" name="task_type" size="6" 
+		all_width="122" 
+		all_height="102"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="61" height="34" data="tasktype_dui" />
+		<clip index="1" x="61" y="0" width="61" height="34" data="tasktype_huo" />
+		<clip index="2" x="0" y="34" width="61" height="34" data="tasktype_ri" />
+		<clip index="3" x="61" y="34" width="61" height="34" data="tasktype_zhi" />
+		<clip index="4" x="0" y="68" width="61" height="34" data="tasktype_zhu" />
+		<clip index="5" x="61" y="68" width="61" height="34" data="tasktype_zu" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="12" name="ZDJS_star" size="16" 
+		all_width="1212" 
+		all_height="1212"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="300" height="300" data="Star_1" />
+		<clip index="1" x="300" y="0" width="300" height="300" data="Star_2" />
+		<clip index="2" x="600" y="0" width="300" height="300" data="Star_3" />
+		<clip index="3" x="900" y="0" width="300" height="300" data="Star_4" />
+		<clip index="4" x="0" y="300" width="300" height="300" data="Star_5" />
+		<clip index="5" x="304" y="300" width="300" height="300" data="Star_6" />
+		<clip index="6" x="608" y="304" width="300" height="300" data="Star_7" />
+		<clip index="7" x="912" y="300" width="300" height="300" data="Star_8" />
+		<clip index="8" x="0" y="600" width="300" height="300" data="Star_9" />
+		<clip index="9" x="304" y="602" width="300" height="300" data="Star_10" />
+		<clip index="10" x="608" y="608" width="300" height="300" data="Star_11" />
+		<clip index="11" x="912" y="604" width="300" height="300" data="Star_12" />
+		<clip index="12" x="0" y="904" width="300" height="300" data="Star_13" />
+		<clip index="13" x="304" y="908" width="300" height="300" data="Star_14" />
+		<clip index="14" x="608" y="912" width="300" height="300" data="Star_15" />
+		<clip index="15" x="912" y="908" width="300" height="300" data="Star_16" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+	
+	
+	
+	
+	
+</resource>
+
+
+
+<level world_count="0" >
+
+	
+	
+</level>
+
+
+
+
+</entry>
+
+
+
+
+

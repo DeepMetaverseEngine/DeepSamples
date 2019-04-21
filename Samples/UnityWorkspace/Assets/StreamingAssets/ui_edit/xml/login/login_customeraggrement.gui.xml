@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="true" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="500" local_bounds="0,0,700,500" lock="false" name="cvs_body" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="700" x="131.0" y="82.0" z="0.0">
+<layout bdc="ff000000" bgc="bf1d1720" clip="58" img="static/login/argeement_bar_big.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="9" imageAtlas="" imagePath="" local_bounds="0,0,623,9" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="623" x="40.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="399.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UETextBoxHtml HtmlText="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="320" local_bounds="0,0,642,320" lock="false" name="" textColor="ffffffff" text_shadow_alpha="1.0" text_shadow_dcolor="ff000000" text_shadow_x="0" text_shadow_y="0" text_size="22" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="642" x="29.0" y="87.0" z="0.0">
+<layout bdc="ff000000" bgc="ff1b151d" clip="43" img="static/common_new/main_bar_inner.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+</com.g2d.studio.ui.edit.gui.UETextBoxHtml>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="40" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,160,40" lock="true" name="bt_next" text="下一步" textBorderAlpha="100.0" textBorderColor="ff0d2c37" textDown="" textFont="方正黑体简体,24,0" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffdcf4f6" userData="" userTag="0" visible="true" visible_content="true" width="160" x="404.0" y="513.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/login/button_login1.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/login/button_login.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,100,30" lock="false" name="lb_title" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="Serif,48,0" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="false" visible_content="true" width="100" x="433.0" y="90.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="60" imageAtlas="" imagePath="" local_bounds="0,0,700,60" lock="false" name="ib_title" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="700" x="130.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="81.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="9" img="static/login/title_argeement.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

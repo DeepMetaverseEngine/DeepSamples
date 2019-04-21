@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="false" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="281" local_bounds="0,0,487,281" lock="false" name="" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="487" x="235.0" y="158.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,345,30" lock="false" name="" text="输入你想要搜索的玩家角色ID" textBorderAlpha="30.0" textBorderColor="4c000000" textColor="ffcacaca" textFont="方正黑体简体,22,0" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="345" x="70.0" y="89.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UETextInput Text="点击输入文字" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="40" isPassword="false" is_readonly="false" local_bounds="0,0,351,40" lock="false" name="ti_input" textColor="ff61687a" textFont="方正黑体简体,22,0" textFontSize="22" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="351" x="70.0" y="124.0" z="0.0">
+<layout bdc="ff000000" bgc="ffebeae1" clip="16" img="dynamic/ui_chat/text_bar.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+</com.g2d.studio.ui.edit.gui.UETextInput>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

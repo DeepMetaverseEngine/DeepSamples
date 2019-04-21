@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UnitInfo type="DeepCore.GameData.Zone.UnitInfo">
+  <BaseSkillID>
+    <AutoLaunch>True</AutoLaunch>
+    <Priority>0</Priority>
+    <SkillID>0</SkillID>
+    <property.SerialNumber>41491</property.SerialNumber>
+  </BaseSkillID>
+  <BodyHeight>0.00</BodyHeight>
+  <BodyHitSize>1.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>1.00</BodySize>
+  <DamageTimeMS>10</DamageTimeMS>
+  <DeadTimeMS>0</DeadTimeMS>
+  <DropItemsSet element_type="DeepCore.GameData.Zone.DropItemList" />
+  <DropMoney>0</DropMoney>
+  <Events element_type="System.Int32" />
+  <GenExp>0</GenExp>
+  <GuardRange>5.00</GuardRange>
+  <GuardRangeGroup>5.00</GuardRangeGroup>
+  <GuardRangeLimit>20.00</GuardRangeLimit>
+  <HealthPoint>100</HealthPoint>
+  <HealthRecoveryPoint>0</HealthRecoveryPoint>
+  <ID>59252030</ID>
+  <InventoryList element_type="DeepCore.GameData.Zone.InventoryItem" />
+  <InventorySize>1</InventorySize>
+  <IsDynamic>False</IsDynamic>
+  <IsElite>False</IsElite>
+  <IsMoveable>True</IsMoveable>
+  <IsTurnable>True</IsTurnable>
+  <LaunchSpellAngle>0.00</LaunchSpellAngle>
+  <LaunchSpellHeight>0.00</LaunchSpellHeight>
+  <LaunchSpellRadius>0.00</LaunchSpellRadius>
+  <LifeTimeMS>0</LifeTimeMS>
+  <ManaPoint>100</ManaPoint>
+  <ManaRecoveryPoint>0</ManaRecoveryPoint>
+  <MoveSpeedSEC>6.00</MoveSpeedSEC>
+  <Name>兽人斥候</Name>
+  <Properties type="SampleBattle.Plugins.SampleUnitProperties">
+    <Test>0</Test>
+  </Properties>
+  <RebirthTimeMS>0</RebirthTimeMS>
+  <RecoveryIntervalMS>5000</RecoveryIntervalMS>
+  <Skills element_type="DeepCore.GameData.Zone.LaunchSkill" />
+  <SpawnTimeMS>0</SpawnTimeMS>
+  <StaminaPoint>100</StaminaPoint>
+  <TurnSpeedSEC>NaN</TurnSpeedSEC>
+  <UType>TYPE_MONSTER</UType>
+  <Weight>1</Weight>
+  <property.EditorPath>单位/兽人斥候(59252030)</property.EditorPath>
+</UnitInfo>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entry>
+<!--
+<OUTPUT>		.\output\jianding.xml
+<IMAGE_OUTPUT>	.\output\
+<FORMAT_NUMBER_ARRAY_1D>    <>,
+<FORMAT_STRING_ARRAY_1D>	<>,
+<FORMAT_ARRAY_1D>			<>,
+<FORMAT_ARRAY_2D>			{<>},
+<FIXED_STRING_ARRAY>		char,
+-->
+<IMAGE_TYPE>png
+</IMAGE_TYPE>
+<IMAGE_TILE>false
+</IMAGE_TILE>
+<IMAGE_GROUP>true
+</IMAGE_GROUP>
+
+
+<resource images_count="1" map_count="0" sprite_count="1" >
+	
+	
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="0" name="jianding" size="2" 
+		all_width="512" 
+		all_height="1024"
+		total_split="0"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="512" height="512" data="" />
+		<clip index="1" x="0" y="512" width="512" height="512" data="" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+	
+	
+	
+	
+	<sprite index="0" name="jianding"
+		images_name="jianding"
+		scene_part_count="14"
+		scene_frame_count="15"
+		cd_part_count="0"
+		cd_frame_count="1"
+		animate_count="1"
+		complexMode="True">
+		
+		<scene_part index="0" tile="1" x="-256" y="-256" z="0" trans="0" alpha="0.2" rotate="0" scaleX="0.2" scaleY="0.2" anchorX="0" anchorY="0" />
+		<scene_part index="1" tile="1" x="-256" y="-256" z="0" trans="0" alpha="0.4" rotate="0" scaleX="0.4" scaleY="0.4" anchorX="0" anchorY="0" />
+		<scene_part index="2" tile="1" x="-256" y="-256" z="0" trans="0" alpha="0.6" rotate="0" scaleX="0.6" scaleY="0.6" anchorX="0" anchorY="0" />
+		<scene_part index="3" tile="1" x="-256" y="-256" z="0" trans="0" alpha="0.8" rotate="0" scaleX="0.8" scaleY="0.8" anchorX="0" anchorY="0" />
+		<scene_part index="4" tile="1" x="-256" y="-256" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="5" tile="1" x="-256" y="-256" z="0" trans="0" alpha="1" rotate="0" scaleX="1.2" scaleY="1.2" anchorX="0" anchorY="0" />
+		<scene_part index="6" tile="1" x="-256" y="-256" z="0" trans="0" alpha="1" rotate="0" scaleX="1.4" scaleY="1.4" anchorX="0" anchorY="0" />
+		<scene_part index="7" tile="1" x="-256" y="-256" z="0" trans="0" alpha="1" rotate="0" scaleX="1.6" scaleY="1.6" anchorX="0" anchorY="0" />
+		<scene_part index="8" tile="1" x="-256" y="-256" z="0" trans="0" alpha="1" rotate="0" scaleX="1.8" scaleY="1.8" anchorX="0" anchorY="0" />
+		<scene_part index="9" tile="1" x="-256" y="-256" z="0" trans="0" alpha="1" rotate="0" scaleX="2" scaleY="2" anchorX="0" anchorY="0" />
+		<scene_part index="10" tile="1" x="-256" y="-256" z="0" trans="0" alpha="0.8" rotate="0" scaleX="2.2" scaleY="2.2" anchorX="0" anchorY="0" />
+		<scene_part index="11" tile="1" x="-256" y="-256" z="0" trans="0" alpha="0.6" rotate="0" scaleX="2.4" scaleY="2.4" anchorX="0" anchorY="0" />
+		<scene_part index="12" tile="1" x="-256" y="-256" z="0" trans="0" alpha="0.4" rotate="0" scaleX="2.6" scaleY="2.6" anchorX="0" anchorY="0" />
+		<scene_part index="13" tile="1" x="-256" y="-256" z="0" trans="0" alpha="0.2" rotate="0" scaleX="2.8" scaleY="2.8" anchorX="0" anchorY="0" />
+		
+		<scene_frame index="0" data_size="0" data="" />
+		<scene_frame index="1" data_size="1" data="0," />
+		<scene_frame index="2" data_size="1" data="1," />
+		<scene_frame index="3" data_size="1" data="2," />
+		<scene_frame index="4" data_size="1" data="3," />
+		<scene_frame index="5" data_size="1" data="4," />
+		<scene_frame index="6" data_size="1" data="5," />
+		<scene_frame index="7" data_size="1" data="6," />
+		<scene_frame index="8" data_size="1" data="7," />
+		<scene_frame index="9" data_size="1" data="8," />
+		<scene_frame index="10" data_size="1" data="9," />
+		<scene_frame index="11" data_size="1" data="10," />
+		<scene_frame index="12" data_size="1" data="11," />
+		<scene_frame index="13" data_size="1" data="12," />
+		<scene_frame index="14" data_size="1" data="13," />
+		
+		
+		<cd_frame index="0" data_size="0" data="" />
+		<frames 
+			counts="16," 
+			names="4,0000," 
+			animates="{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,0,},"
+			cd_map="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_atk="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_def="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_ext="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			alpha="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			rotate="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			scaleX="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			scaleY="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			fdata="{0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,},"
+		/>
+		<Append data="0,," />
+	</sprite>
+	
+
+	
+</resource>
+
+
+
+<level world_count="0" >
+
+	
+	
+</level>
+
+
+
+
+</entry>
+
+
+
+
+

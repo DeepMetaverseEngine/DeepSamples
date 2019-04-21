@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="74" local_bounds="0,0,216,74" lock="false" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="216" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="74" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" isChecked="false" local_bounds="0,0,216,74" lock="false" name="tbt_changjing1" text="幻想" textBorderAlpha="0.0" textBorderColor="ffffff" textDown="" textFont="方正黑体简体,22,1" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="-15" uiAnchor="" uiEffect="" unfocusTextColor="fffff4bf" userData="" userTag="0" visible="true" visible_content="true" width="216" x="0.0" y="0.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/lixianguaji/small_woodbar_choice.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/lixianguaji/small_woodbar_normal.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,137,30" lock="false" name="lb_maplv" text="(100-100)" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffdab268" textFont="方正黑体简体,22,0" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="137" x="40.0" y="36.0" z="0.0"/>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

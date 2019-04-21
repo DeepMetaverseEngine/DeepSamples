@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="true" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<disable_layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="160" local_bounds="0,0,301,160" lock="true" name="cvs_frame" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="301" x="656.0" y="192.0" z="0.0">
+<layout bdc="ff000000" bgc="ffffffff" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="25" imageAtlas="" imagePath="" local_bounds="0,0,120,25" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="120" x="158.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="7.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/hud/jifeng_task_bg.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="34" imageAtlas="" imagePath="" local_bounds="0,0,34,34" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="34" x="122.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="4.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/hud/icon_jifen.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="24" local_bounds="0,0,92,24" lock="false" name="lb_score" text="1000/1000" textBorderAlpha="0.0" textBorderColor="0" textColor="ffffffff" textFont="Serif,20,1" textFontSize="0" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="92" x="157.0" y="9.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="62" local_bounds="0,0,297,62" lock="true" name="" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="297" x="5.0" y="38.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="62" imageAtlas="" imagePath="" local_bounds="0,0,297,62" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="297" x="-1.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="1.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="33" img="static/hud/bg_kill_information.png" repeat="false" style="IMAGE_STYLE_H_012"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="45" imageAtlas="" imagePath="" local_bounds="0,0,45,45" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="45" x="12.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="10.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/hud/icon_langui.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="45" imageAtlas="" imagePath="" local_bounds="0,0,45,45" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="45" x="241.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="10.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/hud/icon_honggui.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,70,30" lock="false" name="lb_aimStext" text="击杀白鬼" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ff63b6e6" textFont="Serif,18,0" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="70" x="54.0" y="33.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,67,30" lock="false" name="lb_aimS" text="(1/100)" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ff63b6e6" textFont="Serif,20,0" textFontSize="" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="67" x="55.0" y="10.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,73,30" lock="false" name="lb_aimEtext" text="击杀白鬼" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffda5665" textFont="Serif,18,0" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="73" x="173.0" y="33.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="33" local_bounds="0,0,69,33" lock="false" name="lb_aimE" text="(1/100)" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffda5665" textFont="Serif,20,0" textFontSize="" text_anchor="R_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="69" x="172.0" y="9.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="29" local_bounds="0,0,55,29" lock="false" name="lb_time" text="15:00" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="Serif,18,0" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="55" x="119.0" y="0.0" z="0.0"/>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

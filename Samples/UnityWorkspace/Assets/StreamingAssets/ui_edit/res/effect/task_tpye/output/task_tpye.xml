@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entry>
+<!--
+<OUTPUT>		.\output\effect.xml
+<IMAGE_OUTPUT>	.\output\
+<FORMAT_NUMBER_ARRAY_1D>    <>,
+<FORMAT_STRING_ARRAY_1D>	<>,
+<FORMAT_ARRAY_1D>			<>,
+<FORMAT_ARRAY_2D>			{<>},
+<FIXED_STRING_ARRAY>		char,
+-->
+<IMAGE_TYPE>png
+</IMAGE_TYPE>
+<IMAGE_TILE>false
+</IMAGE_TILE>
+<IMAGE_GROUP>true
+</IMAGE_GROUP>
+
+
+<resource images_count="1" map_count="0" sprite_count="0" >
+	
+	
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="0" name="task_tpye" size="6" 
+		all_width="122" 
+		all_height="102"
+		total_split="0"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="61" height="34" data="" />
+		<clip index="1" x="61" y="0" width="61" height="34" data="" />
+		<clip index="2" x="0" y="34" width="61" height="34" data="" />
+		<clip index="3" x="61" y="34" width="61" height="34" data="" />
+		<clip index="4" x="0" y="68" width="61" height="34" data="" />
+		<clip index="5" x="61" y="68" width="61" height="34" data="" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+	
+	
+	
+	
+	
+</resource>
+
+
+
+<level world_count="0" >
+
+	
+	
+</level>
+
+
+
+
+</entry>
+
+
+
+
+

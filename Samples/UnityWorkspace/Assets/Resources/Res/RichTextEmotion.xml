@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<font>
+  <h img="res://Res/test.png">H</h><br/>
+  <h spr="res://Res/emotion/output/emotion.xml,e00,0" color="80ffffff">HHHHHHHH</h><br/>
+  <h spr="res://Res/emotion/output/emotion.xml,e01,0" color="80ffffff">HHHHHHHH</h><br/>
+  <h spr="res://Res/emotion/output/emotion.xml,e02,0" color="80ffffff">HHHHHHHH</h><br/>
+  <br/>
+  <h spr="res://Res/emotion/output/emotion.xml,e03,0" color="80ffffff">HHHHHHHH</h><br/>
+  <br/>
+  <br/>
+  <h spr="res://Res/emotion/output/emotion.xml,e04,0" color="80ffffff">HHHHHHHH</h><br/>
+  <h spr="res://Res/emotion/output/emotion.xml,e05,0" color="80ffffff">HHHHHHHH</h><br/>
+  <h spr="res://Res/emotion/output/emotion.xml,e06,0" color="80ffffff">HHHHHHHH</h><br/>
+  <br/>
+  <br/>
+  <br/>H<br/>H
+</font>
+

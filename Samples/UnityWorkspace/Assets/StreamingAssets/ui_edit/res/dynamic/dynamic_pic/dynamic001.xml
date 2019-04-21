@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entry>
+<!--
+<OUTPUT>		.\output\dynamic001.xml
+<IMAGE_OUTPUT>	.\output\
+<FORMAT_NUMBER_ARRAY_1D>    <>,
+<FORMAT_STRING_ARRAY_1D>	<>,
+<FORMAT_ARRAY_1D>			<>,
+<FORMAT_ARRAY_2D>			{<>},
+<FIXED_STRING_ARRAY>		char,
+-->
+<IMAGE_TYPE>png
+</IMAGE_TYPE>
+<IMAGE_TILE>false
+</IMAGE_TILE>
+<IMAGE_GROUP>true
+</IMAGE_GROUP>
+
+
+<resource images_count="1" map_count="0" sprite_count="0" >
+	
+	
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="0" name="dynamic001" size="61" 
+		all_width="1023" 
+		all_height="1145"
+		total_split="0"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="799" y="511" width="166" height="182" data="" />
+		<clip index="1" x="0" y="472" width="532" height="532" data="" />
+		<clip index="2" x="977" y="799" width="29" height="27" data="" />
+		<clip index="3" x="799" y="693" width="139" height="145" data="" />
+		<clip index="4" x="867" y="321" width="139" height="145" data="" />
+		<clip index="5" x="966" y="623" width="52" height="28" data="" />
+		<clip index="6" x="0" y="377" width="556" height="49" data="" />
+		<clip index="7" x="568" y="43" width="324" height="126" data="" />
+		<clip index="8" x="609" y="958" width="53" height="86" data="" />
+		<clip index="9" x="0" y="1004" width="518" height="5" data="" />
+		<clip index="10" x="568" y="169" width="298" height="186" data="" />
+		<clip index="11" x="792" y="838" width="106" height="105" data="" />
+		<clip index="12" x="899" y="838" width="98" height="98" data="" />
+		<clip index="13" x="867" y="169" width="147" height="20" data="" />
+		<clip index="14" x="867" y="299" width="143" height="22" data="" />
+		<clip index="15" x="568" y="4" width="442" height="39" data="" />
+		<clip index="16" x="1004" y="134" width="16" height="15" data="" />
+		<clip index="17" x="939" y="799" width="37" height="39" data="" />
+		<clip index="18" x="966" y="651" width="37" height="39" data="" />
+		<clip index="19" x="966" y="511" width="56" height="56" data="" />
+		<clip index="20" x="966" y="567" width="56" height="56" data="" />
+		<clip index="21" x="893" y="43" width="129" height="91" data="" />
+		<clip index="22" x="533" y="778" width="258" height="180" data="" />
+		<clip index="23" x="899" y="936" width="75" height="75" data="" />
+		<clip index="24" x="748" y="378" width="90" height="90" data="" />
+		<clip index="25" x="867" y="189" width="146" height="110" data="" />
+		<clip index="26" x="975" y="936" width="30" height="42" data="" />
+		<clip index="27" x="568" y="0" width="455" height="4" data="" />
+		<clip index="28" x="568" y="355" width="296" height="23" data="" />
+		<clip index="29" x="543" y="445" width="71" height="16" data="" />
+		<clip index="30" x="622" y="430" width="78" height="16" data="" />
+		<clip index="31" x="543" y="430" width="78" height="15" data="" />
+		<clip index="32" x="533" y="472" width="481" height="39" data="" />
+		<clip index="33" x="533" y="511" width="265" height="267" data="" />
+		<clip index="34" x="557" y="378" width="190" height="28" data="" />
+		<clip index="35" x="0" y="426" width="542" height="46" data="" />
+		<clip index="36" x="533" y="958" width="75" height="75" data="" />
+		<clip index="37" x="792" y="943" width="75" height="75" data="" />
+		<clip index="38" x="939" y="693" width="75" height="75" data="" />
+		<clip index="39" x="689" y="958" width="25" height="52" data="" />
+		<clip index="40" x="839" y="378" width="25" height="52" data="" />
+		<clip index="41" x="701" y="430" width="45" height="24" data="" />
+		<clip index="42" x="615" y="446" width="45" height="24" data="" />
+		<clip index="43" x="557" y="406" width="88" height="24" data="" />
+		<clip index="44" x="646" y="406" width="88" height="24" data="" />
+		<clip index="45" x="998" y="875" width="25" height="49" data="" />
+		<clip index="46" x="868" y="943" width="25" height="49" data="" />
+		<clip index="47" x="998" y="826" width="25" height="49" data="" />
+		<clip index="48" x="663" y="958" width="25" height="49" data="" />
+		<clip index="49" x="741" y="958" width="25" height="50" data="" />
+		<clip index="50" x="715" y="958" width="25" height="50" data="" />
+		<clip index="51" x="0" y="0" width="567" height="377" data="" />
+		<clip index="52" x="663" y="1007" width="24" height="50" data="" />
+		<clip index="53" x="868" y="992" width="24" height="50" data="" />
+		<clip index="54" x="767" y="958" width="24" height="50" data="" />
+		<clip index="55" x="975" y="978" width="24" height="50" data="" />
+		<clip index="56" x="939" y="768" width="61" height="31" data="" />
+		<clip index="57" x="893" y="134" width="110" height="31" data="" />
+		<clip index="58" x="0" y="1057" width="62" height="29" data="" />
+		<clip index="59" x="0" y="1086" width="110" height="30" data="" />
+		<clip index="60" x="0" y="1116" width="62" height="29" data="" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+	
+	
+	
+	
+	
+</resource>
+
+
+
+<level world_count="0" >
+
+	
+	
+</level>
+
+
+
+
+</entry>
+
+
+
+
+

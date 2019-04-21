@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entry>
+<!--
+<OUTPUT>		.\output\shengji.xml
+<IMAGE_OUTPUT>	.\output\
+<FORMAT_NUMBER_ARRAY_1D>    <>,
+<FORMAT_STRING_ARRAY_1D>	<>,
+<FORMAT_ARRAY_1D>			<>,
+<FORMAT_ARRAY_2D>			{<>},
+<FIXED_STRING_ARRAY>		char,
+-->
+<IMAGE_TYPE>png
+</IMAGE_TYPE>
+<IMAGE_TILE>false
+</IMAGE_TILE>
+<IMAGE_GROUP>true
+</IMAGE_GROUP>
+
+
+<resource images_count="1" map_count="0" sprite_count="1" >
+	
+	
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="0" name="shengji" size="17" 
+		all_width="857" 
+		all_height="820"
+		total_split="0"
+		output_type=""
+		output_file="">
+		
+		<clip index="1" x="627" y="720" width="180" height="98" data="" />
+		<clip index="2" x="350" y="720" width="277" height="100" data="" />
+		<clip index="4" x="0" y="0" width="434" height="240" data="" />
+		<clip index="6" x="434" y="0" width="423" height="234" data="" />
+		<clip index="8" x="0" y="240" width="388" height="208" data="" />
+		<clip index="10" x="0" y="619" width="350" height="190" data="" />
+		<clip index="12" x="0" y="448" width="360" height="171" data="" />
+		<clip index="13" x="388" y="240" width="364" height="173" data="" />
+		<clip index="14" x="388" y="413" width="368" height="162" data="" />
+		<clip index="16" x="360" y="575" width="343" height="145" data="" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+	
+	
+	
+	
+	<sprite index="0" name="shengji"
+		images_name="shengji"
+		scene_part_count="14"
+		scene_frame_count="15"
+		cd_part_count="0"
+		cd_frame_count="1"
+		animate_count="1"
+		complexMode="True">
+		
+		<scene_part index="0" tile="1" x="-127" y="-56" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="1" tile="2" x="-190" y="-62" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="2" tile="4" x="-217" y="-124" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="3" tile="6" x="-211" y="-121" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="4" tile="8" x="-192" y="-108" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="5" tile="10" x="-167" y="-82" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="6" tile="12" x="-172" y="-70" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="7" tile="13" x="-176" y="-67" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="8" tile="14" x="-180" y="-48" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="9" tile="16" x="-187" y="-35" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="10" tile="16" x="-187" y="-39" z="0" trans="0" alpha="0.8" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="11" tile="16" x="-187" y="-43" z="0" trans="0" alpha="0.6" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="12" tile="16" x="-187" y="-47" z="0" trans="0" alpha="0.4" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="13" tile="16" x="-187" y="-51" z="0" trans="0" alpha="0.2" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		
+		<scene_frame index="0" data_size="0" data="" />
+		<scene_frame index="1" data_size="1" data="0," />
+		<scene_frame index="2" data_size="1" data="1," />
+		<scene_frame index="3" data_size="1" data="2," />
+		<scene_frame index="4" data_size="1" data="3," />
+		<scene_frame index="5" data_size="1" data="4," />
+		<scene_frame index="6" data_size="1" data="5," />
+		<scene_frame index="7" data_size="1" data="6," />
+		<scene_frame index="8" data_size="1" data="7," />
+		<scene_frame index="9" data_size="1" data="8," />
+		<scene_frame index="10" data_size="1" data="9," />
+		<scene_frame index="11" data_size="1" data="10," />
+		<scene_frame index="12" data_size="1" data="11," />
+		<scene_frame index="13" data_size="1" data="12," />
+		<scene_frame index="14" data_size="1" data="13," />
+		
+		
+		<cd_frame index="0" data_size="0" data="" />
+		<frames 
+			counts="32," 
+			names="4,0000," 
+			animates="{0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,0,0,},"
+			cd_map="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_atk="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_def="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_ext="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			alpha="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			rotate="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			scaleX="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			scaleY="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			fdata="{0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,},"
+		/>
+		<Append data="0,," />
+	</sprite>
+	
+
+	
+</resource>
+
+
+
+<level world_count="0" >
+
+	
+	
+</level>
+
+
+
+
+</entry>
+
+
+
+
+

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="generated\**" />
+    <Compile Remove="orm\**" />
+    <EmbeddedResource Remove="generated\**" />
+    <EmbeddedResource Remove="orm\**" />
+    <None Remove="generated\**" />
+    <None Remove="orm\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameData\DeepCore.GameData.csproj" />
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore\DeepCore.csproj" />
+    <ProjectReference Include="..\..\..\..\DeepCrystal\DeepCrystal.Redis\DeepCrystal.Redis.csproj" />
+    <ProjectReference Include="..\..\..\..\DeepCrystal\DeepCrystal\DeepCrystal.csproj" />
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO\DeepMMO.csproj" />
+    <ProjectReference Include="..\SampleBattle\SampleBattle.csproj" />
+    <ProjectReference Include="..\SampleRPG\SampleRPG.csproj" />
+  </ItemGroup>
+
+</Project>

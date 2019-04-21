@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UnitEventTemplate type="DeepCore.GameData.Zone.UnitEventTemplate">
+  <Events element_type="DeepCore.GameData.IEventData">
+    <element />
+    <element />
+    <element />
+    <element />
+  </Events>
+  <ID>1060596969</ID>
+  <property.EditorPath>单位事件/(1060596969)</property.EditorPath>
+</UnitEventTemplate>

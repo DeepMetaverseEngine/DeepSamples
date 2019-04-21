@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<font face="Arial" size="10" color="ff00ff00">
+  <font size='20' face='Arial' color='ffd2b275'>
+    当自身血量低于<font color='ff1ef71e'>10%</font>移动速度增加<font color='ff1ef71e'>10%</font>，持续<font color='ff1ef71e'>10</font>秒<br/>
+  </font>
+  <font size='22'>
+    <font color="ffc92445" anchor="taCENTER">章世宁</font>击杀了<font color="ff3953ec">张海涛</font>！<br/>
+    <font color="ffc92445" anchor="taCENTER">章世宁</font>击杀了<font color="ff3953ec">张海涛</font>！<br/>
+    <font color="ffc92445" anchor="taRIGHT">章世宁</font>击杀了<font color="ff3953ec">张海涛</font>！<br/>
+    <font color="ffc92445" anchor="taCENTER">章世宁</font>击杀了<font color="ff3953ec">张海涛</font>！<br/>
+    <font color="ffc92445" anchor="taCENTER">章世宁</font>击杀了<font color="ff3953ec">张海涛</font>！<br/>
+    <font size="32" color="ff00ff00">
+      Mega Kill！<font color="ffc92445" anchor="taRIGHT">章世宁</font>已经杀人如麻！
+    </font><br/>
+  </font>
+  <h img="res://Res/test.png" img_zoom="128,128" color="80ffffff">H</h>
+  <h img="res://Res/test.png" color="80ffffff">H</h>
+  <h img="res://Res/test.png" img_zoom="20,50" color="80ffffff">H</h>
+  <h spr="res://Res/emotion/output/emotion.xml,e00,0" color="80ffffff">HHHHHHHH</h>
+  <!-- ############################################################################## -->
+  <br size="32">เครื่องเจาะรู</br>
+  <draw sprite="res://Res/actor_001010/output/actor.xml,001010,3">S</draw>
+  <draw atlas="res://Res/effect_004056/output/effect.xml,effect_004056,8">T</draw>
+  <draw image="res://Res/baopo.jpg,100,100">T</draw>
+  <draw image="res://Res/baopo.jpg">T</draw>
+  <br/>
+  <br size="32">感谢您选择了 JIRA.</br>
+  <br size="32">tiên thuật có thể đánh úp địch nhân từ rất xa, đồng thời là đại....</br>
+  <br size="32">欢迎使用JIRA—帮助您的团队轻松地跟踪与管理项目</br>
+  <font color="ffffff00" border="1" bcolor="ff000000">
+    <p/>
+    <p/>
+    <br>
+      Get up to speed with an in-depth, interactive Atlassian training course.
+      The class template basic_string stores and manipulates sequences of char-like objects
+      (that is, objects for which a specialization of std::char_traits or compatible traits class is provided).
+    </br>
+  </font>
+  <font color="ff0000ff">从哪里开始?</font>
+  <br/>
+  <p/>
+  <p/>
+  <br>访问 JIRA 101 guide了解如何配置JIRA</br>
+  <font color="ffffffff">
+    Get up to speed with an in-depth, interactive Atlassian training course.
+    <br/>
+  </font>
+  <br>你可以在系统管理页面 编辑此段文字。</br>
+  <br>Agile project management for JIRA</br>
+  <br>
+    The GreenHopper plugin for JIRA provides agile project management and assists with the
+    introduction of agile to your team. Get started with the GreenHopper 101 guide.
+  </br>
+  <h img="res://Res/b1.png" color="80ffffff">H</h>
+  <!-- ############################################################################## -->
+  <br>感谢您选择了 JIRA.</br>
+  <br>欢迎使用JIRA—帮助您的团队轻松地跟踪与管理项目目目</br>
+  <font color="ffffff00">
+    <p/>
+    <p/>
+    <br>
+      Get up to speed with an in-depth, interactive Atlassian training course.
+      The class template basic_string stores and manipulates sequences of char-like objects
+      (that is, objects for which a specialization of std::char_traits or compatible traits class is provided).
+    </br>
+  </font>
+  <font color="ff0000ff">从哪里开始?</font>
+  <br/>
+  <p/>
+  <p/>
+  <br>访问 JIRA 101 guide了解如何配置JIRA</br>
+  <font color="ffffffff">
+    Get up to speed with an in-depth, interactive Atlassian training course.
+    <br/>
+  </font>
+  <br>你可以在系统管理页面 编辑此段文字。</br>
+  <br>Agile project management for JIRA</br>
+  <br>
+    The GreenHopper plugin for JIRA provides agile project management and assists with the
+    introduction of agile to your team. Get started with the GreenHopper 101 guide.
+  </br>
+  <item id="" icon="res://Res/icon.png"  >
+    <desc color="ffffffff">
+      你可以在<l color="ff0000ff" link="onItemClick id=234 type=567">系统</l><a>管理页面</a>
+    </desc>
+  </item>
+  <br/>
+</font>
+
+

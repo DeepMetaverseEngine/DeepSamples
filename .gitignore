@@ -1,0 +1,9 @@
+
+*.user
+
+/.svn
+/.vs
+/Samples/SampleCommon/*/obj
+/Samples/SampleCommon/*/bin
+*.user
+/Samples/SampleEditors/GameEditor/bin/GameEditor.exe.err.log

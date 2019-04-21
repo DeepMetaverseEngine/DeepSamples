@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="false" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="720" imageAtlas="" imagePath="" local_bounds="0,0,1024,720" lock="false" name="ib_bg" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="1024" x="0.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="146" local_bounds="0,0,900,146" lock="false" name="cvs_animeFrame" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="900" x="55.0" y="490.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="100" imageAtlas="" imagePath="" local_bounds="0,0,960,100" lock="false" name="ib_chain" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="-78.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="91.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" sprite="@static/bottom/button/output/button.xml|unamed_Tile|unamed_Sprite1|0" style="SPRITE"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="100" imageAtlas="" imagePath="" local_bounds="0,0,100,100" lock="false" name="ib_wheel1" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="1" visible="true" visible_content="true" width="100" x="42.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="94.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" sprite="@static/bottom/button/output/button.xml|unamed_Tile|unamed_Sprite2|0" style="SPRITE"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="100" imageAtlas="" imagePath="" local_bounds="0,0,100,100" lock="false" name="ib_wheel2" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="1" visible="true" visible_content="true" width="100" x="720.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="99.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" sprite="@static/bottom/button/output/button.xml|unamed_Tile|unamed_Sprite|0" style="SPRITE"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="false" name="cvs_moveroot" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="101" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,90,101" lock="false" name="bt_return" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="90" x="44.0" y="539.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/bottom/button_back0_insade.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/bottom/button_back_insade.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="60" imageAtlas="" imagePath="" local_bounds="0,0,960,60" lock="false" name="ib_bg2" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="-1.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="639.0" z="0.0">
+<layout bdc="ff000000" bgc="ff141317" clip="4" img="static/bottom/bottom_bar.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

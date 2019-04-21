@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="true" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="62" local_bounds="0,0,288,62" lock="true" name="Cvs_talkFrame" uiAnchor="" uiEffect="" userData="" userTag="0" visible="false" visible_content="true" width="288" x="304.0" y="717.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="91" local_bounds="0,0,91,91" lock="true" name="cvs_talk" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="91" x="257.0" y="-65.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/bottom/chilun1.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="100" imageAtlas="" imagePath="" local_bounds="0,0,100,100" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="false" visible_content="true" width="100" x="-4.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" sprite="@dynamic/zhandou/ef_shiqu/output/ef_shiqu.xml|ef_shiqu|ef_shiqu|0" style="SPRITE"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="62" local_bounds="0,0,288,62" lock="false" name="Cvs_pickFrame" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="288" x="356.0" y="507.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="75" local_bounds="0,0,75,75" lock="false" name="cvs_shiqu" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="75" x="205.0" y="-52.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/actskill_icon/img_shiqu.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="100" imageAtlas="" imagePath="" local_bounds="0,0,100,100" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="100" x="-9.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="-16.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" sprite="@dynamic/zhandou/ef_shiqu/output/ef_shiqu.xml|ef_shiqu|ef_shiqu|0" style="SPRITE"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UEGauge ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" gaugeMax="100.0" gaugeMin="0.0" gaugeValue="100.0" height="20" local_bounds="0,0,213,20" lock="true" name="gauge_shiqujindu" render_orientation="LEFT_2_RIGHT" showPercent="true" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="213" x="-14.0" y="-23.0" z="0.0">
+<custom_layout_up bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/gauge_u.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/gauge_d.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEGauge>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="75" local_bounds="0,0,75,75" lock="false" name="cvs_revive" uiAnchor="" uiEffect="" userData="" userTag="0" visible="false" visible_content="true" width="75" x="-96.0" y="-52.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/actskill_icon/icon_relive.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="100" imageAtlas="" imagePath="" local_bounds="0,0,100,100" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="100" x="-9.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="-16.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" sprite="@dynamic/zhandou/ef_shiqu/output/ef_shiqu.xml|ef_shiqu|ef_shiqu|0" style="SPRITE"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

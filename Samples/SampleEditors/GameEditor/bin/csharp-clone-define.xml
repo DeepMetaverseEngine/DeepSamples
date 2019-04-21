@@ -1,0 +1,120 @@
+
+<doc>
+
+<DEFINE>
+  
+    <INCLUDE_CLASS>DeepCore.IO.ISerializable</INCLUDE_CLASS>
+    <EXCLUDE_CLASS>DeepCore.IO.IExternalizable</EXCLUDE_CLASS>
+
+    <FIELD_DEPEND_ON>
+      <BEGIN>if (<DEPEND_ON OP=" &amp;&amp; ">src.<D_FIELD/>==<D_EXPECT ToLower="true"/></DEPEND_ON>) {</BEGIN>
+      <END>}</END>
+    </FIELD_DEPEND_ON>
+  
+    <!-- #################################################################################### -->
+  
+    <FIELD FieldType="System.Byte">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+    <FIELD FieldType="System.SByte">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="System.Int16">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+    <FIELD FieldType="System.UInt16">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="System.Int32">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+    <FIELD FieldType="System.UInt32">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="System.Int64">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+    <FIELD FieldType="System.UInt64">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="System.Single">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+    <FIELD FieldType="System.Double">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="System.Boolean">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="System.Char">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="System.String">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="Enum" Enum="True" >
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="System.DateTime">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+    <FIELD FieldType="System.TimeSpan">
+      <READ Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = src.<F_NAME/>;</WRITE>
+    </FIELD>
+
+    <!-- #################################################################################### -->
+  
+    <FIELD FieldType="DeepCore.IO.ISerializable" Interface="True" >
+      <READ Trim="True">dst.<F_NAME/> = this.Clone(src.<F_NAME/>);</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = this.Clone(src.<F_NAME/>);</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="System.Byte[]">
+      <READ Trim="True">dst.<F_NAME/> = this.CloneBytes(src.<F_NAME/>);</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = this.CloneBytes(src.<F_NAME/>);</WRITE>
+    </FIELD>
+  
+    <FIELD FieldType="System.Array" Array="True" >
+      <READ Trim="True">dst.<F_NAME/> = this.CloneArray(src.<F_NAME/>);</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = this.CloneArray(src.<F_NAME/>);</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="System.Collections.IList" Interface="True">
+      <READ Trim="True">dst.<F_NAME/> = this.CloneList(src.<F_NAME/>);</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = this.CloneList(src.<F_NAME/>);</WRITE>
+    </FIELD>
+
+    <FIELD FieldType="System.Collections.IDictionary" Interface="True">
+      <READ Trim="True">dst.<F_NAME/> = this.CloneMap(src.<F_NAME/>);</READ>
+      <WRITE Trim="True">dst.<F_NAME/> = this.CloneMap(src.<F_NAME/>);</WRITE>
+    </FIELD>
+
+    <!-- #################################################################################### -->
+  </DEFINE>
+
+</doc>

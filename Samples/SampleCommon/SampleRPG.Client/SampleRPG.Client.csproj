@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70509CE9-6E4A-4C22-B18E-3491AEB0BEBB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SampleRPG.Client</RootNamespace>
+    <AssemblyName>SampleRPG.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SampleRPG.Serializer">
+      <HintPath>..\SampleRPG.Serializer\bin\Debug\net462\SampleRPG.Serializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameData\DeepCore.GameData.csproj">
+      <Project>{3b82ef9e-967f-447e-b243-0274755bb7b8}</Project>
+      <Name>DeepCore.GameData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameSlave\DeepCore.GameSlave.csproj">
+      <Project>{85137b17-8021-4ab9-aedb-d5b30e0d3f24}</Project>
+      <Name>DeepCore.GameSlave</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GUI\DeepCore.GUI.csproj">
+      <Project>{cb3288a6-e04f-47a7-bfba-a5d5163541ba}</Project>
+      <Name>DeepCore.GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.SharpZipLib\DeepCore.SharpZipLib.csproj">
+      <Project>{fb8262cc-7a58-42ed-b106-fc483a5c07cd}</Project>
+      <Name>DeepCore.SharpZipLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.Template.MoonSharp\DeepCore.Template.MoonSharp.csproj">
+      <Project>{48441cca-3528-4b1b-a7f1-5a55b1895663}</Project>
+      <Name>DeepCore.Template.MoonSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.Unity3D.Editor\DeepCore.Unity3D.Editor.csproj">
+      <Project>{0defa6b6-6f7c-49ff-b763-9cb586e535c2}</Project>
+      <Name>DeepCore.Unity3D.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.Unity3D\DeepCore.Unity3D.csproj">
+      <Project>{ee96b1b3-c4cc-4d58-b19a-b4ff850240b4}</Project>
+      <Name>DeepCore.Unity3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore\DeepCore.csproj">
+      <Project>{0951676d-0fb3-4e35-b9d2-ed28ea141ada}</Project>
+      <Name>DeepCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepEditor\DeepEditor.Plugin\DeepEditor.Plugin.csproj">
+      <Project>{539fa0de-4ef2-4035-832d-9e8614e92a48}</Project>
+      <Name>DeepEditor.Plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Client.BotTest\DeepMMO.Client.BotTest.csproj">
+      <Project>{d4b47fc6-a751-423b-bbc9-215eced06342}</Project>
+      <Name>DeepMMO.Client.BotTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Client.Win32\DeepMMO.Client.Win32.csproj">
+      <Project>{432fac96-898b-4aa9-bc11-796670f9a344}</Project>
+      <Name>DeepMMO.Client.Win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Client\DeepMMO.Client.csproj">
+      <Project>{5d299c52-7f3a-4b43-b624-728041707543}</Project>
+      <Name>DeepMMO.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO\DeepMMO.csproj">
+      <Project>{5e199fcb-da96-4f18-8c7b-f124334a7322}</Project>
+      <Name>DeepMMO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleBattle\SampleBattle.csproj">
+      <Project>{69a0ee45-348f-4668-a2c8-9e4604d64d13}</Project>
+      <Name>SampleBattle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleRPG\SampleRPG.csproj">
+      <Project>{e052b11c-d62f-4ef5-8a26-1031e68c95a9}</Project>
+      <Name>SampleRPG</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UnitInfo type="DeepCore.GameData.Zone.UnitInfo">
+  <BaseSkillID>
+    <AutoLaunch>True</AutoLaunch>
+    <Priority>0</Priority>
+    <SkillID>0</SkillID>
+    <property.SerialNumber>298968</property.SerialNumber>
+  </BaseSkillID>
+  <BodyHeight>1.80</BodyHeight>
+  <BodyHitSize>1.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>1.00</BodySize>
+  <DamageTimeMS>10</DamageTimeMS>
+  <DeadTimeMS>1000</DeadTimeMS>
+  <DropItemsSet element_type="DeepCore.GameData.Zone.DropItemList" />
+  <DropMoney>0</DropMoney>
+  <Events element_type="System.Int32" />
+  <FileName>/res/unit/22001_goblinminer.assetBundles</FileName>
+  <GenExp>0</GenExp>
+  <GuardRange>3.00</GuardRange>
+  <GuardRangeGroup>5.00</GuardRangeGroup>
+  <GuardRangeLimit>20.00</GuardRangeLimit>
+  <HealthPoint>100</HealthPoint>
+  <HealthRecoveryPoint>0</HealthRecoveryPoint>
+  <ID>400015</ID>
+  <InventoryList element_type="DeepCore.GameData.Zone.InventoryItem" />
+  <InventorySize>1</InventorySize>
+  <IsDynamic>False</IsDynamic>
+  <IsElite>False</IsElite>
+  <IsMoveable>True</IsMoveable>
+  <IsTurnable>True</IsTurnable>
+  <LaunchSpellAngle>0.00</LaunchSpellAngle>
+  <LaunchSpellHeight>0.00</LaunchSpellHeight>
+  <LaunchSpellRadius>0.00</LaunchSpellRadius>
+  <LifeTimeMS>0</LifeTimeMS>
+  <ManaPoint>0</ManaPoint>
+  <ManaRecoveryPoint>0</ManaRecoveryPoint>
+  <MoveSpeedSEC>3.00</MoveSpeedSEC>
+  <Name>伽罗德大帝</Name>
+  <Properties type="SampleBattle.Plugins.SampleUnitProperties">
+    <Test>0</Test>
+  </Properties>
+  <RebirthTimeMS>0</RebirthTimeMS>
+  <RecoveryIntervalMS>5000</RecoveryIntervalMS>
+  <Skills element_type="DeepCore.GameData.Zone.LaunchSkill" />
+  <SpawnEffect>
+    <BindBody>False</BindBody>
+    <BindBodyDirection>True</BindBodyDirection>
+    <BlurBeginTime>0</BlurBeginTime>
+    <BlurEndTime>0</BlurEndTime>
+    <BlurStrength>0.00</BlurStrength>
+    <BlurWaitTime>0</BlurWaitTime>
+    <CameraBeginTime>0</CameraBeginTime>
+    <CameraDistance>0.00</CameraDistance>
+    <CameraEndTime>0</CameraEndTime>
+    <CameraWaitTime>0</CameraWaitTime>
+    <EarthQuakeMS>0</EarthQuakeMS>
+    <EarthQuakeXYZ>0.00</EarthQuakeXYZ>
+    <EffectTimeMS>0</EffectTimeMS>
+    <IsLoop>False</IsLoop>
+    <Name>/res/effect/50000_state/vfx_50301_refresh.assetBundles</Name>
+    <ScaleToBodySize>0.00</ScaleToBodySize>
+    <WarnDegree>80.00</WarnDegree>
+    <WarnScaleX>1.00</WarnScaleX>
+    <WarnScaleZ>1.00</WarnScaleZ>
+    <WarnSpeed>1.00</WarnSpeed>
+    <WarnType>WARNING_TYPE_NONE</WarnType>
+    <property.SerialNumber>298969</property.SerialNumber>
+  </SpawnEffect>
+  <SpawnTimeMS>0</SpawnTimeMS>
+  <StaminaPoint>100</StaminaPoint>
+  <TurnSpeedSEC>NaN</TurnSpeedSEC>
+  <UType>TYPE_NPC</UType>
+  <Weight>1</Weight>
+  <property.EditorPath>单位/测试跑图/npc/伽罗德大帝(400015)</property.EditorPath>
+</UnitInfo>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entry>
+<!--
+<OUTPUT>		.\output\ef_shiqu.xml
+<IMAGE_OUTPUT>	.\output\
+<FORMAT_NUMBER_ARRAY_1D>    <>,
+<FORMAT_STRING_ARRAY_1D>	<>,
+<FORMAT_ARRAY_1D>			<>,
+<FORMAT_ARRAY_2D>			{<>},
+<FIXED_STRING_ARRAY>		char,
+-->
+<IMAGE_TYPE>png
+</IMAGE_TYPE>
+<IMAGE_TILE>false
+</IMAGE_TILE>
+<IMAGE_GROUP>true
+</IMAGE_GROUP>
+
+
+<resource images_count="1" map_count="0" sprite_count="1" >
+	
+	
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="0" name="ef_shiqu" size="20" 
+		all_width="434" 
+		all_height="552"
+		total_split="0"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="107" height="91" data="" />
+		<clip index="1" x="0" y="91" width="102" height="99" data="" />
+		<clip index="2" x="0" y="190" width="102" height="106" data="" />
+		<clip index="3" x="0" y="296" width="94" height="108" data="" />
+		<clip index="4" x="302" y="444" width="92" height="108" data="" />
+		<clip index="5" x="325" y="0" width="90" height="114" data="" />
+		<clip index="6" x="317" y="332" width="102" height="112" data="" />
+		<clip index="7" x="96" y="426" width="110" height="110" data="" />
+		<clip index="8" x="107" y="0" width="114" height="107" data="" />
+		<clip index="9" x="102" y="107" width="111" height="105" data="" />
+		<clip index="10" x="102" y="212" width="112" height="104" data="" />
+		<clip index="11" x="94" y="316" width="111" height="106" data="" />
+		<clip index="12" x="325" y="224" width="109" height="108" data="" />
+		<clip index="13" x="325" y="114" width="100" height="110" data="" />
+		<clip index="14" x="0" y="422" width="96" height="113" data="" />
+		<clip index="15" x="206" y="426" width="96" height="113" data="" />
+		<clip index="16" x="221" y="0" width="104" height="112" data="" />
+		<clip index="17" x="214" y="112" width="108" height="110" data="" />
+		<clip index="18" x="214" y="222" width="111" height="104" data="" />
+		<clip index="19" x="205" y="326" width="112" height="100" data="" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+	
+	
+	
+	
+	<sprite index="0" name="ef_shiqu"
+		images_name="ef_shiqu"
+		scene_part_count="20"
+		scene_frame_count="20"
+		cd_part_count="0"
+		cd_frame_count="1"
+		animate_count="1"
+		complexMode="True">
+		
+		<scene_part index="0" tile="0" x="-60" y="-45" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="1" tile="1" x="-57" y="-46" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="2" tile="2" x="-57" y="-51" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="3" tile="3" x="-53" y="-53" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="4" tile="4" x="-51" y="-54" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="5" tile="5" x="-48" y="-53" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="6" tile="6" x="-54" y="-52" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="7" tile="7" x="-59" y="-52" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="8" tile="8" x="-62" y="-50" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="9" tile="9" x="-60" y="-49" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="10" tile="10" x="-60" y="-47" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="11" tile="11" x="-60" y="-49" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="12" tile="12" x="-59" y="-50" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="13" tile="13" x="-53" y="-52" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="14" tile="14" x="-51" y="-53" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="15" tile="15" x="-49" y="-53" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="16" tile="16" x="-53" y="-52" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="17" tile="17" x="-57" y="-51" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="18" tile="18" x="-61" y="-50" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		<scene_part index="19" tile="19" x="-63" y="-49" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" anchorX="0" anchorY="0" />
+		
+		<scene_frame index="0" data_size="1" data="0," />
+		<scene_frame index="1" data_size="1" data="1," />
+		<scene_frame index="2" data_size="1" data="2," />
+		<scene_frame index="3" data_size="1" data="3," />
+		<scene_frame index="4" data_size="1" data="4," />
+		<scene_frame index="5" data_size="1" data="5," />
+		<scene_frame index="6" data_size="1" data="6," />
+		<scene_frame index="7" data_size="1" data="7," />
+		<scene_frame index="8" data_size="1" data="8," />
+		<scene_frame index="9" data_size="1" data="9," />
+		<scene_frame index="10" data_size="1" data="10," />
+		<scene_frame index="11" data_size="1" data="11," />
+		<scene_frame index="12" data_size="1" data="12," />
+		<scene_frame index="13" data_size="1" data="13," />
+		<scene_frame index="14" data_size="1" data="14," />
+		<scene_frame index="15" data_size="1" data="15," />
+		<scene_frame index="16" data_size="1" data="16," />
+		<scene_frame index="17" data_size="1" data="17," />
+		<scene_frame index="18" data_size="1" data="18," />
+		<scene_frame index="19" data_size="1" data="19," />
+		
+		
+		<cd_frame index="0" data_size="0" data="" />
+		<frames 
+			counts="40," 
+			names="4,0000," 
+			animates="{0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,},"
+			cd_map="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_atk="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_def="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_ext="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			alpha="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			rotate="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			scaleX="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			scaleY="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			fdata="{0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,},"
+		/>
+		<Append data="0,," />
+	</sprite>
+	
+
+	
+</resource>
+
+
+
+<level world_count="0" >
+
+	
+	
+</level>
+
+
+
+
+</entry>
+
+
+
+
+

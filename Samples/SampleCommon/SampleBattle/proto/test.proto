@@ -1,0 +1,91 @@
+//***************************************************************************
+//* 创建时间= 2015-08-27
+//* TEST
+//***************************************************************************
+package test;
+import 'common.proto';
+
+//获取成就项
+message AchievementGetTypesRequest {
+}
+
+//获取成就项内容
+message AchievementGetTypeElementRequest {
+    required int32 c2s_id = 1;
+}
+
+//领取奖励
+message AchievementGetAwardRequest {
+	// 枚举类型
+	enum ReqType {
+		TYPE1 = 1; // 类型1
+		TYPE2 = 2; // 类型2
+	};
+    required int32  c2s_id = 1;
+	
+	optional ReqType req_type = 2; // 类型
+}
+
+
+//成就内容
+message Achievement {
+   // 成就id
+   required int32                 id = 1;
+   // 成就完成进度
+   required int32                 scheduleCurr  = 2;
+}
+
+//成就项
+message AchievementType {
+   // 成就项id
+   required int32                 id = 1; // 1,2,3,4,5
+   // 当前项总成就点
+   optional int32                 maxScore = 2;
+   // 当前项当前成就点
+   optional int32                 currScore = 3;
+   
+   optional DataEnum              dataType = 4; // 数据类型
+   repeated DataEnum              dataTypes = 5; // 数据类型
+ }
+	
+message AchievementGetAllResponse  {
+   required int32                  s2c_code = 1;
+   optional string                 s2c_msg = 2;
+   repeated AchievementType        s2c_achievementTypes = 3;
+   repeated Achievement            s2c_achievements = 4;
+}
+
+message AchievementGetTypesResponse {
+    required int32                  s2c_code = 1;
+    optional string                 s2c_msg = 2;
+    repeated AchievementType        s2c_achievementTypes = 3;
+    optional int32                  s2c_totalScore = 4;
+    optional int32                  s2c_leader = 5;
+    repeated int32                  s2c_rewardCount = 6;
+    repeated string                 s2c_results = 7;
+}
+
+message AchievementGetTypeElementResponse {
+    required int32                  s2c_code = 1;
+    optional string                 s2c_msg = 2;
+    repeated Achievement            s2c_achievements = 3;
+    repeated int32                  s2c_rewardCount = 4;
+	required Achievement            s2c_single = 5;
+}
+
+message AchievementGetAwardResponse {
+   required int32 s2c_code = 1;
+   optional string s2c_msg = 2;
+}
+
+message OnAchievementPush {
+    required int32 s2c_code = 1;
+    optional int32 s2c_id = 2;
+    repeated Achievement   s2c_achievements = 3;
+}
+
+//数据类型
+enum DataEnum {
+	TYPEA = 1; // 类型A
+	TYPEB = 2; // 类型B
+}

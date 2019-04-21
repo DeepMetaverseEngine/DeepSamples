@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entry>
+<!--
+<OUTPUT>		.\output\stage.xml
+<IMAGE_OUTPUT>	.\output\
+<FORMAT_NUMBER_ARRAY_1D>    <>,
+<FORMAT_STRING_ARRAY_1D>	<>,
+<FORMAT_ARRAY_1D>			<>,
+<FORMAT_ARRAY_2D>			{<>},
+<FIXED_STRING_ARRAY>		char,
+-->
+<IMAGE_TYPE>png
+</IMAGE_TYPE>
+<IMAGE_TILE>false
+</IMAGE_TILE>
+<IMAGE_GROUP>true
+</IMAGE_GROUP>
+
+
+<resource images_count="1" map_count="0" sprite_count="0" >
+	
+	
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="0" name="stage" size="10" 
+		all_width="212" 
+		all_height="186"
+		total_split="0"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="70" height="50" data="0" />
+		<clip index="1" x="0" y="50" width="70" height="46" data="1" />
+		<clip index="2" x="142" y="0" width="70" height="48" data="2" />
+		<clip index="3" x="142" y="140" width="70" height="46" data="3" />
+		<clip index="4" x="71" y="0" width="70" height="48" data="4" />
+		<clip index="5" x="71" y="95" width="70" height="46" data="5" />
+		<clip index="6" x="71" y="48" width="70" height="47" data="6" />
+		<clip index="7" x="0" y="96" width="70" height="46" data="7" />
+		<clip index="8" x="142" y="48" width="70" height="46" data="8" />
+		<clip index="9" x="142" y="94" width="70" height="46" data="9" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+	
+	
+	
+	
+	
+</resource>
+
+
+
+<level world_count="0" >
+
+	
+	
+</level>
+
+
+
+
+</entry>
+
+
+
+
+

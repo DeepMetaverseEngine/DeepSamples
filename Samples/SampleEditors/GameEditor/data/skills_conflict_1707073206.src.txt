@@ -1,0 +1,12 @@
+Can Not Resolve IExternalizable Message : CommonAI.Zone.UnitActionData+KeyFrame
+   在 CommonLang.IO.IInputStream.ResolveHead(IExternalizable instance, IExternalizable& value) 位置 K:\wazazhang\BattleSystemCSharp\Common\CommonLang\IO\IO.Stream.cs:行号 827
+   在 CommonLang.IO.IInputStream.GetExt[T]() 位置 K:\wazazhang\BattleSystemCSharp\Common\CommonLang\IO\IO.Stream.cs:行号 835
+   在 CommonLang.IO.IInputStream.GetList[T](GetData`1 action, List`1 src) 位置 K:\wazazhang\BattleSystemCSharp\Common\CommonLang\IO\IO.Stream.cs:行号 1145
+   在 CommonLang.IO.IInputStream.GetList[T](GetData`1 action) 位置 K:\wazazhang\BattleSystemCSharp\Common\CommonLang\IO\IO.Stream.cs:行号 1136
+   在 CommonAI.Zone.UnitActionData.ReadExternal(IInputStream input) 位置 K:\wazazhang\BattleSystemCSharp\Common\CommonAI\Zone\Data.cs:行号 1456
+   在 CommonLang.IO.IInputStream.GetExt[T]() 位置 K:\wazazhang\BattleSystemCSharp\Common\CommonLang\IO\IO.Stream.cs:行号 838
+   在 CommonLang.IO.IInputStream.GetList[T](GetData`1 action, List`1 src) 位置 K:\wazazhang\BattleSystemCSharp\Common\CommonLang\IO\IO.Stream.cs:行号 1145
+   在 CommonLang.IO.IInputStream.GetList[T](GetData`1 action) 位置 K:\wazazhang\BattleSystemCSharp\Common\CommonLang\IO\IO.Stream.cs:行号 1136
+   在 CommonAI.Zone.SkillTemplate.ReadExternal(IInputStream input) 位置 K:\wazazhang\BattleSystemCSharp\Common\CommonAI\Zone\Data.cs:行号 1248
+   在 CommonLang.IO.IInputStream.GetExtAny() 位置 K:\wazazhang\BattleSystemCSharp\Common\CommonLang\IO\IO.Stream.cs:行号 859
+   在 CommonAI.Zone.ZoneEditor.EditorTemplates.ValidateBin(IExternalizable data, IExternalizableFactory factory, String& xml, String& retxml) 位置 K:\wazazhang\BattleSystemCSharp\Common\CommonAI\Zone\ZoneEditor\EditorTemplates.cs:行号 534

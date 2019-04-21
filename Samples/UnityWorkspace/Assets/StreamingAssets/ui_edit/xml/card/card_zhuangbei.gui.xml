@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="false" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="562" local_bounds="0,0,837,562" lock="false" name="cvs_main" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="837" x="58.0" y="38.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="485" local_bounds="0,0,559,485" lock="false" name="cvs_zhuangbeiye" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="559" x="29.0" y="38.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_bottom_shade.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card01" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="82.0" y="64.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card02" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="32.0" y="199.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card03" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="82.0" y="338.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="96" local_bounds="0,0,72,96" lock="false" name="cvs_card04" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="72" x="206.0" y="29.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_2_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="96" local_bounds="0,0,72,96" lock="false" name="cvs_card05" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="72" x="206.0" y="351.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_2_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="120" local_bounds="0,0,90,120" lock="false" name="cvs_card06" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="90" x="189.0" y="170.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_1_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card07" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="432.0" y="64.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card08" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="480.0" y="199.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card09" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="433.0" y="338.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="96" local_bounds="0,0,72,96" lock="false" name="cvs_card10" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="72" x="291.0" y="29.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_2_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="96" local_bounds="0,0,72,96" lock="false" name="cvs_card11" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="72" x="295.0" y="351.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_2_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="120" local_bounds="0,0,90,120" lock="false" name="cvs_card12" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="90" x="291.0" y="170.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_1_lock.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card001" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="82.0" y="64.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card002" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="32.0" y="199.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card003" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="82.0" y="338.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="96" local_bounds="0,0,72,96" lock="false" name="cvs_card004" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="72" x="206.0" y="29.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_2_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="96" local_bounds="0,0,72,96" lock="false" name="cvs_card005" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="72" x="206.0" y="351.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_2_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="120" local_bounds="0,0,90,120" lock="false" name="cvs_card006" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="90" x="189.0" y="170.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_1_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card007" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="432.0" y="64.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card008" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="480.0" y="199.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="84" local_bounds="0,0,63,84" lock="false" name="cvs_card009" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="63" x="433.0" y="338.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_3_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="96" local_bounds="0,0,72,96" lock="false" name="cvs_card010" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="72" x="291.0" y="29.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_2_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="96" local_bounds="0,0,72,96" lock="false" name="cvs_card011" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="72" x="295.0" y="351.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_2_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="120" local_bounds="0,0,90,120" lock="false" name="cvs_card012" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="90" x="291.0" y="170.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_frame_1_add.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="579" local_bounds="0,0,256,579" lock="false" name="cvs_jiacheng" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="256" x="594.0" y="10.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card_bar_flag.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="34" imageAtlas="" imagePath="" local_bounds="0,0,166,34" lock="false" name="ib_jiacheng" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="166" x="29.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="63.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/word_card_addtion.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="52" local_bounds="0,0,200,52" lock="false" name="lb_zhandouli" text="战斗力+99999" textBorderAlpha="10.0" textBorderColor="19000000" textColor="ffffcc00" textFont="微软雅黑,24,1" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="200" x="14.0" y="85.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UEScrollPan BorderSize="4" EnableElasticity="true" EnableScrollH="false" EnableScrollV="true" ShowSlider="true" clip_local_bounds="false" clipbounds="false" elasticity_time="4.0" enable="true" enable_childs="true" height="400" local_bounds="0,0,197,400" lock="false" name="sp_jiacheng" scroll_acc="0.9" scroll_fade_time_max="20.0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="197" x="15.0" y="127.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UEScrollPan>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,197,30" lock="false" name="lb_xshuxing01" text="nil" textBorderAlpha="10.0" textBorderColor="19000000" textColor="ffffff00" textFont="微软雅黑,20,1" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="197" x="15.0" y="528.0" z="0.0"/>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="80" local_bounds="0,0,320,80" lock="false" name="cvs_title" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="320" x="258.0" y="-11.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="102" imageAtlas="" imagePath="" local_bounds="0,0,400,102" lock="false" name="ib_titlebar" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="400" x="-31.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="-6.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="1" img="static/common_new/title_bar.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="50" imageAtlas="" imagePath="" local_bounds="0,0,100,50" lock="false" name="ib_skill" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="100" x="97.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="17.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/word_title_card.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="120" local_bounds="0,0,90,120" lock="false" name="cvs_card1" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="90" x="900.0" y="123.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/card/card/2.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,30,30" lock="false" name="lb_level" text="lv1" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="Serif,22,0" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="30" x="55.0" y="88.0" z="0.0"/>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

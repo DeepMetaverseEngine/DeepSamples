@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A74FF875-E06F-4759-9A8B-88ADC4A540F2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SampleRPG.Test</RootNamespace>
+    <AssemblyName>SampleRPG.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SampleFileUpdater.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service1.Designer.cs">
+      <DependentUpon>Service1.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameData\DeepCore.GameData.csproj">
+      <Project>{3b82ef9e-967f-447e-b243-0274755bb7b8}</Project>
+      <Name>DeepCore.GameData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameEvent.Lua\DeepCore.GameEvent.Lua.csproj">
+      <Project>{3b360d70-1a13-491f-84ff-8aebe1cebae7}</Project>
+      <Name>DeepCore.GameEvent.Lua</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameEvent\DeepCore.GameEvent.csproj">
+      <Project>{efcc33e1-b5e7-443b-a5c0-05ff6e9469ce}</Project>
+      <Name>DeepCore.GameEvent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameHost.Local\DeepCore.GameHost.Local.csproj">
+      <Project>{e4d44380-972c-4e6c-919e-3fad1f71977f}</Project>
+      <Name>DeepCore.GameHost.Local</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameHost.Server\DeepCore.GameHost.Server.csproj">
+      <Project>{46293aea-1eda-42e7-ad4f-52b5e7641261}</Project>
+      <Name>DeepCore.GameHost.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameHost\DeepCore.GameHost.csproj">
+      <Project>{0328d4f1-7a02-4897-9e3f-353b7597a4ec}</Project>
+      <Name>DeepCore.GameHost</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameSlave\DeepCore.GameSlave.csproj">
+      <Project>{85137b17-8021-4ab9-aedb-d5b30e0d3f24}</Project>
+      <Name>DeepCore.GameSlave</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GUI\DeepCore.GUI.csproj">
+      <Project>{cb3288a6-e04f-47a7-bfba-a5d5163541ba}</Project>
+      <Name>DeepCore.GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.SharpZipLib\DeepCore.SharpZipLib.csproj">
+      <Project>{fb8262cc-7a58-42ed-b106-fc483a5c07cd}</Project>
+      <Name>DeepCore.SharpZipLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.Template.MoonSharp\DeepCore.Template.MoonSharp.csproj">
+      <Project>{48441cca-3528-4b1b-a7f1-5a55b1895663}</Project>
+      <Name>DeepCore.Template.MoonSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.Unity3D.Editor\DeepCore.Unity3D.Editor.csproj">
+      <Project>{0defa6b6-6f7c-49ff-b763-9cb586e535c2}</Project>
+      <Name>DeepCore.Unity3D.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.Unity3D\DeepCore.Unity3D.csproj">
+      <Project>{ee96b1b3-c4cc-4d58-b19a-b4ff850240b4}</Project>
+      <Name>DeepCore.Unity3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore\DeepCore.csproj">
+      <Project>{0951676d-0fb3-4e35-b9d2-ed28ea141ada}</Project>
+      <Name>DeepCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCrystal\DeepCrystal.Redis\DeepCrystal.Redis.csproj">
+      <Project>{d480b832-3a9c-44fa-8eeb-72c60339a03e}</Project>
+      <Name>DeepCrystal.Redis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCrystal\DeepCrystal.RPC.Test\DeepCrystal.RPC.Test.csproj">
+      <Project>{d604acbd-b350-4e69-a071-d7baf8df29c6}</Project>
+      <Name>DeepCrystal.RPC.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCrystal\DeepCrystal.Server.SSocket\DeepCrystal.Server.SSocket.csproj">
+      <Project>{f0c829e7-160b-4136-9bab-a45d0b519104}</Project>
+      <Name>DeepCrystal.Server.SSocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCrystal\DeepCrystal\DeepCrystal.csproj">
+      <Project>{ccd478dd-cfdd-4e52-8ec2-183b206d4fba}</Project>
+      <Name>DeepCrystal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCrystal\Library\SuperSocket.NetStandard\SuperSocket.Common\SuperSocket.Common.csproj">
+      <Project>{d4322705-0fbd-4788-b9d6-80f271ebb907}</Project>
+      <Name>SuperSocket.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCrystal\Library\SuperSocket.NetStandard\SuperSocket.Facility\SuperSocket.Facility.csproj">
+      <Project>{9e417a13-1c67-4508-aa45-f1f7fd34e221}</Project>
+      <Name>SuperSocket.Facility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCrystal\Library\SuperSocket.NetStandard\SuperSocket.SocketBase\SuperSocket.SocketBase.csproj">
+      <Project>{0e0cd5a9-ae33-48c4-be21-d5eee06bc9f4}</Project>
+      <Name>SuperSocket.SocketBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCrystal\Library\SuperSocket.NetStandard\SuperSocket.SocketEngine\SuperSocket.SocketEngine.csproj">
+      <Project>{d304ec37-0676-445d-b5b0-cc296e268628}</Project>
+      <Name>SuperSocket.SocketEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepEditorMain\DeepEditor.Main\DeepEditor.Main.csproj">
+      <Project>{3aedcc34-fbce-4955-a329-f5a832f292e6}</Project>
+      <Name>DeepEditor.Main</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepEditor\DeepEditor.Common\DeepEditor.Common.csproj">
+      <Project>{f3594e30-da84-4538-baa3-0959b86aa879}</Project>
+      <Name>DeepEditor.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepEditor\DeepEditor.Plugin.Replay\DeepEditor.Plugin.Replay.csproj">
+      <Project>{72e1e166-749e-4383-bac7-b0a81f54f352}</Project>
+      <Name>DeepEditor.Plugin.Replay</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepEditor\DeepEditor.Plugin.ServerTest\DeepEditor.Plugin.ServerTest.csproj">
+      <Project>{d2a14196-3c00-4e3b-b716-fb168d32e343}</Project>
+      <Name>DeepEditor.Plugin.ServerTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepEditor\DeepEditor.Plugin.Server\DeepEditor.Plugin.Server.csproj">
+      <Project>{dc5b7f3a-aaf4-47f8-abe5-820fb93016cc}</Project>
+      <Name>DeepEditor.Plugin.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepEditor\DeepEditor.Plugin.Unity3D.Ipc\DeepEditor.Plugin.Unity3D.Ipc.csproj">
+      <Project>{9dabd5a2-dd99-4f5c-8e12-9e268c4f53eb}</Project>
+      <Name>DeepEditor.Plugin.Unity3D.Ipc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepEditor\DeepEditor.Plugin.Unity3D\DeepEditor.Plugin.Unity3D.csproj">
+      <Project>{95b8fd91-f539-4a88-9a19-4e7b8ecf2310}</Project>
+      <Name>DeepEditor.Plugin.Unity3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepEditor\DeepEditor.Plugin\DeepEditor.Plugin.csproj">
+      <Project>{539fa0de-4ef2-4035-832d-9e8614e92a48}</Project>
+      <Name>DeepEditor.Plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Client.BotTest\DeepMMO.Client.BotTest.csproj">
+      <Project>{d4b47fc6-a751-423b-bbc9-215eced06342}</Project>
+      <Name>DeepMMO.Client.BotTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Client.Win32\DeepMMO.Client.Win32.csproj">
+      <Project>{432fac96-898b-4aa9-bc11-796670f9a344}</Project>
+      <Name>DeepMMO.Client.Win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Client\DeepMMO.Client.csproj">
+      <Project>{5d299c52-7f3a-4b43-b624-728041707543}</Project>
+      <Name>DeepMMO.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Server.AreaManager\DeepMMO.Server.AreaManager.csproj">
+      <Project>{16be3f0a-a5af-438c-bb7f-7e3adbe498eb}</Project>
+      <Name>DeepMMO.Server.AreaManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Server.Area\DeepMMO.Server.Area.csproj">
+      <Project>{2f03353b-af62-49b5-8346-15555129ccc5}</Project>
+      <Name>DeepMMO.Server.Area</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Server.Connector\DeepMMO.Server.Connector.csproj">
+      <Project>{995c053e-7c04-41ae-8c7e-f3a7bf96dc12}</Project>
+      <Name>DeepMMO.Server.Connector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Server.Gate\DeepMMO.Server.Gate.csproj">
+      <Project>{385f9366-402b-4f7f-969c-a628a5fa60c3}</Project>
+      <Name>DeepMMO.Server.Gate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Server.Logic\DeepMMO.Server.Logic.csproj">
+      <Project>{7cfc56fd-f4d4-4f5b-b80d-b50e0ffc0ba2}</Project>
+      <Name>DeepMMO.Server.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Server.Test\DeepMMO.Server.Test.csproj">
+      <Project>{efc3e9a1-06b8-45e1-a23c-1172ec826273}</Project>
+      <Name>DeepMMO.Server.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO.Server\DeepMMO.Server.csproj">
+      <Project>{bb98de04-9900-40bf-a751-bc24290138bd}</Project>
+      <Name>DeepMMO.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepMMO\DeepMMO\DeepMMO.csproj">
+      <Project>{5e199fcb-da96-4f18-8c7b-f124334a7322}</Project>
+      <Name>DeepMMO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepTools\DeepTools.CodeGen\DeepTools.CodeGen.csproj">
+      <Project>{fab314c1-525d-462b-82be-560b6fa224c5}</Project>
+      <Name>DeepTools.CodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleBattle\SampleBattle.csproj">
+      <Project>{69a0ee45-348f-4668-a2c8-9e4604d64d13}</Project>
+      <Name>SampleBattle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleRPG.Client\SampleRPG.Client.csproj">
+      <Project>{70509ce9-6e4a-4c22-b18e-3491aeb0bebb}</Project>
+      <Name>SampleRPG.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleRPG.Serializer\SampleRPG.Serializer.csproj">
+      <Project>{e091bfda-da3a-40ff-8111-ebdbd8f50344}</Project>
+      <Name>SampleRPG.Serializer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleRPG.Server\SampleRPG.Server.csproj">
+      <Project>{411e0678-42ad-4074-aac8-8c5ae2fd6468}</Project>
+      <Name>SampleRPG.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleRPG\SampleRPG.csproj">
+      <Project>{e052b11c-d62f-4ef5-8a26-1031e68c95a9}</Project>
+      <Name>SampleRPG</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="copyres.bat" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>call $(ProjectDir)copyres.bat $(ProjectDir) $(TargetDir)</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="676" local_bounds="0,0,885,676" lock="false" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="885" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ff2d1e30" clip="64" img="static/common_new/bg.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+<fadeIn>
+<com.g2d.studio.ui.edit.transition.ScaleFadeIn FromScaleX="1.0" FromScaleY="1.0" life_time="10"/>
+</fadeIn>
+<fadeOut>
+<com.g2d.studio.ui.edit.transition.ScaleFadeOut ToScaleX="0.0" ToScaleY="0.0" life_time="10"/>
+</fadeOut>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="37" imageAnchor="L_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="static/load_error.png" imageTextUp="static/off_down.png" local_bounds="0,0,178,37" lock="true" name="bt" text="ok" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="abc" textFont="" textSize="24" text_anchor="C_C" text_offset_x="-20" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="178" x="44.0" y="486.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="19" img="static/button_confirm_04.png" repeat="false" style="IMAGE_STYLE_H_012"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="15" img="static/button_confirm_03.png" repeat="false" style="IMAGE_STYLE_H_012"/>
+<disable_layout bdc="ff000000" bgc="ffc0c0c0" clip="25" img="static/select_sever.png" repeat="false" style="IMAGE_STYLE_H_012"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="427" local_bounds="0,0,799,427" lock="true" name="panel" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="799" x="37.0" y="46.0" z="0.0">
+<layout bdc="ff000000" bgc="ff382b2c" clip="20" img="static/common/item_bg.png" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

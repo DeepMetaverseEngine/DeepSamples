@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TerrainDefinitionMap type="DeepCore.GameData.Zone.TerrainDefinitionMap">
+  <Brushes element_type="DeepCore.GameData.Zone.TerrainDefinitionMap+MapBlockBrush">
+    <element>
+      <Desc></Desc>
+      <IsBlock>False</IsBlock>
+      <Name>NULL</Name>
+      <Tag></Tag>
+      <Value>0</Value>
+    </element>
+    <element>
+      <Desc></Desc>
+      <IsBlock>True</IsBlock>
+      <Name>Block</Name>
+      <Tag></Tag>
+      <Value>-16711936</Value>
+    </element>
+    <element>
+      <Desc></Desc>
+      <IsBlock>False</IsBlock>
+      <Name>Safe</Name>
+      <Tag></Tag>
+      <Value>-12566464</Value>
+    </element>
+  </Brushes>
+</TerrainDefinitionMap>

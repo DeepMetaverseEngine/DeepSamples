@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkillTemplate type="DeepCore.GameData.Zone.SkillTemplate">
+  <ActionPriority>0</ActionPriority>
+  <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionData">
+    <element>
+      <BodyBlockOnAttackRange>True</BodyBlockOnAttackRange>
+      <BodyHitNextAction>False</BodyHitNextAction>
+      <BodyHitSize>0.00</BodyHitSize>
+      <IsCancelable>False</IsCancelable>
+      <IsCancelableBySkill>False</IsCancelableBySkill>
+      <IsControlFaceable>False</IsControlFaceable>
+      <IsControlMoveable>False</IsControlMoveable>
+      <IsCycAction>False</IsCycAction>
+      <IsFaceToTarget>False</IsFaceToTarget>
+      <IsInvisible>False</IsInvisible>
+      <IsJumpToTarget>False</IsJumpToTarget>
+      <IsMoveToTarget>False</IsMoveToTarget>
+      <IsNoneBlock>False</IsNoneBlock>
+      <IsNoneTouch>False</IsNoneTouch>
+      <JumpToTargetHeightZ>3.00</JumpToTargetHeightZ>
+      <KeyFrames element_type="DeepCore.GameData.Zone.UnitActionData+KeyFrame" />
+      <MoveToTargetSpeedSEC>10.00</MoveToTargetSpeedSEC>
+      <TargetOffset>0.00</TargetOffset>
+      <TargetPos>Body</TargetPos>
+      <TotalTimeMS>0</TotalTimeMS>
+    </element>
+  </ActionQueue>
+  <ActionSpeedRate>1.00</ActionSpeedRate>
+  <AttackAngle>0.00</AttackAngle>
+  <AttackFollowRange>0.00</AttackFollowRange>
+  <AttackKeepRange>0.00</AttackKeepRange>
+  <AttackMustBeInRange>False</AttackMustBeInRange>
+  <AttackRange>3.00</AttackRange>
+  <BodyScale>1.00</BodyScale>
+  <ChantTimeMS>0</ChantTimeMS>
+  <CoolDownMS>5000</CoolDownMS>
+  <CostHP>0</CostHP>
+  <CostMP>0</CostMP>
+  <ExpectTarget>Enemy</ExpectTarget>
+  <IconName>2200</IconName>
+  <ID>2200304</ID>
+  <IsCoolDownWithAction>False</IsCoolDownWithAction>
+  <IsCounter>False</IsCounter>
+  <IsLaunchBody>True</IsLaunchBody>
+  <IsManuallyCancelable>False</IsManuallyCancelable>
+  <IsSelectRange>False</IsSelectRange>
+  <IsSingleAction>True</IsSingleAction>
+  <Name>自爆攻击_流氓_海盗炸弹</Name>
+  <Properties type="SampleBattle.Plugins.SampleSkillProperties" />
+  <SelectRangeSize>0.00</SelectRangeSize>
+  <SelectRangeType>NA</SelectRangeType>
+  <SingleActionCoolDownMS>0</SingleActionCoolDownMS>
+  <property.EditorPath>技能/玩家职业/炼金师/海盗炸弹/自爆攻击_流氓_海盗炸弹(2200304)</property.EditorPath>
+</SkillTemplate>

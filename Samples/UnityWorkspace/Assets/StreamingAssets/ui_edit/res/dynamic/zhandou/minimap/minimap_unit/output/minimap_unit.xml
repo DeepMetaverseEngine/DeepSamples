@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entry>
+<!--
+<OUTPUT>		.\output\minimap_unit.xml
+<IMAGE_OUTPUT>	.\output\
+<FORMAT_NUMBER_ARRAY_1D>    <>,
+<FORMAT_STRING_ARRAY_1D>	<>,
+<FORMAT_ARRAY_1D>			<>,
+<FORMAT_ARRAY_2D>			{<>},
+<FIXED_STRING_ARRAY>		char,
+-->
+<IMAGE_TYPE>png
+</IMAGE_TYPE>
+<IMAGE_TILE>false
+</IMAGE_TILE>
+<IMAGE_GROUP>true
+</IMAGE_GROUP>
+
+
+<resource images_count="1" map_count="0" sprite_count="0" >
+	
+	
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="0" name="minimap_unit" size="14" 
+		all_width="62" 
+		all_height="58"
+		total_split="0"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="0" y="0" width="15" height="21" data="" />
+		<clip index="1" x="15" y="0" width="15" height="21" data="" />
+		<clip index="2" x="0" y="21" width="16" height="18" data="" />
+		<clip index="3" x="16" y="21" width="16" height="18" data="" />
+		<clip index="4" x="30" y="0" width="18" height="15" data="" />
+		<clip index="5" x="32" y="15" width="20" height="17" data="" />
+		<clip index="6" x="0" y="39" width="20" height="17" data="" />
+		<clip index="7" x="20" y="39" width="4" height="4" data="" />
+		<clip index="8" x="20" y="43" width="4" height="4" data="" />
+		<clip index="9" x="32" y="32" width="13" height="13" data="" />
+		<clip index="10" x="24" y="45" width="13" height="13" data="" />
+		<clip index="11" x="45" y="32" width="14" height="14" data="" />
+		<clip index="12" x="20" y="47" width="4" height="4" data="" />
+		<clip index="13" x="48" y="1" width="14" height="14" data="" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+	
+	
+	
+	
+	
+</resource>
+
+
+
+<level world_count="0" >
+
+	
+	
+</level>
+
+
+
+
+</entry>
+
+
+
+
+

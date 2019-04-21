@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UnitTriggerTemplate type="CommonAI.Zone.UnitTriggerTemplate">
+  <CoolDownTimeMS>10000</CoolDownTimeMS>
+  <ID>1060596969</ID>
+  <Properties type="SampleCommon.Plugins.SampleUnitTriggerProperties" />
+  <Triggers element_type="CommonAI.Zone.UnitTriggers.BaseTriggerEvent" />
+  <property.EditorPath>单位触发器/(1060596969)</property.EditorPath>
+</UnitTriggerTemplate>

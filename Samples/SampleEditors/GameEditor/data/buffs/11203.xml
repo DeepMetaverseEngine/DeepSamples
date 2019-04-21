@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuffTemplate type="DeepCore.GameData.Zone.BuffTemplate">
+  <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <BodyHitSize>0.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>0.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <ExclusiveCatgory>0</ExclusiveCatgory>
+  <ExclusivePriority>0</ExclusivePriority>
+  <FirstTimeEnable>True</FirstTimeEnable>
+  <HitIntervalMS>1000</HitIntervalMS>
+  <HitKeyFrame>
+    <Attack>
+      <Attack>0</Attack>
+      <CrushPercent>0.00</CrushPercent>
+      <HitMove>
+        <ArgsFactor>0.00</ArgsFactor>
+        <Direction>0.00</Direction>
+        <IsNoneTouch>False</IsNoneTouch>
+        <KeepTimeMS>100</KeepTimeMS>
+        <OverrideGravity>0.00</OverrideGravity>
+        <RotateSpeedSEC>0.00</RotateSpeedSEC>
+        <SpeedAcc>50.00</SpeedAcc>
+        <SpeedAdd>0.00</SpeedAdd>
+        <SpeedSEC>30.00</SpeedSEC>
+        <ZLimit>0.00</ZLimit>
+        <ZSpeedSEC>0.00</ZSpeedSEC>
+        <property.SerialNumber>76641</property.SerialNumber>
+      </HitMove>
+      <HitMoveBodyAttackSize>1.00</HitMoveBodyAttackSize>
+      <HitMoveMType>BySenderPosition</HitMoveMType>
+      <IsDamageProtect>False</IsDamageProtect>
+      <KnockOutTimeMS>100</KnockOutTimeMS>
+      <MaskDamage>True</MaskDamage>
+      <MaskHitFly>True</MaskHitFly>
+      <MaskKnockDown>False</MaskKnockDown>
+      <MaskMustCritical>False</MaskMustCritical>
+      <MaskMustHit>False</MaskMustHit>
+      <Properties type="SampleBattle.Plugins.SampleAttackProperties">
+        <DamageModiferID>0</DamageModiferID>
+        <DamagePerID>0</DamagePerID>
+        <SkillTemplateID>0</SkillTemplateID>
+      </Properties>
+      <StopFrameAction>0</StopFrameAction>
+      <StopFrameMS>0</StopFrameMS>
+      <Weight>99</Weight>
+      <property.SerialNumber>76640</property.SerialNumber>
+    </Attack>
+    <Effect>
+      <BindBody>True</BindBody>
+      <BindBodyDirection>True</BindBodyDirection>
+      <BindPartName>Buff_Chest</BindPartName>
+      <BlurBeginTime>0</BlurBeginTime>
+      <BlurEndTime>0</BlurEndTime>
+      <BlurStrength>0.00</BlurStrength>
+      <BlurWaitTime>0</BlurWaitTime>
+      <CameraBeginTime>0</CameraBeginTime>
+      <CameraDistance>0.00</CameraDistance>
+      <CameraEndTime>0</CameraEndTime>
+      <CameraWaitTime>0</CameraWaitTime>
+      <EarthQuakeMS>0</EarthQuakeMS>
+      <EarthQuakeXYZ>0.00</EarthQuakeXYZ>
+      <EffectTimeMS>0</EffectTimeMS>
+      <IsLoop>False</IsLoop>
+      <Name>/res/effect/30000_buff/vfx_30301_ice.assetBundles</Name>
+      <ScaleToBodySize>0.00</ScaleToBodySize>
+      <WarnDegree>80.00</WarnDegree>
+      <WarnScaleX>1.00</WarnScaleX>
+      <WarnScaleZ>1.00</WarnScaleZ>
+      <WarnSpeed>1.00</WarnSpeed>
+      <WarnType>WARNING_TYPE_NONE</WarnType>
+      <property.SerialNumber>76642</property.SerialNumber>
+    </Effect>
+    <FrameMS>0</FrameMS>
+  </HitKeyFrame>
+  <ID>11203</ID>
+  <IsCancelBySelf>False</IsCancelBySelf>
+  <IsDuplicating>False</IsDuplicating>
+  <IsHarmful>True</IsHarmful>
+  <IsInvincible>False</IsInvincible>
+  <IsInvisible>False</IsInvisible>
+  <IsNoneBlock>False</IsNoneBlock>
+  <IsOverlay>False</IsOverlay>
+  <IsPassive>False</IsPassive>
+  <IsRemoveOnSenderRemoved>False</IsRemoveOnSenderRemoved>
+  <IsSilent>False</IsSilent>
+  <KeyFrames element_type="DeepCore.GameData.Zone.BuffTemplate+KeyFrame" />
+  <LifeTimeMS>3000</LifeTimeMS>
+  <MakeAvatar>False</MakeAvatar>
+  <MakeStun>False</MakeStun>
+  <MaxOverlay>1</MaxOverlay>
+  <Name>狂怒旋风-真空（群体拉取）</Name>
+  <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <UnitChangeSkills>False</UnitChangeSkills>
+  <UnitKeepSkillsID element_type="System.Int32" />
+  <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
+  <property.EditorPath>BUFF/状态特效/狂战士技能状态/狂怒旋风-真空（群体拉取）(11203)</property.EditorPath>
+</BuffTemplate>

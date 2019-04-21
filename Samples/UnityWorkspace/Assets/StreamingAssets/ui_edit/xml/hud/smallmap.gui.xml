@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="false" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="2.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="false" enable_childs="true" height="200" local_bounds="0,0,200,200" lock="true" name="" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="200" x="1055.0" y="31.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="24" imageAtlas="" imagePath="" local_bounds="0,0,24,24" lock="false" name="ib_flag3" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="24" x="84.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="48.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|31" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="24" imageAtlas="" imagePath="" local_bounds="0,0,24,24" lock="false" name="ib_flag2" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="24" x="115.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="57.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|32" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="24" imageAtlas="" imagePath="" local_bounds="0,0,24,24" lock="false" name="ib_flag1" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="24" x="140.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="70.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|33" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="20" imageAtlas="" imagePath="" local_bounds="0,0,20,20" lock="false" name="ib_monster" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="20" x="166.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="34.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|30" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="24" imageAtlas="" imagePath="" local_bounds="0,0,24,24" lock="false" name="ib_item" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="24" x="22.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="14.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|34" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="24" imageAtlas="" imagePath="" local_bounds="0,0,24,24" lock="false" name="ib_born" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="24" x="51.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="13.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|28" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="12" imageAtlas="" imagePath="" local_bounds="0,0,12,12" lock="false" name="ib_npc" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="12" x="101.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="91.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|14" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="12" imageAtlas="" imagePath="" local_bounds="0,0,12,12" lock="false" name="ib_nation" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="12" x="34.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="47.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|13" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="12" imageAtlas="" imagePath="" local_bounds="0,0,12,12" lock="false" name="ib_guild" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="12" x="17.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="83.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|12" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="12" imageAtlas="" imagePath="" local_bounds="0,0,12,12" lock="false" name="ib_stranger" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="12" x="40.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="80.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|15" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="12" imageAtlas="" imagePath="" local_bounds="0,0,12,12" lock="false" name="ib_team" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="12" x="38.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="113.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|16" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="12" imageAtlas="" imagePath="" local_bounds="0,0,12,12" lock="false" name="ib_enemy" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="12" x="67.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="103.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|11" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="20" imageAtlas="" imagePath="" local_bounds="0,0,14,20" lock="false" name="ib_transferpoint" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="14" x="83.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="12.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|26" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="20" imageAtlas="" imagePath="" local_bounds="0,0,14,20" lock="false" name="ib_boss" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="14" x="109.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="9.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|29" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="24" imageAtlas="" imagePath="" local_bounds="0,0,24,24" lock="false" name="ib_self" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="24" x="164.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="6.0" z="0.0">
+<layout atlas="#dynamic/zhandou/minimap/map/output/map.xml|unamed_Tile|6" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="200" local_bounds="0,0,200,200" lock="false" name="cvs_circlemap" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="200" x="755.0" y="32.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="200" local_bounds="0,0,200,200" lock="false" name="cvs_minimap" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="200" x="755.0" y="32.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="200" imageAtlas="" imagePath="" local_bounds="0,0,200,200" lock="false" name="img_minimap" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="200" x="755.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="32.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/minimap/mini_map_bar.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="210" imageAtlas="" imagePath="" local_bounds="0,0,210,210" lock="true" name="ib_rectmask" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="210" x="750.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="27.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/minimap/mini_map_bar.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="29" local_bounds="0,0,228,29" lock="true" name="cvs_mapinfo" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="228" x="734.0" y="1.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="static/hud/map_info_bar_with_arrow.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,90,30" lock="false" name="lb_mapname" text="地图名称" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="Serif,20,0" textFontSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="90" x="35.0" y="0.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,90,30" lock="false" name="lb_pos" text="x  y" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="Serif,20,0" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="90" x="114.0" y="0.0" z="0.0"/>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

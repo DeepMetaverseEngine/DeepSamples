@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="true" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="54" imageAtlas="" imagePath="" local_bounds="0,0,32,54" lock="false" name="ib_rightchain" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="32" x="802.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="-14.0" z="0.0">
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|25" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="54" imageAtlas="" imagePath="" local_bounds="0,0,32,54" lock="false" name="ib_leftchain" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="32" x="509.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="-14.0" z="0.0">
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|26" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="93" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" isChecked="true" local_bounds="0,0,59,93" lock="false" name="tbt_all" text="" textBorderAlpha="0.0" textBorderColor="0" textDown="" textFont="Serif,24,1" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ff7b766d" userData="" userTag="0" visible="true" visible_content="true" width="59" x="875.0" y="62.0" z="0.0">
+<layout_down atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|7" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|8" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="93" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" isChecked="true" local_bounds="0,0,59,93" lock="false" name="tbt_zhuangbei" text="" textBorderAlpha="0.0" textBorderColor="0" textDown="" textFont="Serif,24,1" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ff7b766d" userData="" userTag="0" visible="true" visible_content="true" width="59" x="875.0" y="155.0" z="0.0">
+<layout_down atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|7" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|8" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="93" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" isChecked="true" local_bounds="0,0,59,93" lock="false" name="tbt_cailiao" text="" textBorderAlpha="0.0" textBorderColor="0" textDown="" textFont="Serif,24,1" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ff7b766d" userData="" userTag="0" visible="true" visible_content="true" width="59" x="875.0" y="249.0" z="0.0">
+<layout_down atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|7" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|8" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="93" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" isChecked="true" local_bounds="0,0,59,93" lock="false" name="tbt_kapian" text="" textBorderAlpha="0.0" textBorderColor="0" textDown="" textFont="Serif,24,1" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ff7b766d" userData="" userTag="0" visible="true" visible_content="true" width="59" x="875.0" y="343.0" z="0.0">
+<layout_down atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|7" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|8" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="570" local_bounds="0,0,430,570" lock="false" name="cvs_bag" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="430" x="465.0" y="31.0" z="0.0">
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|0" bdc="ff000000" bgc="ff2d1e30" clip="80" img="null" repeat="false" style="IMAGE_STYLE_ALL_9"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,70,30" lock="false" name="lb_rongliang" text="10/10" textBorderAlpha="0.0" textBorderColor="0" textColor="ffa49c93" textFont="Serif,18,1" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="70" x="337.0" y="15.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="75" local_bounds="0,0,75,75" lock="false" name="cvs_item1" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="75" x="38.0" y="74.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<disable_layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UEScrollPan BorderSize="0" EnableElasticity="true" EnableScrollH="false" EnableScrollV="true" ShowSlider="true" clip_local_bounds="false" clipbounds="false" elasticity_time="4.0" enable="true" enable_childs="true" height="336" local_bounds="0,0,360,336" lock="false" name="bag_pan" scroll_acc="0.9" scroll_fade_time_max="20.0" uiAnchor="" uiEffect="" userData="Grid" userTag="0" visible="true" visible_content="true" width="360" x="33.0" y="65.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UEScrollPan>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="35" imageAtlas="" imagePath="" local_bounds="0,0,35,35" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="35" x="250.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="414.0" z="0.0">
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|10" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="35" local_bounds="0,0,107,35" lock="false" name="lb_money" text="20000" textBorderAlpha="0.0" textBorderColor="0" textColor="ffffffff" textFont="方正黑体简体,20,1" textFontSize="" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="107" x="282.0" y="414.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="35" imageAtlas="" imagePath="" local_bounds="0,0,35,35" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="35" x="122.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="414.0" z="0.0">
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|11" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="35" local_bounds="0,0,93,35" lock="false" name="lb_gold" text="20000" textBorderAlpha="0.0" textBorderColor="0" textColor="ffffffff" textFont="方正黑体简体,20,1" textFontSize="" text_anchor="L_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="93" x="157.0" y="414.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="10" imageAtlas="" imagePath="" local_bounds="0,0,350,10" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="350" x="40.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="400.0" z="0.0">
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|21" bdc="ff000000" bgc="ffc0c0c0" clip="1" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="65" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,127,65" lock="false" name="btn_sell" text="批量出售" textBorderAlpha="100.0" textBorderColor="ff703116" textDown="" textFont="方正黑体简体,24,0" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffffff" userData="" userTag="0" visible="true" visible_content="true" width="127" x="517.0" y="484.0" z="0.0">
+<layout_down atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|4" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|3" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="65" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,127,65" lock="false" name="btn_arrange" text="整  理" textBorderAlpha="100.0" textBorderColor="ff113449" textDown="" textFont="方正黑体简体,24,0" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffffff" userData="" userTag="0" visible="true" visible_content="true" width="127" x="621.0" y="484.0" z="0.0">
+<layout_down atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|2" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|1" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="80" local_bounds="0,0,320,80" lock="false" name="cvs_bagtitle" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="320" x="532.0" y="3.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="102" imageAtlas="" imagePath="" local_bounds="0,0,352,102" lock="false" name="ib_bagtitle" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="352" x="-16.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="14.0" z="0.0">
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|24" bdc="ff000000" bgc="ffc0c0c0" clip="110" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="43" imageAtlas="" imagePath="" local_bounds="0,0,81,43" lock="false" name="ib_bag" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="81" x="103.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="43.0" z="0.0">
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|23" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="47" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,100,47" lock="false" name="btn_close" text="关闭" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="方正黑体简体,20,0" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffffff" userData="" userTag="0" visible="true" visible_content="true" width="100" x="766.0" y="489.0" z="0.0">
+<layout_down atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|4" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+<layout atlas="#dynamic/bag_ceshi/bag_ceshi.xml|ceshibag|3" bdc="ff000000" bgc="ffc0c0c0" clip="8" img="null" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

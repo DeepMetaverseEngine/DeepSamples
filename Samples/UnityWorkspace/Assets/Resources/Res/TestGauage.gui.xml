@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.g2d.studio.ui.edit.gui.UERoot clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="false" name="root" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<fadeIn/>
+<fadeOut/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="89" local_bounds="0,0,231,89" lock="false" name="Cvs_juese" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="231" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/img_playerhpframe.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="89" imageAtlas="" imagePath="" local_bounds="0,0,80,89" lock="false" name="juese_head" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="80" x="2.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="-7.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/img_swordsavater.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEToggleButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="55" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" isChecked="false" local_bounds="0,0,93,55" lock="false" name="Btn_zidong" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="false" visible_content="true" width="93" x="100.0" y="38.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/butten_autobattle_0d.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/butten_autobattle_00.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEToggleButton>
+<com.g2d.studio.ui.edit.gui.UEGauge ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" gaugeMax="100.0" gaugeMin="0.0" gaugeValue="100.0" height="11" local_bounds="0,0,100,11" lock="false" name="juese_hp" render_orientation="LEFT_2_RIGHT" showPercent="false" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="100" x="103.0" y="21.0" z="0.0">
+<custom_layout_up bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/img_playerhp.png" repeat="false" style="IMAGE_STYLE_H_012"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UEGauge>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" imageAtlas="" imagePath="" local_bounds="0,0,93,30" lock="false" name="Effect_zidong" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="false" visible_content="true" width="93" x="98.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="54.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" sprite="@dynamic/zhandou/audo/output/audo.xml|audo|audo|0" style="SPRITE"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="66" local_bounds="0,0,258,66" lock="false" name="UI_R_T" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="258" x="702.0" y="-1.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/img_timeframe.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,100,30" lock="false" name="UI_time" text="05:00" textBorderAlpha="0.0" textBorderColor="0" textColor="ffebf7ff" textFont="Serif,30,0" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="100" x="89.0" y="19.0" z="0.0"/>
+<com.g2d.studio.ui.edit.gui.UEButton ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" focusTextColor="ffffffff" height="63" imageAnchor="C_C" imageAtlasDown="" imageAtlasUp="" imageOffsetX="0" imageOffsetY="0" imageTextDown="" imageTextUp="" local_bounds="0,0,63,63" lock="false" name="Btn_getout" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textDown="" textFont="" textSize="0" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" unfocusTextColor="ffffff00" userData="" userTag="0" visible="true" visible_content="true" width="63" x="195.0" y="2.0" z="0.0">
+<layout_down bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/button_back_02.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/button_back_01.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<disable_layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/button_back_03.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEButton>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="false" enable_childs="true" height="640" local_bounds="0,0,960,640" lock="false" name="Cvs_qita" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="960" x="0.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="57" local_bounds="0,0,722,57" lock="false" name="TipsCvs" uiAnchor="" uiEffect="" userData="" userTag="0" visible="false" visible_content="true" width="722" x="165.0" y="102.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UETextBoxHtml HtmlText="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="41" local_bounds="0,0,688,41" lock="false" name="Tips" textColor="ffffffff" text_shadow_alpha="1.0" text_shadow_dcolor="ff000000" text_shadow_x="0" text_shadow_y="0" text_size="22" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="688" x="15.0" y="6.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UETextBoxHtml>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="74" local_bounds="0,0,383,74" lock="false" name="Cvs_bosshp" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="383" x="290.0" y="6.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/img_bossframe.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEGauge ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" gaugeMax="100.0" gaugeMin="0.0" gaugeValue="100.0" height="15" local_bounds="0,0,292,15" lock="false" name="jindu_bosshp" render_orientation="LEFT_2_RIGHT" showPercent="false" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="292" x="45.0" y="25.0" z="0.0">
+<custom_layout_up bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/img_bosshp2.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UEGauge>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="43" imageAtlas="" imagePath="" local_bounds="0,0,46,43" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="46" x="167.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="-9.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/img_bossicon.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="200" local_bounds="0,0,120,200" lock="false" name="Cvs_hp&amp;skill" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="120" x="840.0" y="168.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="62" local_bounds="0,0,62,62" lock="false" name="Cvs_xueping" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="62" x="34.0" y="9.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/img_addtili.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="58" imageAtlas="" imagePath="" local_bounds="0,0,58,58" lock="false" name="img_hp" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="58" x="2.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="2.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="Icon/Icon_item_yaoshui002.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEGauge ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" gaugeMax="100.0" gaugeMin="0.0" gaugeValue="100.0" height="62" local_bounds="0,0,62,62" lock="false" name="lengque" render_orientation="BOTTOM_2_TOP" showPercent="false" text="" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="62" x="2.0" y="2.0" z="0.0">
+<custom_layout_up bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/img_skillblack_000.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UEGauge>
+<com.g2d.studio.ui.edit.gui.UELabel ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="30" local_bounds="0,0,49,30" lock="false" name="Txt_number" text="×99" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="Serif,20,0" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="49" x="6.0" y="31.0" z="0.0"/>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UECanvas clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="82" local_bounds="0,0,82,82" lock="false" name="Cvs_bisha" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="82" x="-301.0" y="79.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+<childs>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="100" imageAtlas="" imagePath="" local_bounds="0,0,100,100" lock="false" name="" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="100" x="0.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/img_bishaji_03.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEGauge ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" gaugeMax="100.0" gaugeMin="0.0" gaugeValue="100.0" height="82" local_bounds="0,0,82,82" lock="false" name="nuqi_jindu" render_orientation="LEFT_2_RIGHT" showPercent="true" text="UEGauge" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="82" x="8.0" y="-90.0" z="0.0">
+<custom_layout_up bdc="ff000000" bgc="ffc0c0c0" clip="8" img="Icon/Icon_skill_306.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+<layout bdc="ff000000" bgc="ffc0c0c0" style="NULL"/>
+</com.g2d.studio.ui.edit.gui.UEGauge>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="109" imageAtlas="" imagePath="" local_bounds="0,0,111,109" lock="false" name="Box_icon" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="111" x="70.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="dynamic/zhandou/img_bishaji_01.png" repeat="false" style="IMAGE_STYLE_BACK_4_CENTER"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="60" imageAtlas="" imagePath="" local_bounds="0,0,61,60" lock="false" name="Icon_skill" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="61" x="-60.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="0.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" clip="8" img="Icon/Icon_skill_bsj001.png" repeat="false" style="IMAGE_STYLE_BACK_4"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+<com.g2d.studio.ui.edit.gui.UEImageBox clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" height="109" imageAtlas="" imagePath="" local_bounds="0,0,111,109" lock="false" name="Effect_bisha" preferredSize="false" uiAnchor="" uiEffect="" userData="" userTag="0" visible="false" visible_content="true" width="111" x="-19.0" x_rotate="0.0" x_scaleX="100.0" x_scaleY="100.0" y="-10.0" z="0.0">
+<layout bdc="ff000000" bgc="ffc0c0c0" sprite="@dynamic/zhandou/bishaji/output/bishaji.xml|bishaji|bishaji|0" style="SPRITE"/>
+</com.g2d.studio.ui.edit.gui.UEImageBox>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+</childs>
+</com.g2d.studio.ui.edit.gui.UECanvas>
+<com.g2d.studio.ui.edit.gui.UEGauge ImageFont="" clip_local_bounds="false" clipbounds="false" enable="true" enable_childs="true" gaugeMax="100.0" gaugeMin="0.0" gaugeValue="50.0" height="18" local_bounds="0,0,133,18" lock="false" name="jianqujindu" render_orientation="LEFT_2_RIGHT" showPercent="true" text="UEGauge" textBorderAlpha="100.0" textBorderColor="ff000000" textColor="ffffffff" textFont="" textFontSize="" text_anchor="C_C" text_offset_x="0" text_offset_y="0" uiAnchor="" uiEffect="" userData="" userTag="0" visible="true" visible_content="true" width="133" x="188.0" y="377.0" z="0.0"/>
+</childs>
+</com.g2d.studio.ui.edit.gui.UERoot>

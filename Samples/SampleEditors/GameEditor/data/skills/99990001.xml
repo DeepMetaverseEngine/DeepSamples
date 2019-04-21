@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkillTemplate type="DeepCore.GameData.Zone.SkillTemplate">
+  <ActionPriority>0</ActionPriority>
+  <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionData">
+    <element>
+      <BodyBlockOnAttackRange>True</BodyBlockOnAttackRange>
+      <BodyHitNextAction>False</BodyHitNextAction>
+      <BodyHitSize>0.00</BodyHitSize>
+      <IsCancelable>False</IsCancelable>
+      <IsCancelableBySkill>False</IsCancelableBySkill>
+      <IsControlFaceable>False</IsControlFaceable>
+      <IsControlMoveable>False</IsControlMoveable>
+      <IsCycAction>False</IsCycAction>
+      <IsFaceToTarget>False</IsFaceToTarget>
+      <IsInvisible>False</IsInvisible>
+      <IsJumpToTarget>False</IsJumpToTarget>
+      <IsMoveToTarget>False</IsMoveToTarget>
+      <IsNoneBlock>False</IsNoneBlock>
+      <IsNoneTouch>False</IsNoneTouch>
+      <JumpToTargetHeightZ>3.00</JumpToTargetHeightZ>
+      <KeyFrames element_type="DeepCore.GameData.Zone.UnitActionData+KeyFrame" />
+      <MoveToTargetSpeedSEC>10.00</MoveToTargetSpeedSEC>
+      <TargetOffset>0.00</TargetOffset>
+      <TargetPos>Body</TargetPos>
+      <TotalTimeMS>0</TotalTimeMS>
+    </element>
+    <element>
+      <BodyBlockOnAttackRange>True</BodyBlockOnAttackRange>
+      <BodyHitNextAction>False</BodyHitNextAction>
+      <BodyHitSize>0.00</BodyHitSize>
+      <IsCancelable>False</IsCancelable>
+      <IsCancelableBySkill>False</IsCancelableBySkill>
+      <IsControlFaceable>False</IsControlFaceable>
+      <IsControlMoveable>False</IsControlMoveable>
+      <IsCycAction>False</IsCycAction>
+      <IsFaceToTarget>False</IsFaceToTarget>
+      <IsInvisible>False</IsInvisible>
+      <IsJumpToTarget>False</IsJumpToTarget>
+      <IsMoveToTarget>False</IsMoveToTarget>
+      <IsNoneBlock>False</IsNoneBlock>
+      <IsNoneTouch>False</IsNoneTouch>
+      <JumpToTargetHeightZ>3.00</JumpToTargetHeightZ>
+      <KeyFrames element_type="DeepCore.GameData.Zone.UnitActionData+KeyFrame" />
+      <MoveToTargetSpeedSEC>10.00</MoveToTargetSpeedSEC>
+      <TargetOffset>0.00</TargetOffset>
+      <TargetPos>Body</TargetPos>
+      <TotalTimeMS>0</TotalTimeMS>
+    </element>
+  </ActionQueue>
+  <ActionSpeedRate>1.00</ActionSpeedRate>
+  <AttackAngle>0.00</AttackAngle>
+  <AttackFollowRange>0.00</AttackFollowRange>
+  <AttackKeepRange>2.00</AttackKeepRange>
+  <AttackMustBeInRange>True</AttackMustBeInRange>
+  <AttackRange>10.00</AttackRange>
+  <BodyScale>1.00</BodyScale>
+  <ChantTimeMS>0</ChantTimeMS>
+  <CoolDownMS>0</CoolDownMS>
+  <CostHP>0</CostHP>
+  <CostMP>0</CostMP>
+  <ExpectTarget>Enemy</ExpectTarget>
+  <ID>99990001</ID>
+  <IsCoolDownWithAction>True</IsCoolDownWithAction>
+  <IsCounter>False</IsCounter>
+  <IsLaunchBody>True</IsLaunchBody>
+  <IsManuallyCancelable>False</IsManuallyCancelable>
+  <IsSelectRange>False</IsSelectRange>
+  <IsSingleAction>False</IsSingleAction>
+  <Name>冲锋-战士</Name>
+  <Properties type="SampleBattle.Plugins.SampleSkillProperties" />
+  <SelectRangeSize>0.00</SelectRangeSize>
+  <SelectRangeType>NA</SelectRangeType>
+  <SingleActionCoolDownMS>100</SingleActionCoolDownMS>
+  <property.EditorPath>技能/00_zyf_test/冲锋-战士(99990001)</property.EditorPath>
+</SkillTemplate>

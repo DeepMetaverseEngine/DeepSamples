@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entry>
+<!--
+<OUTPUT>		.\output\effect.xml
+<IMAGE_OUTPUT>	.\output\
+<FORMAT_NUMBER_ARRAY_1D>    <>,
+<FORMAT_STRING_ARRAY_1D>	<>,
+<FORMAT_ARRAY_1D>			<>,
+<FORMAT_ARRAY_2D>			{<>},
+<FIXED_STRING_ARRAY>		char,
+-->
+<IMAGE_TYPE>png
+</IMAGE_TYPE>
+<IMAGE_TILE>false
+</IMAGE_TILE>
+<IMAGE_GROUP>true
+</IMAGE_GROUP>
+
+
+<resource images_count="1" map_count="0" sprite_count="1" >
+	
+	
+  <!--
+  <IGNORE_NULL_CLIP> true
+  -->
+	<images index="0" name="Juqing_effect" size="16" 
+		all_width="1964" 
+		all_height="981"
+		total_split="0"
+		output_type=""
+		output_file="">
+		
+		<clip index="0" x="392" y="823" width="377" height="150" data="0" />
+		<clip index="1" x="389" y="561" width="389" height="260" data="1" />
+		<clip index="2" x="0" y="561" width="389" height="274" data="2" />
+		<clip index="3" x="1196" y="557" width="406" height="278" data="3" />
+		<clip index="4" x="1285" y="0" width="425" height="281" data="4" />
+		<clip index="5" x="430" y="280" width="425" height="281" data="5" />
+		<clip index="6" x="0" y="0" width="430" height="281" data="6" />
+		<clip index="7" x="860" y="0" width="425" height="281" data="7" />
+		<clip index="8" x="430" y="0" width="430" height="280" data="8" />
+		<clip index="9" x="0" y="281" width="425" height="280" data="9" />
+		<clip index="10" x="855" y="281" width="425" height="276" data="10" />
+		<clip index="11" x="1280" y="281" width="418" height="275" data="11" />
+		<clip index="12" x="778" y="561" width="418" height="268" data="12" />
+		<clip index="13" x="1604" y="559" width="360" height="260" data="13" />
+		<clip index="14" x="1" y="897" width="346" height="84" data="14" />
+		<clip index="15" x="1" y="837" width="296" height="60" data="15" />
+		<Append data="0,," />
+    <ImageInfo>
+      
+    </ImageInfo>
+	</images>
+	
+
+	
+	
+	
+	
+	<sprite index="0" name="Juqing_effect"
+		images_name="Juqing_effect"
+		scene_part_count="16"
+		scene_frame_count="16"
+		cd_part_count="0"
+		cd_frame_count="1"
+		animate_count="1"
+		complexMode="True">
+		
+		<scene_part index="0" tile="0" x="-188" y="-75" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="1" tile="1" x="-194" y="-130" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="2" tile="2" x="-194" y="-137" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="3" tile="3" x="-203" y="-139" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="4" tile="4" x="-212" y="-140" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="5" tile="5" x="-212" y="-140" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="6" tile="6" x="-215" y="-140" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="7" tile="7" x="-212" y="-140" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="8" tile="8" x="-215" y="-140" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="9" tile="9" x="-212" y="-140" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="10" tile="10" x="-212" y="-138" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="11" tile="11" x="-209" y="-137" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="12" tile="12" x="-209" y="-134" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="13" tile="13" x="-180" y="-130" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="14" tile="14" x="-173" y="-42" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		<scene_part index="15" tile="15" x="-148" y="-30" z="0" trans="0" alpha="1" rotate="0" scaleX="1" scaleY="1" shearX="0" shearY="0" />
+		
+		<scene_frame index="0" data_size="1" data="0," />
+		<scene_frame index="1" data_size="1" data="1," />
+		<scene_frame index="2" data_size="1" data="2," />
+		<scene_frame index="3" data_size="1" data="3," />
+		<scene_frame index="4" data_size="1" data="4," />
+		<scene_frame index="5" data_size="1" data="5," />
+		<scene_frame index="6" data_size="1" data="6," />
+		<scene_frame index="7" data_size="1" data="7," />
+		<scene_frame index="8" data_size="1" data="8," />
+		<scene_frame index="9" data_size="1" data="9," />
+		<scene_frame index="10" data_size="1" data="10," />
+		<scene_frame index="11" data_size="1" data="11," />
+		<scene_frame index="12" data_size="1" data="12," />
+		<scene_frame index="13" data_size="1" data="13," />
+		<scene_frame index="14" data_size="1" data="14," />
+		<scene_frame index="15" data_size="1" data="15," />
+		
+		
+		<cd_frame index="0" data_size="0" data="" />
+		<frames 
+			counts="32," 
+			names="4,0000," 
+			animates="{0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,},"
+			cd_map="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_atk="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_def="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			cd_ext="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			alpha="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			rotate="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			scaleX="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			scaleY="{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,},"
+			shearX="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			shearY="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},"
+			fdata="{0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,},"
+		/>
+		<Append data="0,," />
+	</sprite>
+	
+
+	
+</resource>
+
+
+
+<level world_count="0" >
+
+	
+	
+</level>
+
+
+
+
+</entry>
+
+
+
+
+

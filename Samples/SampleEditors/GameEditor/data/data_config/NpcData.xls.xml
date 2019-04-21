@@ -1,0 +1,773 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workbook name="NpcData.xls">
+  <sheet name="NpcList">
+    <row r="0">
+      <cell r="0" c="0">NPC编号</cell>
+      <cell r="0" c="1">NPC名字</cell>
+      <cell r="0" c="2">副名字/称号</cell>
+      <cell r="0" c="3">备注</cell>
+      <cell r="0" c="4">所属阵营</cell>
+      <cell r="0" c="5">性别</cell>
+      <cell r="0" c="6">等级</cell>
+      <cell r="0" c="7">是否为治愈NPC</cell>
+      <cell r="0" c="8">功能ID</cell>
+      <cell r="0" c="9">备注</cell>
+      <cell r="0" c="10">默认对白</cell>
+      <cell r="0" c="11">默认对白配音文件</cell>
+      <cell r="0" c="12">随机旁白配音文件</cell>
+      <cell r="0" c="13">随机旁白</cell>
+      <cell r="0" c="14">3D模型文件</cell>
+      <cell r="0" c="15">备注</cell>
+      <cell r="0" c="16">半身像</cell>
+      <cell r="0" c="17">称号图标</cell>
+    </row>
+    <row r="1">
+      <cell r="1" c="0">NpcID</cell>
+      <cell r="1" c="1">Name</cell>
+      <cell r="1" c="2">Title</cell>
+      <cell r="1" c="3">@Remark</cell>
+      <cell r="1" c="4">Race</cell>
+      <cell r="1" c="5">Sex</cell>
+      <cell r="1" c="6">Level</cell>
+      <cell r="1" c="7">isCure</cell>
+      <cell r="1" c="8">FunID</cell>
+      <cell r="1" c="9">@Remark</cell>
+      <cell r="1" c="10">Dialog</cell>
+      <cell r="1" c="11">DialogFile</cell>
+      <cell r="1" c="12">TalkFiles</cell>
+      <cell r="1" c="13">@Remark</cell>
+      <cell r="1" c="14">ModelFile</cell>
+      <cell r="1" c="15">@Remark</cell>
+      <cell r="1" c="16">bust</cell>
+      <cell r="1" c="17">icon</cell>
+    </row>
+    <row r="2">
+      <cell r="2" c="0">NUMBER</cell>
+      <cell r="2" c="1">STRING</cell>
+      <cell r="2" c="2">STRING</cell>
+      <cell r="2" c="4">NUMBER</cell>
+      <cell r="2" c="5">NUMBER</cell>
+      <cell r="2" c="6">NUMBER</cell>
+      <cell r="2" c="7">NUMBER</cell>
+      <cell r="2" c="8">STRING</cell>
+      <cell r="2" c="10">STRING</cell>
+      <cell r="2" c="11">STRING</cell>
+      <cell r="2" c="12">STRING</cell>
+      <cell r="2" c="14">STRING</cell>
+      <cell r="2" c="16">NUMBER</cell>
+      <cell r="2" c="17">STRING</cell>
+    </row>
+    <row r="3">
+      <cell r="3" c="0">20001</cell>
+      <cell r="3" c="1">埃里克队长</cell>
+      <cell r="3" c="2">卫兵队长</cell>
+      <cell r="3" c="4">1</cell>
+      <cell r="3" c="5">0</cell>
+      <cell r="3" c="6">99</cell>
+      <cell r="3" c="7">0</cell>
+      <cell r="3" c="8">2000101</cell>
+      <cell r="3" c="9">demo场景任务给与npc</cell>
+      <cell r="3" c="10">专心致志！</cell>
+      <cell r="3" c="13">英勇作战！|多流汗，少流血|我会把我的弟兄们全都带回去。</cell>
+      <cell r="3" c="14">22901_eric</cell>
+      <cell r="3" c="16">22901</cell>
+      <cell r="3" c="17">task001</cell>
+    </row>
+    <row r="4">
+      <cell r="4" c="0">20002</cell>
+      <cell r="4" c="1">奥尼</cell>
+      <cell r="4" c="2">村长</cell>
+      <cell r="4" c="4">1</cell>
+      <cell r="4" c="5">0</cell>
+      <cell r="4" c="6">99</cell>
+      <cell r="4" c="7">1</cell>
+      <cell r="4" c="8">2000201,2000202,2000203</cell>
+      <cell r="4" c="9">demo场景任务给与npc</cell>
+      <cell r="4" c="10">今天你吃了吗？</cell>
+      <cell r="4" c="13">你准备好了吗，英雄？|我们受了很多苦，不过这一天终将会过去。|我会让村子变的好起来的。</cell>
+      <cell r="4" c="14">22902_embla</cell>
+      <cell r="4" c="16">22902</cell>
+      <cell r="4" c="17">task001</cell>
+    </row>
+    <row r="5">
+      <cell r="5" c="0">20007</cell>
+      <cell r="5" c="1">艾琳</cell>
+      <cell r="5" c="2">珠宝工匠</cell>
+      <cell r="5" c="4">1</cell>
+      <cell r="5" c="5">1</cell>
+      <cell r="5" c="6">99</cell>
+      <cell r="5" c="7">0</cell>
+      <cell r="5" c="8">2000701,2000702</cell>
+      <cell r="5" c="9">demo场景任务给与npc</cell>
+      <cell r="5" c="10">不要耽搁我做事。</cell>
+      <cell r="5" c="13">切割宝石可不能只用蛮力。|你最喜欢什么宝石？|如果你能找到我不认识的宝石，我会给你优惠的。</cell>
+      <cell r="5" c="14">22907_vieka</cell>
+      <cell r="5" c="16">22907</cell>
+      <cell r="5" c="17">task001</cell>
+    </row>
+    <row r="6">
+      <cell r="6" c="0">20008</cell>
+      <cell r="6" c="1">东凯</cell>
+      <cell r="6" c="2">杂货商</cell>
+      <cell r="6" c="4">1</cell>
+      <cell r="6" c="5">0</cell>
+      <cell r="6" c="6">99</cell>
+      <cell r="6" c="7">0</cell>
+      <cell r="6" c="8">2000201,2000203,2000801,2000802</cell>
+      <cell r="6" c="9">demo场景任务给与npc</cell>
+      <cell r="6" c="10">time is money ！</cell>
+      <cell r="6" c="13">我走过很多地方，有很多人认识我。|你想挑点好东西吗？|讨价还价可不是好习惯。</cell>
+      <cell r="6" c="14">22904_donkey</cell>
+      <cell r="6" c="16">22904</cell>
+      <cell r="6" c="17">task001</cell>
+    </row>
+    <row r="7">
+      <cell r="7" c="0">10001101</cell>
+      <cell r="7" c="1">埃里克少尉</cell>
+      <cell r="7" c="3">格伦营地</cell>
+      <cell r="7" c="5">0</cell>
+      <cell r="7" c="6">99</cell>
+      <cell r="7" c="7">0</cell>
+      <cell r="7" c="14">22901_eric</cell>
+      <cell r="7" c="15">替</cell>
+    </row>
+    <row r="8">
+      <cell r="8" c="0">10001102</cell>
+      <cell r="8" c="1">飞艇</cell>
+      <cell r="8" c="3">格伦营地</cell>
+      <cell r="8" c="5">2</cell>
+      <cell r="8" c="6">99</cell>
+      <cell r="8" c="7">0</cell>
+      <cell r="8" c="9"></cell>
+      <cell r="8" c="14">22001_goblinminer</cell>
+      <cell r="8" c="15">替</cell>
+    </row>
+    <row r="9">
+      <cell r="9" c="0">10001103</cell>
+      <cell r="9" c="1">士兵莫多</cell>
+      <cell r="9" c="3">格伦营地</cell>
+      <cell r="9" c="5">0</cell>
+      <cell r="9" c="6">99</cell>
+      <cell r="9" c="7">0</cell>
+      <cell r="9" c="9"></cell>
+      <cell r="9" c="14">22931_guard</cell>
+    </row>
+    <row r="10">
+      <cell r="10" c="0">10001104</cell>
+      <cell r="10" c="1">尼尔</cell>
+      <cell r="10" c="3">格伦营地</cell>
+      <cell r="10" c="5">0</cell>
+      <cell r="10" c="6">99</cell>
+      <cell r="10" c="7">0</cell>
+      <cell r="10" c="9"></cell>
+      <cell r="10" c="14">32019_woundedsoldier</cell>
+    </row>
+    <row r="11">
+      <cell r="11" c="0">10001201</cell>
+      <cell r="11" c="1">克里夫</cell>
+      <cell r="11" c="3">远征军营地</cell>
+      <cell r="11" c="5">0</cell>
+      <cell r="11" c="6">99</cell>
+      <cell r="11" c="7">0</cell>
+      <cell r="11" c="14">22001_goblinminer</cell>
+      <cell r="11" c="15">替</cell>
+    </row>
+    <row r="12">
+      <cell r="12" c="0">10001202</cell>
+      <cell r="12" c="1">埃里克少尉</cell>
+      <cell r="12" c="3">远征军营地</cell>
+      <cell r="12" c="5">0</cell>
+      <cell r="12" c="6">99</cell>
+      <cell r="12" c="7">0</cell>
+      <cell r="12" c="14">22901_eric</cell>
+      <cell r="12" c="15">替</cell>
+    </row>
+    <row r="13">
+      <cell r="13" c="0">10001203</cell>
+      <cell r="13" c="1">提诺</cell>
+      <cell r="13" c="3">远征军营地</cell>
+      <cell r="13" c="5">0</cell>
+      <cell r="13" c="6">99</cell>
+      <cell r="13" c="7">0</cell>
+      <cell r="13" c="9">营地门口</cell>
+      <cell r="13" c="14">22001_goblinminer</cell>
+      <cell r="13" c="15">替</cell>
+    </row>
+    <row r="14">
+      <cell r="14" c="0">10001204</cell>
+      <cell r="14" c="1">药剂NPC</cell>
+      <cell r="14" c="3">远征军营地</cell>
+      <cell r="14" c="5">1</cell>
+      <cell r="14" c="6">99</cell>
+      <cell r="14" c="7">0</cell>
+      <cell r="14" c="14">22901</cell>
+    </row>
+    <row r="15">
+      <cell r="15" c="0">10001205</cell>
+      <cell r="15" c="1">装备NPC</cell>
+      <cell r="15" c="3">远征军营地</cell>
+      <cell r="15" c="5">0</cell>
+      <cell r="15" c="6">99</cell>
+      <cell r="15" c="7">0</cell>
+      <cell r="15" c="14">22903_lovisa</cell>
+    </row>
+    <row r="16">
+      <cell r="16" c="0">10001206</cell>
+      <cell r="16" c="1">兑换NPC</cell>
+      <cell r="16" c="3">远征军营地</cell>
+      <cell r="16" c="5">1</cell>
+      <cell r="16" c="6">99</cell>
+      <cell r="16" c="7">0</cell>
+      <cell r="16" c="14">22001_goblinminer</cell>
+      <cell r="16" c="15">替</cell>
+    </row>
+    <row r="17">
+      <cell r="17" c="0">10001207</cell>
+      <cell r="17" c="1">活动NPC</cell>
+      <cell r="17" c="3">远征军营地</cell>
+      <cell r="17" c="5">2</cell>
+      <cell r="17" c="6">99</cell>
+      <cell r="17" c="7">0</cell>
+      <cell r="17" c="14">22001_goblinminer</cell>
+      <cell r="17" c="15">替</cell>
+      <cell r="17" c="22"></cell>
+    </row>
+    <row r="18">
+      <cell r="18" c="0">10001208</cell>
+      <cell r="18" c="1">马夫东尼</cell>
+      <cell r="18" c="3">远征军营地</cell>
+      <cell r="18" c="5">0</cell>
+      <cell r="18" c="6">99</cell>
+      <cell r="18" c="7">0</cell>
+      <cell r="18" c="14">22905_krimhild</cell>
+      <cell r="18" c="22"></cell>
+    </row>
+    <row r="19">
+      <cell r="19" c="0">10001209</cell>
+      <cell r="19" c="1">士兵</cell>
+      <cell r="19" c="3">远征军营地</cell>
+      <cell r="19" c="5">0</cell>
+      <cell r="19" c="6">99</cell>
+      <cell r="19" c="7">0</cell>
+      <cell r="19" c="14">22931_guard</cell>
+      <cell r="19" c="22"></cell>
+    </row>
+    <row r="20">
+      <cell r="20" c="0">10001210</cell>
+      <cell r="20" c="1">伤员</cell>
+      <cell r="20" c="3">远征军营地</cell>
+      <cell r="20" c="5">0</cell>
+      <cell r="20" c="6">99</cell>
+      <cell r="20" c="7">0</cell>
+      <cell r="20" c="14">22908_osen</cell>
+      <cell r="20" c="22"></cell>
+    </row>
+    <row r="21">
+      <cell r="21" c="0">10001301</cell>
+      <cell r="21" c="1">药剂NPC</cell>
+      <cell r="21" c="3">兽人营地</cell>
+      <cell r="21" c="5">1</cell>
+      <cell r="21" c="6">99</cell>
+      <cell r="21" c="7">0</cell>
+      <cell r="21" c="14">22901</cell>
+    </row>
+    <row r="22">
+      <cell r="22" c="0">21001101</cell>
+      <cell r="22" c="1">提诺</cell>
+      <cell r="22" c="3">兽人洞穴</cell>
+      <cell r="22" c="5">0</cell>
+      <cell r="22" c="6">99</cell>
+      <cell r="22" c="7">0</cell>
+      <cell r="22" c="9">支援APC</cell>
+      <cell r="22" c="14">22001_goblinminer</cell>
+      <cell r="22" c="15">替</cell>
+      <cell r="22" c="22"></cell>
+    </row>
+    <row r="23">
+      <cell r="23" c="0">21001102</cell>
+      <cell r="23" c="1">提诺</cell>
+      <cell r="23" c="3">兽人洞穴</cell>
+      <cell r="23" c="5">0</cell>
+      <cell r="23" c="6">99</cell>
+      <cell r="23" c="7">0</cell>
+      <cell r="23" c="9">支援APC</cell>
+      <cell r="23" c="14">22001_goblinminer</cell>
+      <cell r="23" c="15">替</cell>
+      <cell r="23" c="22"></cell>
+    </row>
+    <row r="24">
+      <cell r="24" c="0">10002101</cell>
+      <cell r="24" c="1">杰西卡</cell>
+      <cell r="24" c="3">熔炉镇</cell>
+      <cell r="24" c="5">1</cell>
+      <cell r="24" c="6">99</cell>
+      <cell r="24" c="7">0</cell>
+      <cell r="24" c="14">22001_goblinminer</cell>
+      <cell r="24" c="15">替</cell>
+    </row>
+    <row r="25">
+      <cell r="25" c="0">10002102</cell>
+      <cell r="25" c="1">药剂NPC</cell>
+      <cell r="25" c="3">熔炉镇</cell>
+      <cell r="25" c="5">1</cell>
+      <cell r="25" c="6">99</cell>
+      <cell r="25" c="7">0</cell>
+      <cell r="25" c="14">22901</cell>
+      <cell r="25" c="22"></cell>
+    </row>
+    <row r="26">
+      <cell r="26" c="0">10002103</cell>
+      <cell r="26" c="1">装备NPC</cell>
+      <cell r="26" c="3">熔炉镇</cell>
+      <cell r="26" c="5">0</cell>
+      <cell r="26" c="6">99</cell>
+      <cell r="26" c="7">0</cell>
+      <cell r="26" c="14">22903_lovisa</cell>
+    </row>
+    <row r="27">
+      <cell r="27" c="0">10002104</cell>
+      <cell r="27" c="1">兑换NPC</cell>
+      <cell r="27" c="3">熔炉镇</cell>
+      <cell r="27" c="6">99</cell>
+      <cell r="27" c="7">0</cell>
+      <cell r="27" c="14">22001_goblinminer</cell>
+      <cell r="27" c="15">替</cell>
+    </row>
+    <row r="28">
+      <cell r="28" c="0">10002105</cell>
+      <cell r="28" c="1">活动NPC</cell>
+      <cell r="28" c="3">熔炉镇</cell>
+      <cell r="28" c="6">99</cell>
+      <cell r="28" c="7">0</cell>
+      <cell r="28" c="14">22001_goblinminer</cell>
+      <cell r="28" c="15">替</cell>
+    </row>
+    <row r="29">
+      <cell r="29" c="0">10002106</cell>
+      <cell r="29" c="1">黑市NPC</cell>
+      <cell r="29" c="2"></cell>
+      <cell r="29" c="3">熔炉镇</cell>
+      <cell r="29" c="4"></cell>
+      <cell r="29" c="5"></cell>
+      <cell r="29" c="6">99</cell>
+      <cell r="29" c="7">0</cell>
+      <cell r="29" c="8"></cell>
+      <cell r="29" c="9"></cell>
+      <cell r="29" c="10"></cell>
+      <cell r="29" c="11"></cell>
+      <cell r="29" c="12"></cell>
+      <cell r="29" c="13"></cell>
+      <cell r="29" c="14">22904_donkey</cell>
+    </row>
+    <row r="30">
+      <cell r="30" c="0">10002107</cell>
+      <cell r="30" c="1">拉斐尔</cell>
+      <cell r="30" c="3">熔炉镇</cell>
+      <cell r="30" c="6">99</cell>
+      <cell r="30" c="7">0</cell>
+      <cell r="30" c="9">翅膀管理员</cell>
+      <cell r="30" c="14">22001_goblinminer</cell>
+      <cell r="30" c="15">替</cell>
+    </row>
+    <row r="31">
+      <cell r="31" c="0">10002301</cell>
+      <cell r="31" c="1">戴尔米</cell>
+      <cell r="31" c="3">开拓者墓地</cell>
+      <cell r="31" c="6">99</cell>
+      <cell r="31" c="7">0</cell>
+      <cell r="31" c="14">41101</cell>
+    </row>
+    <row r="32">
+      <cell r="32" c="0">10002401</cell>
+      <cell r="32" c="1">特斯洛</cell>
+      <cell r="32" c="3">魔影森林</cell>
+      <cell r="32" c="6">99</cell>
+      <cell r="32" c="7">0</cell>
+      <cell r="32" c="14">22001_goblinminer</cell>
+      <cell r="32" c="15">替</cell>
+    </row>
+    <row r="33">
+      <cell r="33" c="0">60001101</cell>
+      <cell r="33" c="1">拉斐尔</cell>
+      <cell r="33" c="3">水晶矿洞</cell>
+      <cell r="33" c="6">99</cell>
+      <cell r="33" c="7">0</cell>
+      <cell r="33" c="9">出来废话的APC大天使，送翅膀的</cell>
+      <cell r="33" c="14">22001_goblinminer</cell>
+      <cell r="33" c="15">替</cell>
+    </row>
+    <row r="34">
+      <cell r="34" c="0">10003101</cell>
+      <cell r="34" c="1">克莱尔</cell>
+      <cell r="34" c="3">海格市荣耀军团</cell>
+      <cell r="34" c="6">99</cell>
+      <cell r="34" c="7">0</cell>
+      <cell r="34" c="9">放在路中央，根据剧情他就在营地中央</cell>
+      <cell r="34" c="14">22001_goblinminer</cell>
+      <cell r="34" c="15">替</cell>
+    </row>
+    <row r="35">
+      <cell r="35" c="0">10003102</cell>
+      <cell r="35" c="1">药剂NPC</cell>
+      <cell r="35" c="3">海格市荣耀军团</cell>
+      <cell r="35" c="6">99</cell>
+      <cell r="35" c="7">0</cell>
+      <cell r="35" c="14">22901</cell>
+    </row>
+    <row r="36">
+      <cell r="36" c="0">10003103</cell>
+      <cell r="36" c="1">装备NPC</cell>
+      <cell r="36" c="3">海格市荣耀军团</cell>
+      <cell r="36" c="6">99</cell>
+      <cell r="36" c="7">0</cell>
+      <cell r="36" c="14">22903_lovisa</cell>
+    </row>
+    <row r="37">
+      <cell r="37" c="0">10003104</cell>
+      <cell r="37" c="1">兑换NPC</cell>
+      <cell r="37" c="3">海格市荣耀军团</cell>
+      <cell r="37" c="6">99</cell>
+      <cell r="37" c="7">0</cell>
+      <cell r="37" c="14">22001_goblinminer</cell>
+      <cell r="37" c="15">替</cell>
+    </row>
+    <row r="38">
+      <cell r="38" c="0">10003105</cell>
+      <cell r="38" c="1">活动NPC</cell>
+      <cell r="38" c="3">海格市荣耀军团</cell>
+      <cell r="38" c="6">99</cell>
+      <cell r="38" c="7">0</cell>
+      <cell r="38" c="14">22001_goblinminer</cell>
+      <cell r="38" c="15">替</cell>
+    </row>
+    <row r="39">
+      <cell r="39" c="0">10003106</cell>
+      <cell r="39" c="1">黑市NPC</cell>
+      <cell r="39" c="3">海格市荣耀军团</cell>
+      <cell r="39" c="6">99</cell>
+      <cell r="39" c="7">0</cell>
+      <cell r="39" c="14">22904_donkey</cell>
+    </row>
+    <row r="40">
+      <cell r="40" c="0">10003107</cell>
+      <cell r="40" c="1">坐骑管理员</cell>
+      <cell r="40" c="3">海格市荣耀军团</cell>
+      <cell r="40" c="6">99</cell>
+      <cell r="40" c="7">0</cell>
+      <cell r="40" c="14">22905_krimhild</cell>
+    </row>
+    <row r="41">
+      <cell r="41" c="0">10003108</cell>
+      <cell r="41" c="1">拉斐尔</cell>
+      <cell r="41" c="3">海格市荣耀军团</cell>
+      <cell r="41" c="6">99</cell>
+      <cell r="41" c="7">0</cell>
+      <cell r="41" c="14">22001_goblinminer</cell>
+      <cell r="41" c="15">替</cell>
+    </row>
+    <row r="42">
+      <cell r="42" c="0">10003201</cell>
+      <cell r="42" c="1">飞艇</cell>
+      <cell r="42" c="3">海格市铁血军团</cell>
+      <cell r="42" c="6">99</cell>
+      <cell r="42" c="7">0</cell>
+      <cell r="42" c="14">22001_goblinminer</cell>
+      <cell r="42" c="15">替</cell>
+    </row>
+    <row r="43">
+      <cell r="43" c="0">10003202</cell>
+      <cell r="43" c="1">药剂NPC</cell>
+      <cell r="43" c="3">海格市铁血军团</cell>
+      <cell r="43" c="6">99</cell>
+      <cell r="43" c="7">0</cell>
+      <cell r="43" c="14">22901</cell>
+    </row>
+    <row r="44">
+      <cell r="44" c="0">10003203</cell>
+      <cell r="44" c="1">装备NPC</cell>
+      <cell r="44" c="3">海格市铁血军团</cell>
+      <cell r="44" c="6">99</cell>
+      <cell r="44" c="7">0</cell>
+      <cell r="44" c="14">22903_lovisa</cell>
+    </row>
+    <row r="45">
+      <cell r="45" c="0">10003204</cell>
+      <cell r="45" c="1">兑换NPC</cell>
+      <cell r="45" c="3">海格市铁血军团</cell>
+      <cell r="45" c="6">99</cell>
+      <cell r="45" c="7">0</cell>
+      <cell r="45" c="14">22001_goblinminer</cell>
+      <cell r="45" c="15">替</cell>
+    </row>
+    <row r="46">
+      <cell r="46" c="0">10003205</cell>
+      <cell r="46" c="1">活动NPC</cell>
+      <cell r="46" c="3">海格市铁血军团</cell>
+      <cell r="46" c="6">99</cell>
+      <cell r="46" c="7">0</cell>
+      <cell r="46" c="14">22001_goblinminer</cell>
+      <cell r="46" c="15">替</cell>
+    </row>
+    <row r="47">
+      <cell r="47" c="0">10003206</cell>
+      <cell r="47" c="1">黑市NPC</cell>
+      <cell r="47" c="3">海格市铁血军团</cell>
+      <cell r="47" c="6">99</cell>
+      <cell r="47" c="7">0</cell>
+      <cell r="47" c="14">22904_donkey</cell>
+    </row>
+    <row r="48">
+      <cell r="48" c="0">10003207</cell>
+      <cell r="48" c="1">坐骑管理员</cell>
+      <cell r="48" c="3">海格市铁血军团</cell>
+      <cell r="48" c="6">99</cell>
+      <cell r="48" c="7">0</cell>
+      <cell r="48" c="14">22905_krimhild</cell>
+    </row>
+    <row r="49">
+      <cell r="49" c="0">10003208</cell>
+      <cell r="49" c="1">拉斐尔</cell>
+      <cell r="49" c="3">海格市铁血军团</cell>
+      <cell r="49" c="6">99</cell>
+      <cell r="49" c="7">0</cell>
+      <cell r="49" c="14">22001_goblinminer</cell>
+      <cell r="49" c="15">替</cell>
+    </row>
+    <row r="50">
+      <cell r="50" c="0">20003101</cell>
+      <cell r="50" c="1">莉萨</cell>
+      <cell r="50" c="3">海格市</cell>
+      <cell r="50" c="6">99</cell>
+      <cell r="50" c="7">0</cell>
+      <cell r="50" c="9">支援的APC，牧师妹子</cell>
+      <cell r="50" c="14">22001_goblinminer</cell>
+      <cell r="50" c="15">替</cell>
+    </row>
+    <row r="51">
+      <cell r="51" c="0">10004101</cell>
+      <cell r="51" c="1">诺菲雕像</cell>
+      <cell r="51" c="3">王者之城</cell>
+      <cell r="51" c="6">99</cell>
+      <cell r="51" c="7">0</cell>
+      <cell r="51" c="9">国王雕像</cell>
+      <cell r="51" c="14">22001_goblinminer</cell>
+      <cell r="51" c="15">替</cell>
+    </row>
+    <row r="52">
+      <cell r="52" c="0">10004102</cell>
+      <cell r="52" c="1">特瑞克</cell>
+      <cell r="52" c="3">王者之城</cell>
+      <cell r="52" c="6">99</cell>
+      <cell r="52" c="7">0</cell>
+      <cell r="52" c="9">皇室</cell>
+      <cell r="52" c="14">22941_reinhardt</cell>
+    </row>
+    <row r="53">
+      <cell r="53" c="0">10004103</cell>
+      <cell r="53" c="1">药剂NPC</cell>
+      <cell r="53" c="3">王者之城</cell>
+      <cell r="53" c="6">99</cell>
+      <cell r="53" c="7">0</cell>
+      <cell r="53" c="9">商业区</cell>
+      <cell r="53" c="14">22901</cell>
+    </row>
+    <row r="54">
+      <cell r="54" c="0">10004104</cell>
+      <cell r="54" c="1">宠物NPC</cell>
+      <cell r="54" c="3">王者之城</cell>
+      <cell r="54" c="6">99</cell>
+      <cell r="54" c="7">0</cell>
+      <cell r="54" c="9">商业区</cell>
+      <cell r="54" c="14">22945_elf</cell>
+    </row>
+    <row r="55">
+      <cell r="55" c="0">10004105</cell>
+      <cell r="55" c="1">装备NPC</cell>
+      <cell r="55" c="3">王者之城</cell>
+      <cell r="55" c="6">99</cell>
+      <cell r="55" c="7">0</cell>
+      <cell r="55" c="9">商业区</cell>
+      <cell r="55" c="14">22903_lovisa</cell>
+    </row>
+    <row r="56">
+      <cell r="56" c="0">10004106</cell>
+      <cell r="56" c="1">兑换NPC</cell>
+      <cell r="56" c="3">王者之城</cell>
+      <cell r="56" c="6">99</cell>
+      <cell r="56" c="7">0</cell>
+      <cell r="56" c="9">商业区</cell>
+      <cell r="56" c="14">22001_goblinminer</cell>
+      <cell r="56" c="15">替</cell>
+    </row>
+    <row r="57">
+      <cell r="57" c="0">10004107</cell>
+      <cell r="57" c="1">荣誉NPC</cell>
+      <cell r="57" c="3">王者之城</cell>
+      <cell r="57" c="6">99</cell>
+      <cell r="57" c="7">0</cell>
+      <cell r="57" c="9">商业区</cell>
+      <cell r="57" c="14">22901_eric</cell>
+    </row>
+    <row r="58">
+      <cell r="58" c="0">10004108</cell>
+      <cell r="58" c="1">声望NPC</cell>
+      <cell r="58" c="3">王者之城</cell>
+      <cell r="58" c="6">99</cell>
+      <cell r="58" c="7">0</cell>
+      <cell r="58" c="9">商业区</cell>
+      <cell r="58" c="14">22912_wiglaf</cell>
+    </row>
+    <row r="59">
+      <cell r="59" c="0">10004109</cell>
+      <cell r="59" c="1">合成NPC</cell>
+      <cell r="59" c="3">王者之城</cell>
+      <cell r="59" c="6">99</cell>
+      <cell r="59" c="7">0</cell>
+      <cell r="59" c="9">商业区</cell>
+      <cell r="59" c="14">22907_vieka</cell>
+    </row>
+    <row r="60">
+      <cell r="60" c="0">10004110</cell>
+      <cell r="60" c="1">图纸NPC</cell>
+      <cell r="60" c="3">王者之城</cell>
+      <cell r="60" c="6">99</cell>
+      <cell r="60" c="7">0</cell>
+      <cell r="60" c="9">商业区</cell>
+      <cell r="60" c="14">22932_lady</cell>
+    </row>
+    <row r="61">
+      <cell r="61" c="0">10004111</cell>
+      <cell r="61" c="1">活动NPC</cell>
+      <cell r="61" c="3">王者之城</cell>
+      <cell r="61" c="6">99</cell>
+      <cell r="61" c="7">0</cell>
+      <cell r="61" c="9">商业区</cell>
+      <cell r="61" c="14">22001_goblinminer</cell>
+      <cell r="61" c="15">替</cell>
+    </row>
+    <row r="62">
+      <cell r="62" c="0">10004112</cell>
+      <cell r="62" c="1">竞技场NPC</cell>
+      <cell r="62" c="3">王者之城</cell>
+      <cell r="62" c="6">99</cell>
+      <cell r="62" c="7">0</cell>
+      <cell r="62" c="9">商业区</cell>
+      <cell r="62" c="14">22001_goblinminer</cell>
+      <cell r="62" c="15">替</cell>
+    </row>
+    <row r="63">
+      <cell r="63" c="0">10004113</cell>
+      <cell r="63" c="1">公会NPC</cell>
+      <cell r="63" c="3">王者之城</cell>
+      <cell r="63" c="6">99</cell>
+      <cell r="63" c="7">0</cell>
+      <cell r="63" c="9">商业区</cell>
+      <cell r="63" c="14">22902</cell>
+    </row>
+    <row r="64">
+      <cell r="64" c="0">10004114</cell>
+      <cell r="64" c="1">拍卖行NPC</cell>
+      <cell r="64" c="3">王者之城</cell>
+      <cell r="64" c="6">99</cell>
+      <cell r="64" c="7">0</cell>
+      <cell r="64" c="9">商业区</cell>
+      <cell r="64" c="14">22902_embla</cell>
+    </row>
+    <row r="65">
+      <cell r="65" c="0">10004115</cell>
+      <cell r="65" c="1">黑市NPC</cell>
+      <cell r="65" c="3">王者之城</cell>
+      <cell r="65" c="6">99</cell>
+      <cell r="65" c="7">0</cell>
+      <cell r="65" c="9">商业区</cell>
+      <cell r="65" c="14">22904_donkey</cell>
+    </row>
+    <row r="66">
+      <cell r="66" c="0">10004116</cell>
+      <cell r="66" c="1">银行NPC</cell>
+      <cell r="66" c="3">王者之城</cell>
+      <cell r="66" c="6">99</cell>
+      <cell r="66" c="7">0</cell>
+      <cell r="66" c="9">商业区</cell>
+      <cell r="66" c="14">22001_goblinminer</cell>
+      <cell r="66" c="15">替</cell>
+    </row>
+    <row r="67">
+      <cell r="67" c="0">10004117</cell>
+      <cell r="67" c="1">家族NPC</cell>
+      <cell r="67" c="3">王者之城</cell>
+      <cell r="67" c="6">99</cell>
+      <cell r="67" c="7">0</cell>
+      <cell r="67" c="9">商业区</cell>
+      <cell r="67" c="14">22932_oldman</cell>
+    </row>
+    <row r="68">
+      <cell r="68" c="0">10004118</cell>
+      <cell r="68" c="1">坐骑管理员</cell>
+      <cell r="68" c="3">王者之城</cell>
+      <cell r="68" c="6">99</cell>
+      <cell r="68" c="7">0</cell>
+      <cell r="68" c="9">商业区</cell>
+      <cell r="68" c="14">22905_krimhild</cell>
+    </row>
+    <row r="69">
+      <cell r="69" c="0">10004119</cell>
+      <cell r="69" c="1">巴特</cell>
+      <cell r="69" c="3">王者之城</cell>
+      <cell r="69" c="6">99</cell>
+      <cell r="69" c="7">0</cell>
+      <cell r="69" c="9">皇室</cell>
+      <cell r="69" c="14">22001_goblinminer</cell>
+      <cell r="69" c="15">替</cell>
+    </row>
+    <row r="70">
+      <cell r="70" c="0">10004120</cell>
+      <cell r="70" c="1">西姆</cell>
+      <cell r="70" c="3">王者之城</cell>
+      <cell r="70" c="6">99</cell>
+      <cell r="70" c="7">0</cell>
+      <cell r="70" c="9">皇室</cell>
+      <cell r="70" c="14">22001_goblinminer</cell>
+      <cell r="70" c="15">替</cell>
+    </row>
+    <row r="71">
+      <cell r="71" c="0">10004121</cell>
+      <cell r="71" c="1">罗杰斯</cell>
+      <cell r="71" c="3">王者之城</cell>
+      <cell r="71" c="6">99</cell>
+      <cell r="71" c="7">0</cell>
+      <cell r="71" c="9">荣耀</cell>
+      <cell r="71" c="14">22931_guard</cell>
+    </row>
+    <row r="72">
+      <cell r="72" c="0">10004122</cell>
+      <cell r="72" c="1">帕克</cell>
+      <cell r="72" c="3">王者之城</cell>
+      <cell r="72" c="6">99</cell>
+      <cell r="72" c="7">0</cell>
+      <cell r="72" c="9">荣耀</cell>
+      <cell r="72" c="14">22001_goblinminer</cell>
+      <cell r="72" c="15">替</cell>
+    </row>
+    <row r="73">
+      <cell r="73" c="0">10004123</cell>
+      <cell r="73" c="1">伊尔</cell>
+      <cell r="73" c="3">王者之城</cell>
+      <cell r="73" c="6">99</cell>
+      <cell r="73" c="7">0</cell>
+      <cell r="73" c="9">铁血</cell>
+      <cell r="73" c="14">22001_goblinminer</cell>
+      <cell r="73" c="15">替</cell>
+    </row>
+    <row r="74">
+      <cell r="74" c="0">10004124</cell>
+      <cell r="74" c="1">夏威尔</cell>
+      <cell r="74" c="3">王者之城</cell>
+      <cell r="74" c="6">99</cell>
+      <cell r="74" c="7">0</cell>
+      <cell r="74" c="9">铁血</cell>
+      <cell r="74" c="14">22001_goblinminer</cell>
+      <cell r="74" c="15">替</cell>
+    </row>
+  </sheet>
+</workbook>
