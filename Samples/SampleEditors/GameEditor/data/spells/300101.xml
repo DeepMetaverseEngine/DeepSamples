@@ -3,23 +3,24 @@
   <AOEMType>Linear</AOEMType>
   <BodyHeight>0.00</BodyHeight>
   <BodyShape>Round</BodyShape>
-  <BodySize>0.10</BodySize>
+  <BodySize>6.50</BodySize>
   <ClientVisible>True</ClientVisible>
   <Distance>10.00</Distance>
   <ExpectTarget>Enemy</ExpectTarget>
   <FanAngle>0.00</FanAngle>
   <FileBodyScale>1.00</FileBodyScale>
-  <FileName>/res/effect/10000_avatar/13100_ranger/vfx_13101_missile.assetBundles</FileName>
+  <FileName>/res/effect/ef_god_01.assetbundles</FileName>
   <HitIntervalMS>0</HitIntervalMS>
-  <HitOnExplosion>True</HitOnExplosion>
-  <HitOnExplosionKeyFrame>
-    <Attack>
-      <Attack>20</Attack>
-      <CrushPercent>0.00</CrushPercent>
+  <HitOnExplosion>False</HitOnExplosion>
+  <ID>300101</ID>
+  <IsBindingDirection>False</IsBindingDirection>
+  <IsBindingOrbit>False</IsBindingOrbit>
+  <IsCycAnim>True</IsCycAnim>
+  <KeyFrames element_type="DeepCore.GameData.Zone.SpellTemplate+KeyFrame">
+    <element>
       <Effect>
-        <BindBody>True</BindBody>
+        <BindBody>False</BindBody>
         <BindBodyDirection>True</BindBodyDirection>
-        <BindPartName>Chest_Buff</BindPartName>
         <BlurBeginTime>0</BlurBeginTime>
         <BlurEndTime>0</BlurEndTime>
         <BlurStrength>0.00</BlurStrength>
@@ -32,62 +33,170 @@
         <EarthQuakeXYZ>0.00</EarthQuakeXYZ>
         <EffectTimeMS>0</EffectTimeMS>
         <IsLoop>False</IsLoop>
-        <Name>/res/effect/40000_hit/vfx_40901_nor.assetBundles</Name>
         <ScaleToBodySize>0.00</ScaleToBodySize>
-        <SoundName>/res/sound/dynamic/magic/magic_hit.assetBundles</SoundName>
+        <SoundName>/res/sound/dynamic/player/sd_god_01.assetbundles</SoundName>
+        <Tag>actor</Tag>
         <WarnDegree>80.00</WarnDegree>
         <WarnScaleX>1.00</WarnScaleX>
         <WarnScaleZ>1.00</WarnScaleZ>
         <WarnSpeed>1.00</WarnSpeed>
         <WarnType>WARNING_TYPE_NONE</WarnType>
-        <property.SerialNumber>44418</property.SerialNumber>
+        <property.SerialNumber>11376</property.SerialNumber>
       </Effect>
-      <HitMoveBodyAttackSize>1.00</HitMoveBodyAttackSize>
-      <HitMoveMType>BySenderPosition</HitMoveMType>
-      <IsDamageProtect>False</IsDamageProtect>
-      <KnockOutTimeMS>0</KnockOutTimeMS>
-      <MaskDamage>False</MaskDamage>
-      <MaskHitFly>False</MaskHitFly>
-      <MaskKnockDown>False</MaskKnockDown>
-      <MaskMustCritical>False</MaskMustCritical>
-      <MaskMustHit>False</MaskMustHit>
-      <Properties type="SampleBattle.Plugins.SampleAttackProperties">
-        <DamageModiferID>0</DamageModiferID>
-        <DamagePerID>0</DamagePerID>
-        <SkillTemplateID>0</SkillTemplateID>
-      </Properties>
-      <StopFrameAction>0</StopFrameAction>
-      <StopFrameMS>0</StopFrameMS>
-      <Weight>1</Weight>
-      <property.SerialNumber>44416</property.SerialNumber>
-    </Attack>
-    <FrameMS>0</FrameMS>
-  </HitOnExplosionKeyFrame>
-  <ID>300101</ID>
-  <IsBindingDirection>False</IsBindingDirection>
-  <IsBindingOrbit>False</IsBindingOrbit>
-  <IsCycAnim>True</IsCycAnim>
-  <KeyFrames element_type="DeepCore.GameData.Zone.SpellTemplate+KeyFrame" />
-  <LifeTimeMS>800</LifeTimeMS>
-  <MaxAffectUnit>1</MaxAffectUnit>
+      <FrameMS>0</FrameMS>
+    </element>
+    <element>
+      <Effect>
+        <BindBody>False</BindBody>
+        <BindBodyDirection>True</BindBodyDirection>
+        <BlurBeginTime>100</BlurBeginTime>
+        <BlurEndTime>50</BlurEndTime>
+        <BlurStrength>4.00</BlurStrength>
+        <BlurWaitTime>300</BlurWaitTime>
+        <CameraBeginTime>0</CameraBeginTime>
+        <CameraDistance>0.00</CameraDistance>
+        <CameraEndTime>0</CameraEndTime>
+        <CameraWaitTime>0</CameraWaitTime>
+        <EarthQuakeMS>0</EarthQuakeMS>
+        <EarthQuakeXYZ>0.00</EarthQuakeXYZ>
+        <EffectTimeMS>0</EffectTimeMS>
+        <IsLoop>False</IsLoop>
+        <ScaleToBodySize>0.00</ScaleToBodySize>
+        <Tag>actor</Tag>
+        <WarnDegree>80.00</WarnDegree>
+        <WarnScaleX>1.00</WarnScaleX>
+        <WarnScaleZ>1.00</WarnScaleZ>
+        <WarnSpeed>1.00</WarnSpeed>
+        <WarnType>WARNING_TYPE_NONE</WarnType>
+        <property.SerialNumber>35923</property.SerialNumber>
+      </Effect>
+      <FrameMS>100</FrameMS>
+    </element>
+    <element>
+      <Attack>
+        <Attack>0</Attack>
+        <Buff>
+          <BuffID>21001</BuffID>
+          <LaunchPercent>100.00</LaunchPercent>
+          <property.SerialNumber>10</property.SerialNumber>
+        </Buff>
+        <CrushPercent>0.00</CrushPercent>
+        <Effect>
+          <BindBody>True</BindBody>
+          <BindBodyDirection>True</BindBodyDirection>
+          <BindPartName>Chest_Buff</BindPartName>
+          <BlurBeginTime>0</BlurBeginTime>
+          <BlurEndTime>0</BlurEndTime>
+          <BlurStrength>0.00</BlurStrength>
+          <BlurWaitTime>0</BlurWaitTime>
+          <CameraBeginTime>0</CameraBeginTime>
+          <CameraDistance>0.00</CameraDistance>
+          <CameraEndTime>0</CameraEndTime>
+          <CameraWaitTime>0</CameraWaitTime>
+          <EarthQuakeMS>0</EarthQuakeMS>
+          <EarthQuakeXYZ>0.00</EarthQuakeXYZ>
+          <EffectTimeMS>0</EffectTimeMS>
+          <IsLoop>False</IsLoop>
+          <Name>/res/effect/ef_hit.assetbundles</Name>
+          <ScaleToBodySize>0.00</ScaleToBodySize>
+          <WarnDegree>80.00</WarnDegree>
+          <WarnScaleX>1.00</WarnScaleX>
+          <WarnScaleZ>1.00</WarnScaleZ>
+          <WarnSpeed>1.00</WarnSpeed>
+          <WarnType>WARNING_TYPE_NONE</WarnType>
+          <property.SerialNumber>173123</property.SerialNumber>
+        </Effect>
+        <HitMoveBodyAttackSize>1.00</HitMoveBodyAttackSize>
+        <HitMoveMType>BySenderPosition</HitMoveMType>
+        <IsDamageProtect>False</IsDamageProtect>
+        <KnockOutTimeMS>0</KnockOutTimeMS>
+        <MaskDamage>False</MaskDamage>
+        <MaskHitFly>False</MaskHitFly>
+        <MaskKnockDown>False</MaskKnockDown>
+        <MaskMustCritical>False</MaskMustCritical>
+        <MaskMustHit>False</MaskMustHit>
+        <Properties type="TLBattle.Common.Plugins.TLAttackProperties">
+          <ElementCoefficient>0</ElementCoefficient>
+          <ElementDamage>0</ElementDamage>
+          <ElementType>1</ElementType>
+          <SkillArgu_1>0</SkillArgu_1>
+          <SkillArgu_2>0</SkillArgu_2>
+          <SkillCoefficient>0</SkillCoefficient>
+          <SkillDamage>0</SkillDamage>
+          <SkillTemplateID>30010</SkillTemplateID>
+          <UseConfig>True</UseConfig>
+        </Properties>
+        <StopFrameMS>0</StopFrameMS>
+        <Weight>1</Weight>
+        <property.SerialNumber>11691</property.SerialNumber>
+      </Attack>
+      <Effect>
+        <BindBody>False</BindBody>
+        <BindBodyDirection>True</BindBodyDirection>
+        <BlurBeginTime>0</BlurBeginTime>
+        <BlurEndTime>0</BlurEndTime>
+        <BlurStrength>0.00</BlurStrength>
+        <BlurWaitTime>0</BlurWaitTime>
+        <CameraBeginTime>0</CameraBeginTime>
+        <CameraDistance>0.00</CameraDistance>
+        <CameraEndTime>0</CameraEndTime>
+        <CameraWaitTime>0</CameraWaitTime>
+        <EarthQuakeMS>300</EarthQuakeMS>
+        <EarthQuakeXYZ>1.00</EarthQuakeXYZ>
+        <EffectTimeMS>0</EffectTimeMS>
+        <IsLoop>False</IsLoop>
+        <ScaleToBodySize>0.00</ScaleToBodySize>
+        <Tag>actor</Tag>
+        <WarnDegree>80.00</WarnDegree>
+        <WarnScaleX>1.00</WarnScaleX>
+        <WarnScaleZ>1.00</WarnScaleZ>
+        <WarnSpeed>1.00</WarnSpeed>
+        <WarnType>WARNING_TYPE_NONE</WarnType>
+        <property.SerialNumber>8394</property.SerialNumber>
+      </Effect>
+      <FrameMS>266</FrameMS>
+      <Spell>
+        <Angle>0.00</Angle>
+        <ChainLevel>0</ChainLevel>
+        <Count>1</Count>
+        <FromUnitBody>True</FromUnitBody>
+        <IsAutoSeekingTarget>False</IsAutoSeekingTarget>
+        <LaunchPercent>100.00</LaunchPercent>
+        <LaunchSpellAngle>0.00</LaunchSpellAngle>
+        <LaunchSpellHeight>0.00</LaunchSpellHeight>
+        <LaunchSpellRadius>0.00</LaunchSpellRadius>
+        <PType>POS_TYPE_DEFAULT_SINGLE</PType>
+        <SeekingTargetExpect>Random</SeekingTargetExpect>
+        <SeekingTargetRange>10.00</SeekingTargetRange>
+        <SenderUnit>Sender</SenderUnit>
+        <SpellID>300102</SpellID>
+        <StartAngle>0.00</StartAngle>
+        <property.SerialNumber>9479</property.SerialNumber>
+      </Spell>
+    </element>
+  </KeyFrames>
+  <LifeTimeMS>4000</LifeTimeMS>
+  <MaxAffectUnit>0</MaxAffectUnit>
   <MSpeed_MAX>100.00</MSpeed_MAX>
   <MSpeed_MIN>-100.00</MSpeed_MIN>
   <MSpeedAcc>0.00</MSpeedAcc>
   <MSpeedAdd>0.00</MSpeedAdd>
-  <MSpeedSEC>10.00</MSpeedSEC>
-  <MType>Missile</MType>
-  <Name>高速箭(瞄准射击)</Name>
+  <MSpeedSEC>9.00</MSpeedSEC>
+  <MType>SelectTarget</MType>
+  <Name>神器技能-东皇钟</Name>
   <OrbitDistance>0.00</OrbitDistance>
   <ParabolaHeight>0.00</ParabolaHeight>
-  <Properties type="SampleBattle.Plugins.SampleSpellProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLSpellProperties">
+    <BallisticType>Linear</BallisticType>
+  </Properties>
   <RectWide>1.00</RectWide>
   <RemoveOnBindingSkillOver>False</RemoveOnBindingSkillOver>
   <RemoveOnBindingUncontrollable>False</RemoveOnBindingUncontrollable>
   <RotateSpeedSEC>0.00</RotateSpeedSEC>
-  <SeekingCooldownMS>0</SeekingCooldownMS>
+  <SeekingCooldownMS>1000</SeekingCooldownMS>
   <SeekingExpectTarget>Random</SeekingExpectTarget>
-  <SeekingRange>0.00</SeekingRange>
-  <SeekingTurningAngleSEC>0.00</SeekingTurningAngleSEC>
+  <SeekingRange>10.00</SeekingRange>
+  <SeekingTurningAngleSEC>3.00</SeekingTurningAngleSEC>
   <StopBindingSkillOnRemoved>False</StopBindingSkillOnRemoved>
-  <property.EditorPath>法术/玩家职业/游侠/高速箭(瞄准射击)(300101)</property.EditorPath>
+  <property.EditorPath>法术/神器技能/东皇钟/神器技能-东皇钟(300101)</property.EditorPath>
 </SpellTemplate>

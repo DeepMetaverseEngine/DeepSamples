@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemTemplate type="DeepCore.GameData.Zone.ItemTemplate">
+  <BodySize>1.00</BodySize>
+  <BuyCostMoney>False</BuyCostMoney>
+  <ClientVisible>True</ClientVisible>
+  <DropForAll>True</DropForAll>
+  <DropMoneyMax>0</DropMoneyMax>
+  <DropMoneyMin>0</DropMoneyMin>
+  <EquipBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <FileName>/res/effect/item/ef_item_bag.assetbundles</FileName>
+  <GotCoolDownTimeMS>500</GotCoolDownTimeMS>
+  <GotOnUse>True</GotOnUse>
+  <HoldingLimit>0</HoldingLimit>
+  <ID>94</ID>
+  <IsDuplicateInventory>True</IsDuplicateInventory>
+  <IsInventoryUseable>True</IsInventoryUseable>
+  <LifeTimeMS>10000</LifeTimeMS>
+  <MaxStackCount>100</MaxStackCount>
+  <Name>buff排列-6.5s</Name>
+  <NoLifeTime>True</NoLifeTime>
+  <Pickable>False</Pickable>
+  <PickTimeMS>2000</PickTimeMS>
+  <PlayerOnly>True</PlayerOnly>
+  <Properties type="TLBattle.Common.Plugins.TLItemProperties">
+    <AllowAutoPick>True</AllowAutoPick>
+    <HandPick>True</HandPick>
+    <PickUnitForce>0</PickUnitForce>
+    <PreTimes>0</PreTimes>
+    <ShowGotEffect>False</ShowGotEffect>
+    <ShowPickPercentGauge>True</ShowPickPercentGauge>
+    <ShowPickPercentText>True</ShowPickPercentText>
+    <Type>None</Type>
+  </Properties>
+  <RemoveOnFinishPick>False</RemoveOnFinishPick>
+  <SellGotMoney>False</SellGotMoney>
+  <SyncToServer>False</SyncToServer>
+  <UseBuffs element_type="DeepCore.GameData.Zone.LaunchBuff">
+    <element>
+      <BuffID>25</BuffID>
+      <LaunchPercent>100.00</LaunchPercent>
+      <property.SerialNumber>38078</property.SerialNumber>
+    </element>
+  </UseBuffs>
+  <UseCoolDownTimeMS>0</UseCoolDownTimeMS>
+  <UseInProgressTimeMS>0</UseInProgressTimeMS>
+  <property.EditorPath>物品/测试物品/buff排列-6.5s(94)</property.EditorPath>
+</ItemTemplate>

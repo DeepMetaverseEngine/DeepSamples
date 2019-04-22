@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemTemplate type="DeepCore.GameData.Zone.ItemTemplate">
+  <BodySize>2.50</BodySize>
+  <BuyCostMoney>False</BuyCostMoney>
+  <ClientVisible>True</ClientVisible>
+  <DropForAll>True</DropForAll>
+  <DropMoneyMax>0</DropMoneyMax>
+  <DropMoneyMin>0</DropMoneyMin>
+  <EquipBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <FileName>/res/unit/monster_dh_dragonman.assetbundles</FileName>
+  <GotCoolDownTimeMS>500</GotCoolDownTimeMS>
+  <GotOnUse>True</GotOnUse>
+  <HoldingLimit>0</HoldingLimit>
+  <ID>20030101</ID>
+  <IsDuplicateInventory>True</IsDuplicateInventory>
+  <IsInventoryUseable>True</IsInventoryUseable>
+  <LifeTimeMS>10000</LifeTimeMS>
+  <MaxStackCount>100</MaxStackCount>
+  <Name>蛟精头领【除魔】</Name>
+  <NoLifeTime>True</NoLifeTime>
+  <Pickable>True</Pickable>
+  <PickTimeMS>2000</PickTimeMS>
+  <PlayerOnly>True</PlayerOnly>
+  <Properties type="TLBattle.Common.Plugins.TLItemProperties">
+    <AllowAutoPick>False</AllowAutoPick>
+    <HandPick>True</HandPick>
+    <PickBtnName>进入副本</PickBtnName>
+    <PickIcon>#static/TL_hud/output/TL_hud.xml|TL_hud|19</PickIcon>
+    <PickUnitForce>0</PickUnitForce>
+    <PreTimes>0</PreTimes>
+    <ShowGotEffect>False</ShowGotEffect>
+    <ShowPickPercentGauge>True</ShowPickPercentGauge>
+    <ShowPickPercentText>True</ShowPickPercentText>
+    <Type>None</Type>
+    <WaitPickBtnName>点击除魔</WaitPickBtnName>
+  </Properties>
+  <RemoveOnFinishPick>False</RemoveOnFinishPick>
+  <SellGotMoney>False</SellGotMoney>
+  <SyncToServer>True</SyncToServer>
+  <UseBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <UseCoolDownTimeMS>0</UseCoolDownTimeMS>
+  <UseInProgressTimeMS>0</UseInProgressTimeMS>
+  <property.EditorPath>物品/斩妖除魔/长海/蛟精头领【除魔】(20030101)</property.EditorPath>
+</ItemTemplate>

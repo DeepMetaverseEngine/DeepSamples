@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuffTemplate type="DeepCore.GameData.Zone.BuffTemplate">
+  <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <BodyHitSize>0.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>0.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <ExclusiveCatgory>0</ExclusiveCatgory>
+  <ExclusivePriority>0</ExclusivePriority>
+  <FirstTimeEnable>True</FirstTimeEnable>
+  <HitIntervalMS>0</HitIntervalMS>
+  <ID>21035</ID>
+  <IsCancelBySelf>False</IsCancelBySelf>
+  <IsDuplicating>False</IsDuplicating>
+  <IsHarmful>False</IsHarmful>
+  <IsInvincible>False</IsInvincible>
+  <IsInvisible>False</IsInvisible>
+  <IsNoneBlock>False</IsNoneBlock>
+  <IsOverlay>False</IsOverlay>
+  <IsPassive>False</IsPassive>
+  <IsRemoveOnSenderRemoved>False</IsRemoveOnSenderRemoved>
+  <IsSilent>False</IsSilent>
+  <KeyFrames element_type="DeepCore.GameData.Zone.BuffTemplate+KeyFrame">
+    <element>
+      <Attack>
+        <Attack>0</Attack>
+        <CrushPercent>0.00</CrushPercent>
+        <HitMoveBodyAttackSize>1.00</HitMoveBodyAttackSize>
+        <HitMoveMType>BySenderPosition</HitMoveMType>
+        <IsDamageProtect>False</IsDamageProtect>
+        <KnockOutTimeMS>0</KnockOutTimeMS>
+        <MaskDamage>False</MaskDamage>
+        <MaskHitFly>False</MaskHitFly>
+        <MaskKnockDown>False</MaskKnockDown>
+        <MaskMustCritical>False</MaskMustCritical>
+        <MaskMustHit>False</MaskMustHit>
+        <Properties type="TLBattle.Common.Plugins.TLAttackProperties">
+          <ElementCoefficient>0</ElementCoefficient>
+          <ElementDamage>0</ElementDamage>
+          <ElementType>0</ElementType>
+          <SkillArgu_1>0</SkillArgu_1>
+          <SkillArgu_2>0</SkillArgu_2>
+          <SkillCoefficient>0</SkillCoefficient>
+          <SkillDamage>0</SkillDamage>
+          <SkillTemplateID>0</SkillTemplateID>
+          <UseConfig>False</UseConfig>
+        </Properties>
+        <StopFrameMS>0</StopFrameMS>
+        <Weight>1</Weight>
+        <property.SerialNumber>1088721</property.SerialNumber>
+      </Attack>
+      <FrameMS>0</FrameMS>
+    </element>
+  </KeyFrames>
+  <LifeTimeMS>1000</LifeTimeMS>
+  <MakeAvatar>False</MakeAvatar>
+  <MakeStun>False</MakeStun>
+  <MaxOverlay>1</MaxOverlay>
+  <Name>回血100%</Name>
+  <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <buffData type="DeepCore.ArrayList`1[[TLBattle.Common.Plugins.TLBuffData, SampleBattle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="TLBattle.Common.Plugins.TLBuffData">
+      <element type="TLBattle.Common.Plugins.TLBuffData_HPChange">
+        <ChangeValue>10000</ChangeValue>
+        <ChangeValueType>1</ChangeValueType>
+        <TipsType>Normal</TipsType>
+      </element>
+    </buffData>
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
+  <UnitChangeSkills>False</UnitChangeSkills>
+  <UnitKeepSkillsID element_type="System.Int32" />
+  <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
+  <property.EditorPath>BUFF/角色用buff/仙盟押镖/其它/回血100%(21035)</property.EditorPath>
+</BuffTemplate>

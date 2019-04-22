@@ -52,9 +52,14 @@
   <MaxOverlay>1</MaxOverlay>
   <Name>钢铁之心-重击叠加附加眩晕</Name>
   <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
-  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
   <UnitChangeSkills>False</UnitChangeSkills>
   <UnitKeepSkillsID element_type="System.Int32" />
   <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
-  <property.EditorPath>BUFF/状态特效/炼金师技能状态/钢铁之心-重击叠加附加眩晕(12212)</property.EditorPath>
+  <property.EditorPath>BUFF/钢铁之心-重击叠加附加眩晕(12212)</property.EditorPath>
 </BuffTemplate>

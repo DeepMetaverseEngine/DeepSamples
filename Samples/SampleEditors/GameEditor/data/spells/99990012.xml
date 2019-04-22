@@ -32,7 +32,9 @@
   <Name>暴风雪－渣</Name>
   <OrbitDistance>0.00</OrbitDistance>
   <ParabolaHeight>0.00</ParabolaHeight>
-  <Properties type="SampleBattle.Plugins.SampleSpellProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLSpellProperties">
+    <BallisticType>Linear</BallisticType>
+  </Properties>
   <RectWide>1.00</RectWide>
   <RemoveOnBindingSkillOver>False</RemoveOnBindingSkillOver>
   <RemoveOnBindingUncontrollable>False</RemoveOnBindingUncontrollable>
@@ -42,5 +44,5 @@
   <SeekingRange>10.00</SeekingRange>
   <SeekingTurningAngleSEC>3.00</SeekingTurningAngleSEC>
   <StopBindingSkillOnRemoved>False</StopBindingSkillOnRemoved>
-  <property.EditorPath>法术/00_zyf_test/暴风雪－渣(99990012)</property.EditorPath>
+  <property.EditorPath>法术/暴风雪－渣(99990012)</property.EditorPath>
 </SpellTemplate>

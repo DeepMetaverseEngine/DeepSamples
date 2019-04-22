@@ -37,8 +37,89 @@
   <ManaRecoveryPoint>0</ManaRecoveryPoint>
   <MoveSpeedSEC>3.00</MoveSpeedSEC>
   <Name>村长</Name>
-  <Properties type="SampleBattle.Plugins.SampleUnitProperties">
-    <Test>0</Test>
+  <Properties type="TLBattle.Common.Plugins.TLUnitProperties">
+    <DoNothingWhenHappy>False</DoNothingWhenHappy>
+    <ServerData>
+      <AvatarMap key_type="System.Int32" value_type="TLBattle.Common.Plugins.TLAvatarInfo" />
+      <BaseInfo>
+        <Gender>MALE</Gender>
+        <IsGuard>False</IsGuard>
+        <Name></Name>
+        <PlayerMirrorType>Monster</PlayerMirrorType>
+        <PracticeLv>0</PracticeLv>
+        <RolePro>None</RolePro>
+        <TitleID>0</TitleID>
+        <UnitLv>0</UnitLv>
+      </BaseInfo>
+      <dropReward>
+        <dailyExp>0</dailyExp>
+        <dailyGold>0</dailyGold>
+        <firstPassMap key_type="System.Int32" value_type="DeepCore.HashMap`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" />
+      </dropReward>
+      <MountSpeed>0</MountSpeed>
+      <Prop>
+        <AllelementDamage>0</AllelementDamage>
+        <AllelementResist>0</AllelementResist>
+        <Attack>1000</Attack>
+        <AutoRecoverHp>0</AutoRecoverHp>
+        <Block>0</Block>
+        <CriDamagePer>0</CriDamagePer>
+        <Crit>0</Crit>
+        <CurAnger>0</CurAnger>
+        <CurHP>1000</CurHP>
+        <DefReduction>0</DefReduction>
+        <Dodge>0</Dodge>
+        <Extracrit>0</Extracrit>
+        <ExtraEXPPer>0</ExtraEXPPer>
+        <ExtraGoldPer>0</ExtraGoldPer>
+        <FireDmage>0</FireDmage>
+        <FireResist>0</FireResist>
+        <GodDamage>0</GodDamage>
+        <Hit>1000</Hit>
+        <IceDamage>0</IceDamage>
+        <IceResist>0</IceResist>
+        <KillRecoverHP>0</KillRecoverHP>
+        <MagDef>0</MagDef>
+        <MaxHP>1000</MaxHP>
+        <MDefReduction>0</MDefReduction>
+        <OnHitRecoverHP>0</OnHitRecoverHP>
+        <PhyDef>0</PhyDef>
+        <RedCriDamagePer>0</RedCriDamagePer>
+        <ResCrit>0</ResCrit>
+        <RunSpeed>700</RunSpeed>
+        <SoilDamage>0</SoilDamage>
+        <SoilResist>0</SoilResist>
+        <TargetToMonster>0</TargetToMonster>
+        <TargetToPlayer>0</TargetToPlayer>
+        <Through>0</Through>
+        <ThunderDamage>0</ThunderDamage>
+        <ThunderResist>0</ThunderResist>
+        <TotalDamagePer>0</TotalDamagePer>
+        <TotalReduceDamagePer>0</TotalReduceDamagePer>
+        <WindDamage>0</WindDamage>
+        <WindResist>0</WindResist>
+      </Prop>
+      <Quests type="DeepCore.ArrayList`1[[TLBattle.Common.Plugins.TLQuestData, SampleBattle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="TLBattle.Common.Plugins.TLQuestData" />
+      <RideStatus>False</RideStatus>
+      <UnitPKInfo>
+        <CurColor>0</CurColor>
+        <CurPKLevel>1</CurPKLevel>
+        <CurPKMode>Peace</CurPKMode>
+        <CurPKValue>0</CurPKValue>
+        <GrayTimeMS>0</GrayTimeMS>
+      </UnitPKInfo>
+    </ServerData>
+    <UnitDisplayConfig>
+      <CameraDistance>1.80</CameraDistance>
+      <CanShowSign>True</CanShowSign>
+      <DeadAlphaTime>0</DeadAlphaTime>
+      <HeadIcon>default</HeadIcon>
+      <HPBannerCfg>ShowInCombat</HPBannerCfg>
+      <IsNeedTalkCamera>True</IsNeedTalkCamera>
+      <ShadowCoefficient>1.00</ShadowCoefficient>
+      <TalkTurnRound>True</TalkTurnRound>
+    </UnitDisplayConfig>
+    <UnitType>NONE</UnitType>
   </Properties>
   <RebirthTimeMS>0</RebirthTimeMS>
   <RecoveryIntervalMS>5000</RecoveryIntervalMS>
@@ -72,5 +153,5 @@
   <TurnSpeedSEC>NaN</TurnSpeedSEC>
   <UType>TYPE_NPC</UType>
   <Weight>1</Weight>
-  <property.EditorPath>单位/101/NPC/村长(20004)</property.EditorPath>
+  <property.EditorPath>单位/村长(20004)</property.EditorPath>
 </UnitInfo>

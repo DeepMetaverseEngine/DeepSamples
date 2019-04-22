@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemTemplate type="DeepCore.GameData.Zone.ItemTemplate">
+  <BodySize>2.00</BodySize>
+  <BuyCostMoney>False</BuyCostMoney>
+  <ClientVisible>True</ClientVisible>
+  <DropForAll>True</DropForAll>
+  <DropMoneyMax>0</DropMoneyMax>
+  <DropMoneyMin>0</DropMoneyMin>
+  <EquipBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <FileName>/res/effect/item/ef_item_object_02.assetbundles</FileName>
+  <GotCoolDownTimeMS>0</GotCoolDownTimeMS>
+  <GotOnUse>True</GotOnUse>
+  <HoldingLimit>0</HoldingLimit>
+  <ID>90001020</ID>
+  <IsDuplicateInventory>True</IsDuplicateInventory>
+  <IsInventoryUseable>True</IsInventoryUseable>
+  <LifeTimeMS>10000</LifeTimeMS>
+  <MaxStackCount>100</MaxStackCount>
+  <Name>攻击上升</Name>
+  <NoLifeTime>True</NoLifeTime>
+  <Pickable>True</Pickable>
+  <PickTimeMS>0</PickTimeMS>
+  <PlayerOnly>True</PlayerOnly>
+  <Properties type="TLBattle.Common.Plugins.TLItemProperties">
+    <AllowAutoPick>False</AllowAutoPick>
+    <HandPick>False</HandPick>
+    <PickAction>n_idle</PickAction>
+    <PickBtnName>调查封印...</PickBtnName>
+    <PickIcon>#static/TL_hud/output/TL_hud.xml|TL_hud|74</PickIcon>
+    <PickUnitForce>0</PickUnitForce>
+    <PreTimes>0</PreTimes>
+    <ShowGotEffect>False</ShowGotEffect>
+    <ShowPickPercentGauge>True</ShowPickPercentGauge>
+    <ShowPickPercentText>True</ShowPickPercentText>
+    <Type>None</Type>
+  </Properties>
+  <RemoveOnFinishPick>True</RemoveOnFinishPick>
+  <SellGotMoney>False</SellGotMoney>
+  <SyncToServer>False</SyncToServer>
+  <UseBuffs element_type="DeepCore.GameData.Zone.LaunchBuff">
+    <element>
+      <BuffID>21054</BuffID>
+      <LaunchPercent>100.00</LaunchPercent>
+      <property.SerialNumber>1544388</property.SerialNumber>
+    </element>
+  </UseBuffs>
+  <UseCoolDownTimeMS>0</UseCoolDownTimeMS>
+  <UseInProgressTimeMS>0</UseInProgressTimeMS>
+  <property.EditorPath>物品/pvp战场玩法/龙神竞技场/攻击上升(90001020)</property.EditorPath>
+</ItemTemplate>

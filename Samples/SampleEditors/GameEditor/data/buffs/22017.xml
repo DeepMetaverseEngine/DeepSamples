@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuffTemplate type="DeepCore.GameData.Zone.BuffTemplate">
+  <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <BodyHitSize>0.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>0.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <ExclusiveCatgory>0</ExclusiveCatgory>
+  <ExclusivePriority>0</ExclusivePriority>
+  <FirstTimeEnable>True</FirstTimeEnable>
+  <HitIntervalMS>0</HitIntervalMS>
+  <ID>22017</ID>
+  <IsCancelBySelf>False</IsCancelBySelf>
+  <IsDuplicating>False</IsDuplicating>
+  <IsHarmful>False</IsHarmful>
+  <IsInvincible>False</IsInvincible>
+  <IsInvisible>False</IsInvisible>
+  <IsNoneBlock>False</IsNoneBlock>
+  <IsOverlay>False</IsOverlay>
+  <IsPassive>False</IsPassive>
+  <IsRemoveOnSenderRemoved>False</IsRemoveOnSenderRemoved>
+  <IsSilent>False</IsSilent>
+  <KeyFrames element_type="DeepCore.GameData.Zone.BuffTemplate+KeyFrame" />
+  <LifeTimeMS>1500</LifeTimeMS>
+  <MakeAvatar>False</MakeAvatar>
+  <MakeStun>True</MakeStun>
+  <MaxOverlay>1</MaxOverlay>
+  <Name>牛妖眩晕</Name>
+  <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
+  <UnitChangeSkills>False</UnitChangeSkills>
+  <UnitKeepSkillsID element_type="System.Int32" />
+  <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
+  <property.EditorPath>BUFF/非角色用buff/牛妖眩晕(22017)</property.EditorPath>
+</BuffTemplate>

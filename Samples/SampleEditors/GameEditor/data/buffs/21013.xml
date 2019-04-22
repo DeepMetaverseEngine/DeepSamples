@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuffTemplate type="DeepCore.GameData.Zone.BuffTemplate">
+  <BindingEffect>
+    <BindBody>True</BindBody>
+    <BindBodyDirection>True</BindBodyDirection>
+    <BlurBeginTime>0</BlurBeginTime>
+    <BlurEndTime>0</BlurEndTime>
+    <BlurStrength>0.00</BlurStrength>
+    <BlurWaitTime>0</BlurWaitTime>
+    <CameraBeginTime>0</CameraBeginTime>
+    <CameraDistance>0.00</CameraDistance>
+    <CameraEndTime>0</CameraEndTime>
+    <CameraWaitTime>0</CameraWaitTime>
+    <EarthQuakeMS>0</EarthQuakeMS>
+    <EarthQuakeXYZ>0.00</EarthQuakeXYZ>
+    <EffectTimeMS>0</EffectTimeMS>
+    <IsLoop>True</IsLoop>
+    <Name>/res/effect/ef_buff_heal.assetbundles</Name>
+    <ScaleToBodySize>0.00</ScaleToBodySize>
+    <WarnDegree>80.00</WarnDegree>
+    <WarnScaleX>1.00</WarnScaleX>
+    <WarnScaleZ>1.00</WarnScaleZ>
+    <WarnSpeed>1.00</WarnSpeed>
+    <WarnType>WARNING_TYPE_NONE</WarnType>
+    <property.SerialNumber>449083</property.SerialNumber>
+  </BindingEffect>
+  <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <BodyHitSize>0.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>0.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <ExclusiveCatgory>0</ExclusiveCatgory>
+  <ExclusivePriority>0</ExclusivePriority>
+  <FirstTimeEnable>True</FirstTimeEnable>
+  <HitIntervalMS>1000</HitIntervalMS>
+  <HitKeyFrame>
+    <Attack>
+      <Attack>0</Attack>
+      <CrushPercent>0.00</CrushPercent>
+      <HitMoveBodyAttackSize>1.00</HitMoveBodyAttackSize>
+      <HitMoveMType>BySenderPosition</HitMoveMType>
+      <IsDamageProtect>False</IsDamageProtect>
+      <KnockOutTimeMS>0</KnockOutTimeMS>
+      <MaskDamage>False</MaskDamage>
+      <MaskHitFly>False</MaskHitFly>
+      <MaskKnockDown>False</MaskKnockDown>
+      <MaskMustCritical>False</MaskMustCritical>
+      <MaskMustHit>False</MaskMustHit>
+      <Properties type="TLBattle.Common.Plugins.TLAttackProperties">
+        <ElementCoefficient>0</ElementCoefficient>
+        <ElementDamage>0</ElementDamage>
+        <ElementType>0</ElementType>
+        <SkillArgu_1>0</SkillArgu_1>
+        <SkillArgu_2>0</SkillArgu_2>
+        <SkillCoefficient>0</SkillCoefficient>
+        <SkillDamage>0</SkillDamage>
+        <SkillTemplateID>0</SkillTemplateID>
+        <UseConfig>False</UseConfig>
+      </Properties>
+      <StopFrameMS>0</StopFrameMS>
+      <Weight>1</Weight>
+      <property.SerialNumber>449084</property.SerialNumber>
+    </Attack>
+    <FrameMS>0</FrameMS>
+  </HitKeyFrame>
+  <ID>21013</ID>
+  <IsCancelBySelf>False</IsCancelBySelf>
+  <IsDuplicating>False</IsDuplicating>
+  <IsHarmful>False</IsHarmful>
+  <IsInvincible>False</IsInvincible>
+  <IsInvisible>False</IsInvisible>
+  <IsNoneBlock>False</IsNoneBlock>
+  <IsOverlay>False</IsOverlay>
+  <IsPassive>False</IsPassive>
+  <IsRemoveOnSenderRemoved>False</IsRemoveOnSenderRemoved>
+  <IsSilent>False</IsSilent>
+  <KeyFrames element_type="DeepCore.GameData.Zone.BuffTemplate+KeyFrame" />
+  <LifeTimeMS>5000</LifeTimeMS>
+  <MakeAvatar>False</MakeAvatar>
+  <MakeStun>False</MakeStun>
+  <MaxOverlay>1</MaxOverlay>
+  <Name>剧情回复生命</Name>
+  <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <buffData type="DeepCore.ArrayList`1[[TLBattle.Common.Plugins.TLBuffData, SampleBattle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="TLBattle.Common.Plugins.TLBuffData">
+      <element type="TLBattle.Common.Plugins.TLBuffData_HPChange">
+        <ChangeValue>1000</ChangeValue>
+        <ChangeValueType>1</ChangeValueType>
+        <TipsType>None</TipsType>
+      </element>
+    </buffData>
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
+  <UnitChangeSkills>False</UnitChangeSkills>
+  <UnitKeepSkillsID element_type="System.Int32" />
+  <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
+  <property.EditorPath>BUFF/角色用buff/剧情回复生命(21013)</property.EditorPath>
+</BuffTemplate>

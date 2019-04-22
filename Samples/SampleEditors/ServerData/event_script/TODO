@@ -1,0 +1,44 @@
+. 对象池
+. 会引发协程等待的Api，使用Co命名空间（Api.Co.Wait...）
+. RunEvents支持动态获取参数
+. CallSharpApi返回复杂结构，同步接口直接返回结果
+. 事件库lua层支持根节点缓存数据（现在是全局）
+. 事件库无锁结构
+. arg作为Script本身的参数而不是现在只存在于key event
+. 启动客户端事件时设置超时事件（避免客户端闪退、断网等引发的事件结束未通知服务端）【Done-PingPong解决】
+. 事件间交互（Listen， Message）【Done】
+. CreateRemoteApi 优化，避免每次调用均创建包含目标的所有目标Api【Done】
+. FindPath的调用次数（使用特殊状态机处理 or 路径缓存）【Done】
+. csharp层事件描述支持命令空间(例如UI/Sync) 【Done】
+. MessageBroker锁粒度变为Channel级 【Done】
+. 事件库和机器人的交互处理【Done】
+. 根据活跃人数做匹配服务的负载均衡
+. 事件库实例支持ReStart，脚本支持Reload【Done】
+. 组队地图限制【Done】
+. Listen事件回调标准（不允许使用子事件，需要用AddEventTo之类）【Done】
+. 屏蔽RandomItem协议【Done】
+. StartEventByKey的Arg不允许修改【Done】
+. PlayerMessageSender区分自己的消息【Done】
+. 匹配开放时间限制【Done】
+. 道具事件玩家上下线处理【Done】
+. ListenEvent 时'not found event'【Done】
+. AddMoreItem CommonReward等Api参数要重新设计一下【Done】
+. 合并2个DataCenter【Done】
+. FindExcelData按时间对缓存过期【Done】
+. 自动重连，装备背包问题【Done-重连清除缓存】
+. 保存属性后属性顺序和预览属性不一致【Done】
+. ClientApi 按类型拆分文件
+. AddEvent系列Api支持直接传入已有的事件方法，例如Api.Task.AddEvent(Api.Task.AddItem, 4, 55353)
+. ClientGameEventNotify 转发时Address Name UUID 赋值问题
+. lua reload时清除所有缓存(数值表等等)
+. 实体道具删除redis数据
+. 添加LaunchRootEvent功能
+. arg.Sub使用arg.Parent自动实现
+. lua 中实现console定制
+. RemoteMultiLocalEvent ExceptionStopEventMessage, 需要知晓远端ServiceType对应的Event Address
+. PublicSnap 大小限制
+. 合服后清理仙盟报名数据
+. Api.Task. Task域下需要限定永远返回ID
+. clean参数整理
+. Event为false时，支持Result
+. ActorNotReady 客户端收不到消息

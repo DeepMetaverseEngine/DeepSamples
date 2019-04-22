@@ -1,4 +1,135 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UnitActionDefinitionMap type="DeepCore.GameData.Zone.UnitActionDefinitionMap">
-  <ActionMap element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitAction" />
+  <ActionMap element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitAction">
+    <element>
+      <Action>Idle</Action>
+      <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitActionKeyFrame">
+        <element>
+          <ActionName>f_idle</ActionName>
+          <CrossFade>True</CrossFade>
+          <Cycle>True</Cycle>
+          <Speed>1.00</Speed>
+          <Tag></Tag>
+          <TimeMS>0</TimeMS>
+        </element>
+      </ActionQueue>
+    </element>
+    <element>
+      <Action>Move</Action>
+      <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitActionKeyFrame">
+        <element>
+          <ActionName>f_run</ActionName>
+          <CrossFade>True</CrossFade>
+          <Cycle>True</Cycle>
+          <Speed>1.00</Speed>
+          <Tag></Tag>
+          <TimeMS>0</TimeMS>
+        </element>
+      </ActionQueue>
+    </element>
+    <element>
+      <Action>Dead</Action>
+      <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitActionKeyFrame">
+        <element>
+          <ActionName>f_dead</ActionName>
+          <CrossFade>True</CrossFade>
+          <Cycle>False</Cycle>
+          <Speed>1.00</Speed>
+          <Tag></Tag>
+          <TimeMS>0</TimeMS>
+        </element>
+      </ActionQueue>
+    </element>
+    <element>
+      <Action>Damage</Action>
+      <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitActionKeyFrame">
+        <element>
+          <ActionName>f_hurt</ActionName>
+          <CrossFade>True</CrossFade>
+          <Cycle>False</Cycle>
+          <Speed>1.00</Speed>
+          <Tag></Tag>
+          <TimeMS>0</TimeMS>
+        </element>
+      </ActionQueue>
+    </element>
+    <element>
+      <Action>Stun</Action>
+      <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitActionKeyFrame">
+        <element>
+          <ActionName>f_stun</ActionName>
+          <CrossFade>False</CrossFade>
+          <Cycle>False</Cycle>
+          <Speed>1.00</Speed>
+          <Tag></Tag>
+          <TimeMS>0</TimeMS>
+        </element>
+      </ActionQueue>
+    </element>
+    <element>
+      <Action>Pick</Action>
+      <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitActionKeyFrame">
+        <element>
+          <ActionName>n_gather</ActionName>
+          <CrossFade>True</CrossFade>
+          <Cycle>True</Cycle>
+          <Speed>1.00</Speed>
+          <Tag></Tag>
+          <TimeMS>0</TimeMS>
+        </element>
+      </ActionQueue>
+    </element>
+    <element>
+      <Action>Chaos</Action>
+      <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitActionKeyFrame">
+        <element>
+          <ActionName>f_stun</ActionName>
+          <CrossFade>True</CrossFade>
+          <Cycle>True</Cycle>
+          <Speed>1.00</Speed>
+          <Tag></Tag>
+          <TimeMS>0</TimeMS>
+        </element>
+      </ActionQueue>
+    </element>
+    <element>
+      <Action>Escape</Action>
+      <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitActionKeyFrame">
+        <element>
+          <ActionName>f_run</ActionName>
+          <CrossFade>True</CrossFade>
+          <Cycle>True</Cycle>
+          <Speed>1.00</Speed>
+          <Tag></Tag>
+          <TimeMS>0</TimeMS>
+        </element>
+      </ActionQueue>
+    </element>
+    <element>
+      <Action>Spawn</Action>
+      <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitActionKeyFrame">
+        <element>
+          <ActionName>f_out</ActionName>
+          <CrossFade>True</CrossFade>
+          <Cycle>False</Cycle>
+          <Speed>1.00</Speed>
+          <Tag></Tag>
+          <TimeMS>0</TimeMS>
+        </element>
+      </ActionQueue>
+    </element>
+    <element>
+      <Action>Rebirth</Action>
+      <ActionQueue element_type="DeepCore.GameData.Zone.UnitActionDefinitionMap+UnitActionKeyFrame">
+        <element>
+          <ActionName>f_out</ActionName>
+          <CrossFade>True</CrossFade>
+          <Cycle>False</Cycle>
+          <Speed>1.00</Speed>
+          <Tag></Tag>
+          <TimeMS>0</TimeMS>
+        </element>
+      </ActionQueue>
+    </element>
+  </ActionMap>
 </UnitActionDefinitionMap>

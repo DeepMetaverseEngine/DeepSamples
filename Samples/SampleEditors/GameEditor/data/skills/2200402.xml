@@ -45,9 +45,25 @@
   <IsSelectRange>False</IsSelectRange>
   <IsSingleAction>False</IsSingleAction>
   <Name>金刚霹雳火-战斗机甲</Name>
-  <Properties type="SampleBattle.Plugins.SampleSkillProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLSkillProperties">
+    <DisplayConfig>
+      <FaceToTarget>True</FaceToTarget>
+    </DisplayConfig>
+    <LaunchModeData>
+      <Mode>Mode_None</Mode>
+      <Shape_Angle>0</Shape_Angle>
+      <Shape_LaunchCenterOffset>0.00</Shape_LaunchCenterOffset>
+      <Shape_Radius>0.00</Shape_Radius>
+      <Shape_Width>0.00</Shape_Width>
+      <ShowLaunchGuide>True</ShowLaunchGuide>
+    </LaunchModeData>
+    <LoadConfig>False</LoadConfig>
+    <SkillType>active</SkillType>
+    <StopSkillOnUnitDead>False</StopSkillOnUnitDead>
+    <TargetType>NeedTarget</TargetType>
+  </Properties>
   <SelectRangeSize>0.00</SelectRangeSize>
   <SelectRangeType>NA</SelectRangeType>
   <SingleActionCoolDownMS>500</SingleActionCoolDownMS>
-  <property.EditorPath>技能/玩家职业/炼金师/战斗机甲/金刚霹雳火-战斗机甲(2200402)</property.EditorPath>
+  <property.EditorPath>技能/金刚霹雳火-战斗机甲(2200402)</property.EditorPath>
 </SkillTemplate>

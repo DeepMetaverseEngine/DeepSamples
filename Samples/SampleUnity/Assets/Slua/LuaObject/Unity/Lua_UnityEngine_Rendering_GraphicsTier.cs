@@ -1,0 +1,106 @@
+﻿using System;
+using SLua;
+using System.Collections.Generic;
+[UnityEngine.Scripting.Preserve]
+public class Lua_UnityEngine_Rendering_GraphicsTier : LuaObject {
+	[SLua.MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	[UnityEngine.Scripting.Preserve]
+	static public int getTier1(IntPtr l) {
+		try {
+			pushValue(l,true);
+			pushValue(l,UnityEngine.Rendering.GraphicsTier.Tier1);
+			return 2;
+		}
+		catch(Exception e) {
+			return error(l,e);
+		}
+	}
+	[SLua.MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	[UnityEngine.Scripting.Preserve]
+	static public int get_Tier1(IntPtr l) {
+		try {
+			pushValue(l,true);
+			pushValue(l,(double)UnityEngine.Rendering.GraphicsTier.Tier1);
+			return 2;
+		}
+		catch(Exception e) {
+			return error(l,e);
+		}
+	}
+	[SLua.MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	[UnityEngine.Scripting.Preserve]
+	static public int getTier2(IntPtr l) {
+		try {
+			pushValue(l,true);
+			pushValue(l,UnityEngine.Rendering.GraphicsTier.Tier2);
+			return 2;
+		}
+		catch(Exception e) {
+			return error(l,e);
+		}
+	}
+	[SLua.MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	[UnityEngine.Scripting.Preserve]
+	static public int get_Tier2(IntPtr l) {
+		try {
+			pushValue(l,true);
+			pushValue(l,(double)UnityEngine.Rendering.GraphicsTier.Tier2);
+			return 2;
+		}
+		catch(Exception e) {
+			return error(l,e);
+		}
+	}
+	[SLua.MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	[UnityEngine.Scripting.Preserve]
+	static public int getTier3(IntPtr l) {
+		try {
+			pushValue(l,true);
+			pushValue(l,UnityEngine.Rendering.GraphicsTier.Tier3);
+			return 2;
+		}
+		catch(Exception e) {
+			return error(l,e);
+		}
+	}
+	[SLua.MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	[UnityEngine.Scripting.Preserve]
+	static public int get_Tier3(IntPtr l) {
+		try {
+			pushValue(l,true);
+			pushValue(l,(double)UnityEngine.Rendering.GraphicsTier.Tier3);
+			return 2;
+		}
+		catch(Exception e) {
+			return error(l,e);
+		}
+	}
+	[SLua.MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	[UnityEngine.Scripting.Preserve]
+	static public int op_Equality(IntPtr l) {
+		try {
+			System.Object a1;
+			checkType(l,1,out a1);
+			System.Object a2;
+			checkType(l,2,out a2);
+			var ret = System.Object.Equals(a1, a2);
+			pushValue(l,true);
+			pushValue(l,ret);
+			return 2;
+		}
+		catch(Exception e) {
+			return error(l,e);
+		}
+	}
+	static public void reg(IntPtr l) {
+		getTypeTable(l,"UnityEngine.Rendering.GraphicsTier");
+		addMember(l,"Tier1",getTier1,null,false);
+		addMember(l,"_Tier1",get_Tier1,null,false);
+		addMember(l,"Tier2",getTier2,null,false);
+		addMember(l,"_Tier2",get_Tier2,null,false);
+		addMember(l,"Tier3",getTier3,null,false);
+		addMember(l,"_Tier3",get_Tier3,null,false);
+		addMember(l,op_Equality);
+		createTypeMetatable(l,null, typeof(UnityEngine.Rendering.GraphicsTier));
+	}
+}

@@ -22,10 +22,16 @@
       <MaskKnockDown>False</MaskKnockDown>
       <MaskMustCritical>False</MaskMustCritical>
       <MaskMustHit>False</MaskMustHit>
-      <Properties type="SampleBattle.Plugins.SampleAttackProperties">
-        <DamageModiferID>0</DamageModiferID>
-        <DamagePerID>0</DamagePerID>
+      <Properties type="TLBattle.Common.Plugins.TLAttackProperties">
+        <ElementCoefficient>0</ElementCoefficient>
+        <ElementDamage>0</ElementDamage>
+        <ElementType>0</ElementType>
+        <SkillArgu_1>0</SkillArgu_1>
+        <SkillArgu_2>0</SkillArgu_2>
+        <SkillCoefficient>0</SkillCoefficient>
+        <SkillDamage>0</SkillDamage>
         <SkillTemplateID>0</SkillTemplateID>
+        <UseConfig>True</UseConfig>
       </Properties>
       <StopFrameAction>0</StopFrameAction>
       <StopFrameMS>0</StopFrameMS>
@@ -52,7 +58,12 @@
   <MaxOverlay>1</MaxOverlay>
   <Name>爆裂火焰－灼烧效果（ＤＯＴ）</Name>
   <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
-  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
   <UnitChangeSkills>False</UnitChangeSkills>
   <UnitKeepSkillsID element_type="System.Int32" />
   <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />

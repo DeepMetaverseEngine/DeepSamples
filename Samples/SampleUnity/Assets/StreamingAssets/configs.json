@@ -1,0 +1,22 @@
+{
+	"name": "5.6内网版本",
+	"update_url":"http://res.1gamesh.com:30080/threelives/",
+	"gmt_url":"http://office.1gamesh.com:31000",
+	"platform_id": "0",
+	"bugly_id":"94e8afc7c8",
+	"DEFAULTCHAPTER": "-1",
+	"options": [
+    {
+      "name": "外网版本（cdn）",
+      "UpdateUrl": "http://office.1gamesh.com/res_dev/",
+      "gmtUrl": "http://office.1gamesh.com:31000"
+    },
+
+    {
+	    "name": "5.5内网资源（旧资源）",
+	    "UpdateUrl":"http://192.168.3.25:80/res_dev/",
+	    "gmtUrl":"http://office.1gamesh.com:31000"
+	  }
+
+	]
+}

@@ -27,9 +27,14 @@
   <MaxOverlay>1</MaxOverlay>
   <Name>破甲（无绑定特效）</Name>
   <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
-  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
   <UnitChangeSkills>False</UnitChangeSkills>
   <UnitKeepSkillsID element_type="System.Int32" />
   <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
-  <property.EditorPath>BUFF/状态特效/骑士技能状态/破甲（无绑定特效）(11103)</property.EditorPath>
+  <property.EditorPath>BUFF/破甲（无绑定特效）(11103)</property.EditorPath>
 </BuffTemplate>

@@ -52,9 +52,14 @@
   <MaxOverlay>1</MaxOverlay>
   <Name>冰川时代－霜甲（护盾）</Name>
   <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
-  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
   <UnitChangeSkills>False</UnitChangeSkills>
   <UnitKeepSkillsID element_type="System.Int32" />
   <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
-  <property.EditorPath>BUFF/状态特效/魔导士技能状态/冰川时代－霜甲（护盾）(12110)</property.EditorPath>
+  <property.EditorPath>BUFF/冰川时代－霜甲（护盾）(12110)</property.EditorPath>
 </BuffTemplate>

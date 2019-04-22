@@ -1,0 +1,31 @@
+<linker>
+    <assembly fullname="mscorlib">
+        <namespace fullname="System.Security.Cryptography" preserver="all"/>
+    </assembly>
+    <assembly fullname="System">
+        <type fullname="System.Net.Configuration.ConnectionManagementSection" preserve="all"/>
+        <type fullname="System.Net.Configuration.DefaultProxySection" preserve="all"/>
+        <type fullname="System.Net.Configuration.HttpWebRequestElement" preserve="all"/>
+        <type fullname="System.Net.Configuration.Ipv6Element" preserve="all"/>
+        <type fullname="System.Net.Configuration.NetSectionGroup" preserve="all"/>
+        <type fullname="System.Net.Configuration.PerformanceCountersElement" preserve="all"/>
+        <type fullname="System.Net.Configuration.ProxyElement" preserve="all"/>
+        <type fullname="System.Net.Configuration.ServicePointManagerElement" preserve="all"/>
+        <type fullname="System.Net.Configuration.SettingsSection" preserve="all"/>
+        <type fullname="System.Net.Configuration.SocketElement" preserve="all"/>
+        <!-- XMLSerilizer -->
+        <type fullname="System.Diagnostics" preserve="all"/>
+        <type fullname="System.Diagnostics.DiagnosticsConfigurationHandler" preserve="all"/>
+    </assembly>
+    <!-- XMLSerilizer -->
+    <assembly fullname="System.Xml">
+        <type fullname="System.Xml" preserve="all"/>
+        <type fullname="System.Xml.Serialization" preserve="all"/>
+        <type fullname="System.Xml.Serialization.XmlSerializer" preserve="all"/>
+    </assembly>
+    <assembly fullname="UnityEngine" preserve="all"/>
+    <assembly fullname="DeepCore.GameEvent" preserve="all"/>
+    <assembly fullname="DeepCore.GameEvent.Lua" preserve="all"/>
+    <assembly fullname="ThreeLives.Client.Protocol.Serializer" preserve="all"/>
+    <assembly fullname="ThreeLives.Client.Common" preserve="all"/>
+</linker>

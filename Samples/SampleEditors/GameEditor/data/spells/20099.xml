@@ -50,10 +50,16 @@
       <MaskKnockDown>False</MaskKnockDown>
       <MaskMustCritical>False</MaskMustCritical>
       <MaskMustHit>False</MaskMustHit>
-      <Properties type="SampleBattle.Plugins.SampleAttackProperties">
-        <DamageModiferID>0</DamageModiferID>
-        <DamagePerID>0</DamagePerID>
+      <Properties type="TLBattle.Common.Plugins.TLAttackProperties">
+        <ElementCoefficient>0</ElementCoefficient>
+        <ElementDamage>0</ElementDamage>
+        <ElementType>0</ElementType>
+        <SkillArgu_1>0</SkillArgu_1>
+        <SkillArgu_2>0</SkillArgu_2>
+        <SkillCoefficient>0</SkillCoefficient>
+        <SkillDamage>0</SkillDamage>
         <SkillTemplateID>0</SkillTemplateID>
+        <UseConfig>True</UseConfig>
       </Properties>
       <StopFrameAction>0</StopFrameAction>
       <StopFrameMS>0</StopFrameMS>
@@ -78,7 +84,9 @@
   <Name>炮弹</Name>
   <OrbitDistance>5.00</OrbitDistance>
   <ParabolaHeight>0.30</ParabolaHeight>
-  <Properties type="SampleBattle.Plugins.SampleSpellProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLSpellProperties">
+    <BallisticType>Linear</BallisticType>
+  </Properties>
   <RectWide>1.00</RectWide>
   <RemoveOnBindingSkillOver>False</RemoveOnBindingSkillOver>
   <RemoveOnBindingUncontrollable>False</RemoveOnBindingUncontrollable>
@@ -88,5 +96,5 @@
   <SeekingRange>10.00</SeekingRange>
   <SeekingTurningAngleSEC>3.00</SeekingTurningAngleSEC>
   <StopBindingSkillOnRemoved>False</StopBindingSkillOnRemoved>
-  <property.EditorPath>法术/建筑物/炮弹(20099)</property.EditorPath>
+  <property.EditorPath>法术/炮弹(20099)</property.EditorPath>
 </SpellTemplate>

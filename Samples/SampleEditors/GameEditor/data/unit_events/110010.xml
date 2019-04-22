@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UnitEventTemplate type="DeepCore.GameData.Zone.UnitEventTemplate">
+  <Events element_type="DeepCore.GameData.IEventData">
+    <element type="DeepCore.GameHost.UnitEvent">
+      <Actions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractAction, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractAction">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitAddBuffAction">
+            <BuffTemplateID>2</BuffTemplateID>
+            <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+Trigging" />
+          </element>
+        </Datas>
+      </Actions>
+      <Active>True</Active>
+      <Comment></Comment>
+      <Conditions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractCondition, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractCondition">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.AlwaysTrue" />
+        </Datas>
+      </Conditions>
+      <DelayTimeMS>0</DelayTimeMS>
+      <LocalVars>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.LocalVar, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.LocalVar" />
+      </LocalVars>
+      <Name>未命名事件1</Name>
+      <SavePath></SavePath>
+      <Triggers>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractTrigger, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractTrigger">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.BindingUnitActivated" />
+        </Datas>
+      </Triggers>
+    </element>
+  </Events>
+  <ID>110010</ID>
+  <Name>初始化粉色足迹</Name>
+  <property.EditorPath>单位事件/初始化粉色足迹(110010)</property.EditorPath>
+</UnitEventTemplate>

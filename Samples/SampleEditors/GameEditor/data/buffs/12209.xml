@@ -27,7 +27,12 @@
   <MaxOverlay>1</MaxOverlay>
   <Name>钢铁之心-变身</Name>
   <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
-  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
   <UnitBaseSkillID>
     <AutoLaunch>True</AutoLaunch>
     <Priority>0</Priority>
@@ -51,5 +56,5 @@
       <property.SerialNumber>757739</property.SerialNumber>
     </element>
   </UnitSkills>
-  <property.EditorPath>BUFF/状态特效/炼金师技能状态/钢铁之心-变身(12209)</property.EditorPath>
+  <property.EditorPath>BUFF/钢铁之心-变身(12209)</property.EditorPath>
 </BuffTemplate>

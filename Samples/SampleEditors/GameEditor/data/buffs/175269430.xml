@@ -83,7 +83,12 @@
   <MaxOverlay>1</MaxOverlay>
   <Name>Effect Test , EF , TEST,a,b,a12</Name>
   <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
-  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
   <UnitChangeSkills>False</UnitChangeSkills>
   <UnitKeepSkillsID element_type="System.Int32" />
   <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />

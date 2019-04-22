@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpellTemplate type="DeepCore.GameData.Zone.SpellTemplate">
+  <AOEMType>Linear</AOEMType>
+  <BodyHeight>0.00</BodyHeight>
+  <BodyShape>Round</BodyShape>
+  <BodySize>1.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <Distance>10.00</Distance>
+  <ExpectTarget>Enemy</ExpectTarget>
+  <FanAngle>0.00</FanAngle>
+  <FileBodyScale>1.00</FileBodyScale>
+  <FileName>/res/effect_xm/vfx_chr_linghu_skill03_02.assetbundles</FileName>
+  <HitIntervalMS>0</HitIntervalMS>
+  <HitOnExplosion>False</HitOnExplosion>
+  <ID>2042</ID>
+  <IsBindingDirection>True</IsBindingDirection>
+  <IsBindingOrbit>False</IsBindingOrbit>
+  <IsCycAnim>True</IsCycAnim>
+  <KeyFrames element_type="DeepCore.GameData.Zone.SpellTemplate+KeyFrame" />
+  <LifeTimeMS>600</LifeTimeMS>
+  <MaxAffectUnit>0</MaxAffectUnit>
+  <MSpeed_MAX>100.00</MSpeed_MAX>
+  <MSpeed_MIN>-100.00</MSpeed_MIN>
+  <MSpeedAcc>0.00</MSpeedAcc>
+  <MSpeedAdd>0.00</MSpeedAdd>
+  <MSpeedSEC>9.00</MSpeedSEC>
+  <MType>Binding</MType>
+  <Name>player02-技能03-特效02</Name>
+  <OrbitDistance>0.00</OrbitDistance>
+  <ParabolaHeight>0.00</ParabolaHeight>
+  <Properties type="TLBattle.Common.Plugins.TLSpellProperties">
+    <BallisticType>Linear</BallisticType>
+  </Properties>
+  <RectWide>1.00</RectWide>
+  <RemoveOnBindingSkillOver>True</RemoveOnBindingSkillOver>
+  <RemoveOnBindingUncontrollable>False</RemoveOnBindingUncontrollable>
+  <RotateSpeedSEC>0.00</RotateSpeedSEC>
+  <SeekingCooldownMS>1000</SeekingCooldownMS>
+  <SeekingExpectTarget>Random</SeekingExpectTarget>
+  <SeekingRange>10.00</SeekingRange>
+  <SeekingTurningAngleSEC>3.00</SeekingTurningAngleSEC>
+  <StopBindingSkillOnRemoved>False</StopBindingSkillOnRemoved>
+  <property.EditorPath>法术/测试法术/测试主角XM技能法术/player02/player02-技能03-特效02(2042)</property.EditorPath>
+</SpellTemplate>

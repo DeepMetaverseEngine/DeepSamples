@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <serverList>
+    <server realm="1" id="1"     group="1"  name="外网测试服"        address="103.242.169.212:38000"  is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="1"  view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="2"     group="1"  name="内网策划服"        address="192.168.1.231:19001"    is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="2"  view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="3"     group="1"  name="内网测试服"        address="192.168.1.226:19001"    is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="3"  view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="4"     group="1"  name="审核服"            address="192.168.1.226:29001"    is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="4"  view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="5"     group="1"  name="六七"              address="192.168.1.19:19001"     is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="5"  view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="6"     group="1"  name="从现在开始"        address="192.168.1.102:19001"    is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="6"  view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="7"     group="1"  name="从现在开始-外网"   address="103.242.169.212:48001"  is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="7"  view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="2000"  group="1"  name="(VS)尼霸霸"        address="192.168.1.20:19001"     is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="8"  view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="3000"  group="1"  name="(VS)luo"           address="192.168.1.21:19001"     is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="9"  view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="4000"  group="1"  name="(VS)吴"            address="192.168.1.11:19001"     is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="10" view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="5000"  group="1"  name="(VS)老蔡"          address="192.168.1.12:19001"     is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="11" view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="6000"  group="1"  name="(VS)老Q"           address="192.168.1.17:19001"     is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="12" view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="7000"  group="1"  name="(VS)飞哥"          address="192.168.1.22:19001"     is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="13" view_realm="1" view_realm_name="深渊区" icon="#dynamic/TL_login/output/TL_login.xml|TL_login|46"  />
+    <server realm="1" id="9001"  group="1"  name="(VS)本地开发服G1"  address="127.0.0.1:19001"        is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="1"  view_realm="1" view_realm_name="深渊区" icon=""  nodes="LogicNode1"/>
+    <server realm="1" id="9002"  group="2"  name="(VS)本地开发服G2"  address="127.0.0.1:19001"        is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="2"  view_realm="1" view_realm_name="深渊区" icon=""  nodes="LogicNode2"/>
+    <server realm="1" id="9003"  group="3"  name="(VS)本地开发服G3"  address="127.0.0.1:19001"        is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="3"  view_realm="2" view_realm_name="永久区" icon=""  nodes="LogicNode2,LogicNode1"/>
+    <server realm="1" id="9004"  group="4"  name="(VS)本地开发服G4"  address="127.0.0.1:19001"        is_open="1"  state="1" state_text="正常" view_rgba="0x595151FF" view_index="4"  view_realm="2" view_realm_name="永久区" icon=""  nodes="LogicNode2,LogicNode1"/>
+  </serverList>
+  <recomList>
+    <serverId>3</serverId>
+    <serverId>2</serverId>
+  </recomList>
+</doc>

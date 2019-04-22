@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuffTemplate type="DeepCore.GameData.Zone.BuffTemplate">
+  <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <BodyHitSize>0.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>0.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <ExclusiveCatgory>0</ExclusiveCatgory>
+  <ExclusivePriority>0</ExclusivePriority>
+  <FirstTimeEnable>True</FirstTimeEnable>
+  <HitIntervalMS>0</HitIntervalMS>
+  <IconName>#static/buff/output/buff.xml|buff|21</IconName>
+  <ID>21071</ID>
+  <IsCancelBySelf>False</IsCancelBySelf>
+  <IsDuplicating>False</IsDuplicating>
+  <IsHarmful>False</IsHarmful>
+  <IsInvincible>False</IsInvincible>
+  <IsInvisible>False</IsInvisible>
+  <IsNoneBlock>False</IsNoneBlock>
+  <IsOverlay>False</IsOverlay>
+  <IsPassive>False</IsPassive>
+  <IsRemoveOnSenderRemoved>False</IsRemoveOnSenderRemoved>
+  <IsSilent>False</IsSilent>
+  <KeyFrames element_type="DeepCore.GameData.Zone.BuffTemplate+KeyFrame" />
+  <LifeTimeMS>300000</LifeTimeMS>
+  <MakeAvatar>False</MakeAvatar>
+  <MakeStun>False</MakeStun>
+  <MaxOverlay>1</MaxOverlay>
+  <Name>芝麻汤圆(生命)</Name>
+  <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <buffData type="DeepCore.ArrayList`1[[TLBattle.Common.Plugins.TLBuffData, SampleBattle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="TLBattle.Common.Plugins.TLBuffData">
+      <element type="TLBattle.Common.Plugins.TLBuffData_ChangeProp">
+        <ChangeType>maxhp</ChangeType>
+        <showTips>False</showTips>
+        <TipsType>Normal</TipsType>
+        <Value>5000</Value>
+        <ValueType>Value</ValueType>
+      </element>
+    </buffData>
+    <CanBePurged>True</CanBePurged>
+    <CustomEffectRes></CustomEffectRes>
+    <IsShowLabel>True</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
+  <UnitChangeSkills>False</UnitChangeSkills>
+  <UnitKeepSkillsID element_type="System.Int32" />
+  <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
+  <property.EditorPath>BUFF/道具获得buff/芝麻汤圆(生命)(21071)</property.EditorPath>
+</BuffTemplate>

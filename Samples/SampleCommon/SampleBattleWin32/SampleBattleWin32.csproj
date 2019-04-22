@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{854700C8-A448-466A-A999-6C9BC20F8FEA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SampleBattleWin32</RootNamespace>
+    <AssemblyName>SampleBattleWin32</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameData\DeepCore.GameData.csproj">
+      <Project>{e7b8ca3c-ad08-45e3-84c7-c9753af510dc}</Project>
+      <Name>DeepCore.GameData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameEvent.Lua\DeepCore.GameEvent.Lua.csproj">
+      <Project>{dc64d2bf-145d-4c2d-b669-2a26eb39960b}</Project>
+      <Name>DeepCore.GameEvent.Lua</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameEvent\DeepCore.GameEvent.csproj">
+      <Project>{315b8780-b0c0-4c7d-9e7b-997015d4a189}</Project>
+      <Name>DeepCore.GameEvent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameHost.Local\DeepCore.GameHost.Local.csproj">
+      <Project>{34c365a4-c897-4059-868f-a999babbd113}</Project>
+      <Name>DeepCore.GameHost.Local</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameHost.Server\DeepCore.GameHost.Server.csproj">
+      <Project>{def83172-0e4e-4ccc-8f42-0f053deb8f10}</Project>
+      <Name>DeepCore.GameHost.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameHost\DeepCore.GameHost.csproj">
+      <Project>{3b3f61c0-36f8-42ee-9ec1-3d7d3298d671}</Project>
+      <Name>DeepCore.GameHost</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore.GameSlave\DeepCore.GameSlave.csproj">
+      <Project>{36b3201b-0cad-43ec-9f9c-3e011854f967}</Project>
+      <Name>DeepCore.GameSlave</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCore\DeepCore.csproj">
+      <Project>{99fb4093-b16e-4963-a861-9a07574bd9bc}</Project>
+      <Name>DeepCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepCore\DeepCrystal\DeepCrystal.csproj">
+      <Project>{81036dc2-4977-4f08-87ba-ef1d5c7ef823}</Project>
+      <Name>DeepCrystal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepEditor\DeepEditor.Common\DeepEditor.Common.csproj">
+      <Project>{f3594e30-da84-4538-baa3-0959b86aa879}</Project>
+      <Name>DeepEditor.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepEditor\DeepEditor.Plugin\DeepEditor.Plugin.csproj">
+      <Project>{539fa0de-4ef2-4035-832d-9e8614e92a48}</Project>
+      <Name>DeepEditor.Plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepFrozen\DeepFrozen.Server.SSocket\DeepFrozen.Server.SSocket.csproj">
+      <Project>{29d7ea22-28f5-4211-a884-500fd675d543}</Project>
+      <Name>DeepFrozen.Server.SSocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepFrozen\DeepFrozen\DeepFrozen.csproj">
+      <Project>{1303b3f3-72c7-4cf2-aa38-59e52cb622f6}</Project>
+      <Name>DeepFrozen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepFrozen\Library\SuperSocket.NetStandard\SuperSocket.Common\SuperSocket.Common.csproj">
+      <Project>{db4979ce-e833-4c9c-a4f2-d56f5db64cec}</Project>
+      <Name>SuperSocket.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepFrozen\Library\SuperSocket.NetStandard\SuperSocket.Facility\SuperSocket.Facility.csproj">
+      <Project>{a4f35db2-e651-474b-9ba3-a9a5e2d5c855}</Project>
+      <Name>SuperSocket.Facility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepFrozen\Library\SuperSocket.NetStandard\SuperSocket.SocketBase\SuperSocket.SocketBase.csproj">
+      <Project>{9a94be1d-a7f6-4150-8856-ed682b45554a}</Project>
+      <Name>SuperSocket.SocketBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\DeepFrozen\Library\SuperSocket.NetStandard\SuperSocket.SocketEngine\SuperSocket.SocketEngine.csproj">
+      <Project>{3c0a0173-75c0-46e1-8a70-f5cbee58e4bc}</Project>
+      <Name>SuperSocket.SocketEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleBattle.Server\SampleBattle.Server.csproj">
+      <Project>{5eb39c1f-aea0-430b-bfde-84600b1e8148}</Project>
+      <Name>SampleBattle.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleBattle\SampleBattle.csproj">
+      <Project>{69a0ee45-348f-4668-a2c8-9e4604d64d13}</Project>
+      <Name>SampleBattle</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

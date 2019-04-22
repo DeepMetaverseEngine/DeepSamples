@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PassportConfig type="TLServer.Common.Passport.PassportConfig">
+	<Passports element_type="TLServer.Common.Passport.Data.IPassportData">
+		<element type="TLServer.Common.Passport.Data.EGLSData">
+			<Name>egls</Name>
+			<Type>TLServer.Common.Passport.EGLSPassport</Type>
+			<VerifyUrl>http://cnpassport.eglsgame.com/passport/egls/tokenVerify</VerifyUrl>
+			<AppId>9000</AppId>
+			<AppCode>AEGLS260CN</AppCode>
+			<AppSecret>1V0dUjW2aCBUcON4</AppSecret>
+		</element>
+
+		<element type="TLServer.Common.Passport.Data.MIData">
+			<Name>xiaomi</Name>
+			<Type>TLServer.Common.Passport.MIPassport</Type>
+			<VerifyUrl>http://mis.migc.xiaomi.com/api/biz/service/loginvalidate</VerifyUrl>
+			<AppId>2882303761517832964</AppId>
+			<AppSecret>Bpi2ZR7tvOKgHsIXZJVQSQ==</AppSecret>
+		</element>
+	</Passports>
+</PassportConfig>

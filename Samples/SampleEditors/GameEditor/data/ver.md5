@@ -1,11 +1,11 @@
-0281d6d4fc0bbe1609d456bb5d815d77
-326e06f99a9a2b8436b892e9c059e0f1 :         1850 : \config.xml
-75354ac684d0ab05a66760a0904431ea :          100 : \config_ext.xml
+dd4a85f1cabd1b2cf431d8e9ba2d7ced
+86ee7abae53f6d9b46d9aa730dc22049 :         1848 : \config.xml
+a49d4defb0a87cec398dcbbfb1a00f37 :         2199 : \config_ext.xml
 a0333518274a4a2a922d2131894dd895 :          713 : \terrain_definition.xml
-fc9efd2e396fe9c345d6d22910a4b258 :         5869 : \units\dir.md5
-897df3cdc1cf06e0ada00ac68ce3b04a :         7658 : \skills\dir.md5
-309a5eee4570ab3c813457d24dc943a1 :         5777 : \spells\dir.md5
-a07e0711b246f5056f3fe9ccd0a553cc :         3480 : \buffs\dir.md5
-c5bb88e45b806a2079676d452263a8e5 :          306 : \items\dir.md5
-253de6ef35aa8f05522883c9896c5570 :           66 : \unit_events\dir.md5
-81389d5d4bec52a42652bd0c5800d9a2 :         1236 : \scenes\dir.md5
+da106dad53d0d862731dada96ff90066 :        99099 : \units\dir.md5
+567710d53940ba2206e55cf80689918d :        35226 : \skills\dir.md5
+1872f5b70c8b1f81b427a13fec8139c8 :        30689 : \spells\dir.md5
+b36608b1eccc4123ba010790f9cd4b6f :        14741 : \buffs\dir.md5
+3df78506573893fece25d2b9d8155a2f :        30601 : \items\dir.md5
+dc43c77eb825584482f89126ea23f384 :         1182 : \unit_events\dir.md5
+4099572bda235d1c99f82c3c66ea413c :        19978 : \scenes\dir.md5

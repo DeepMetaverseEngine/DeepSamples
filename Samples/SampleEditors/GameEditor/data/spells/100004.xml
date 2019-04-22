@@ -28,7 +28,9 @@
   <Name>狂怒旋风</Name>
   <OrbitDistance>0.00</OrbitDistance>
   <ParabolaHeight>0.00</ParabolaHeight>
-  <Properties type="SampleBattle.Plugins.SampleSpellProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLSpellProperties">
+    <BallisticType>Linear</BallisticType>
+  </Properties>
   <RectWide>1.00</RectWide>
   <RemoveOnBindingSkillOver>False</RemoveOnBindingSkillOver>
   <RemoveOnBindingUncontrollable>False</RemoveOnBindingUncontrollable>
@@ -38,5 +40,5 @@
   <SeekingRange>10.00</SeekingRange>
   <SeekingTurningAngleSEC>3.00</SeekingTurningAngleSEC>
   <StopBindingSkillOnRemoved>False</StopBindingSkillOnRemoved>
-  <property.EditorPath>法术/玩家职业/狂战士/狂怒旋风(100004)</property.EditorPath>
+  <property.EditorPath>法术/狂怒旋风(100004)</property.EditorPath>
 </SpellTemplate>

@@ -27,9 +27,14 @@
   <MaxOverlay>1</MaxOverlay>
   <Name>慌乱投掷-粘乎乎-冷却时间额外+3秒</Name>
   <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
-  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
   <UnitChangeSkills>False</UnitChangeSkills>
   <UnitKeepSkillsID element_type="System.Int32" />
   <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
-  <property.EditorPath>BUFF/状态特效/炼金师技能状态/慌乱投掷-粘乎乎-冷却时间额外+3秒(12206)</property.EditorPath>
+  <property.EditorPath>BUFF/慌乱投掷-粘乎乎-冷却时间额外+3秒(12206)</property.EditorPath>
 </BuffTemplate>

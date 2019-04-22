@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemTemplate type="DeepCore.GameData.Zone.ItemTemplate">
+  <BodySize>2.00</BodySize>
+  <BuyCostMoney>False</BuyCostMoney>
+  <ClientVisible>True</ClientVisible>
+  <DropForAll>True</DropForAll>
+  <DropMoneyMax>0</DropMoneyMax>
+  <DropMoneyMin>0</DropMoneyMin>
+  <EquipBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <FileName>/res/effect/item/ef_item_purple_light.assetbundles</FileName>
+  <GotCoolDownTimeMS>500</GotCoolDownTimeMS>
+  <GotOnUse>True</GotOnUse>
+  <HoldingLimit>0</HoldingLimit>
+  <ID>10000047</ID>
+  <IsDuplicateInventory>True</IsDuplicateInventory>
+  <IsInventoryUseable>True</IsInventoryUseable>
+  <LifeTimeMS>10000</LifeTimeMS>
+  <MaxStackCount>100</MaxStackCount>
+  <Name>收取</Name>
+  <NoLifeTime>True</NoLifeTime>
+  <Pickable>True</Pickable>
+  <PickTimeMS>2000</PickTimeMS>
+  <PlayerOnly>True</PlayerOnly>
+  <Properties type="TLBattle.Common.Plugins.TLItemProperties">
+    <AllowAutoPick>False</AllowAutoPick>
+    <HandPick>False</HandPick>
+    <PickAction>n_gather</PickAction>
+    <PickBtnName>采集中...</PickBtnName>
+    <PickIcon>#static/TL_hud/output/TL_hud.xml|TL_hud|23</PickIcon>
+    <PickUnitForce>0</PickUnitForce>
+    <PreTimes>0</PreTimes>
+    <ShowGotEffect>False</ShowGotEffect>
+    <ShowPickPercentGauge>True</ShowPickPercentGauge>
+    <ShowPickPercentText>True</ShowPickPercentText>
+    <Type>None</Type>
+  </Properties>
+  <RemoveOnFinishPick>False</RemoveOnFinishPick>
+  <SellGotMoney>False</SellGotMoney>
+  <SyncToServer>False</SyncToServer>
+  <UseBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <UseCoolDownTimeMS>0</UseCoolDownTimeMS>
+  <UseInProgressTimeMS>0</UseInProgressTimeMS>
+  <property.EditorPath>物品/任务类物品/冥羽洞府/收取天灵镜2/收取(10000047)</property.EditorPath>
+</ItemTemplate>

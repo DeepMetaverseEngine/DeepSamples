@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuffTemplate type="DeepCore.GameData.Zone.BuffTemplate">
+  <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <BodyHitSize>0.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>0.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <ExclusiveCatgory>0</ExclusiveCatgory>
+  <ExclusivePriority>0</ExclusivePriority>
+  <FirstTimeEnable>True</FirstTimeEnable>
+  <HitIntervalMS>0</HitIntervalMS>
+  <ID>21054</ID>
+  <IsCancelBySelf>False</IsCancelBySelf>
+  <IsDuplicating>False</IsDuplicating>
+  <IsHarmful>False</IsHarmful>
+  <IsInvincible>False</IsInvincible>
+  <IsInvisible>False</IsInvisible>
+  <IsNoneBlock>False</IsNoneBlock>
+  <IsOverlay>False</IsOverlay>
+  <IsPassive>False</IsPassive>
+  <IsRemoveOnSenderRemoved>False</IsRemoveOnSenderRemoved>
+  <IsSilent>False</IsSilent>
+  <KeyFrames element_type="DeepCore.GameData.Zone.BuffTemplate+KeyFrame">
+    <element>
+      <Attack>
+        <Attack>0</Attack>
+        <Buff>
+          <BuffID>21064</BuffID>
+          <LaunchPercent>100.00</LaunchPercent>
+          <property.SerialNumber>1820289</property.SerialNumber>
+        </Buff>
+        <CrushPercent>0.00</CrushPercent>
+        <HitMoveBodyAttackSize>1.00</HitMoveBodyAttackSize>
+        <HitMoveMType>BySenderPosition</HitMoveMType>
+        <IsDamageProtect>False</IsDamageProtect>
+        <KnockOutTimeMS>0</KnockOutTimeMS>
+        <MaskDamage>False</MaskDamage>
+        <MaskHitFly>False</MaskHitFly>
+        <MaskKnockDown>False</MaskKnockDown>
+        <MaskMustCritical>False</MaskMustCritical>
+        <MaskMustHit>False</MaskMustHit>
+        <Properties type="TLBattle.Common.Plugins.TLAttackProperties">
+          <ElementCoefficient>0</ElementCoefficient>
+          <ElementDamage>0</ElementDamage>
+          <ElementType>0</ElementType>
+          <SkillArgu_1>0</SkillArgu_1>
+          <SkillArgu_2>0</SkillArgu_2>
+          <SkillCoefficient>0</SkillCoefficient>
+          <SkillDamage>0</SkillDamage>
+          <SkillTemplateID>0</SkillTemplateID>
+          <UseConfig>False</UseConfig>
+        </Properties>
+        <StopFrameMS>0</StopFrameMS>
+        <Weight>1</Weight>
+        <property.SerialNumber>1820287</property.SerialNumber>
+      </Attack>
+      <FrameMS>0</FrameMS>
+    </element>
+    <element>
+      <Attack>
+        <Attack>0</Attack>
+        <Buff>
+          <BuffID>21065</BuffID>
+          <LaunchPercent>100.00</LaunchPercent>
+          <property.SerialNumber>1820291</property.SerialNumber>
+        </Buff>
+        <CrushPercent>0.00</CrushPercent>
+        <HitMoveBodyAttackSize>1.00</HitMoveBodyAttackSize>
+        <HitMoveMType>BySenderPosition</HitMoveMType>
+        <IsDamageProtect>False</IsDamageProtect>
+        <KnockOutTimeMS>0</KnockOutTimeMS>
+        <MaskDamage>False</MaskDamage>
+        <MaskHitFly>False</MaskHitFly>
+        <MaskKnockDown>False</MaskKnockDown>
+        <MaskMustCritical>False</MaskMustCritical>
+        <MaskMustHit>False</MaskMustHit>
+        <Properties type="TLBattle.Common.Plugins.TLAttackProperties">
+          <ElementCoefficient>0</ElementCoefficient>
+          <ElementDamage>0</ElementDamage>
+          <ElementType>0</ElementType>
+          <SkillArgu_1>0</SkillArgu_1>
+          <SkillArgu_2>0</SkillArgu_2>
+          <SkillCoefficient>0</SkillCoefficient>
+          <SkillDamage>0</SkillDamage>
+          <SkillTemplateID>0</SkillTemplateID>
+          <UseConfig>False</UseConfig>
+        </Properties>
+        <StopFrameMS>0</StopFrameMS>
+        <Weight>1</Weight>
+        <property.SerialNumber>1820290</property.SerialNumber>
+      </Attack>
+      <FrameMS>0</FrameMS>
+    </element>
+  </KeyFrames>
+  <LifeTimeMS>15000</LifeTimeMS>
+  <MakeAvatar>False</MakeAvatar>
+  <MakeStun>False</MakeStun>
+  <MaxOverlay>1</MaxOverlay>
+  <Name>龙首攻击增加</Name>
+  <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <buffData type="DeepCore.ArrayList`1[[TLBattle.Common.Plugins.TLBuffData, SampleBattle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="TLBattle.Common.Plugins.TLBuffData">
+      <element type="TLBattle.Common.Plugins.TLBuffData_ChangeProp">
+        <ChangeType>attack</ChangeType>
+        <showTips>True</showTips>
+        <TipsType>AttackUp</TipsType>
+        <Value>2000</Value>
+        <ValueType>Percent</ValueType>
+      </element>
+    </buffData>
+    <CanBePurged>False</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>False</SaveOnChangeScene>
+  </Properties>
+  <UnitChangeSkills>False</UnitChangeSkills>
+  <UnitKeepSkillsID element_type="System.Int32" />
+  <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
+  <property.EditorPath>BUFF/角色用buff/竞技场相关/其他竞技场/龙首攻击增加(21054)</property.EditorPath>
+</BuffTemplate>

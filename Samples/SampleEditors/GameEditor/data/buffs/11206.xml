@@ -23,7 +23,7 @@
     <WarnScaleZ>1.00</WarnScaleZ>
     <WarnSpeed>1.00</WarnSpeed>
     <WarnType>WARNING_TYPE_NONE</WarnType>
-    <property.SerialNumber>90308</property.SerialNumber>
+    <property.SerialNumber>233</property.SerialNumber>
   </BindingEffect>
   <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
   <BodyHitSize>0.00</BodyHitSize>
@@ -52,9 +52,14 @@
   <MaxOverlay>1</MaxOverlay>
   <Name>嗜血猛击-无力（无绑定特效）</Name>
   <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
-  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
   <UnitChangeSkills>False</UnitChangeSkills>
   <UnitKeepSkillsID element_type="System.Int32" />
   <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
-  <property.EditorPath>BUFF/状态特效/狂战士技能状态/嗜血猛击-无力（无绑定特效）(11206)</property.EditorPath>
+  <property.EditorPath>BUFF/嗜血猛击-无力（无绑定特效）(11206)</property.EditorPath>
 </BuffTemplate>

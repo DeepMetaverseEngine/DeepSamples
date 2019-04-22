@@ -69,7 +69,16 @@
   <Pickable>True</Pickable>
   <PickTimeMS>2000</PickTimeMS>
   <PlayerOnly>True</PlayerOnly>
-  <Properties type="SampleBattle.Plugins.SampleItemProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLItemProperties">
+    <AllowAutoPick>True</AllowAutoPick>
+    <HandPick>True</HandPick>
+    <PickUnitForce>0</PickUnitForce>
+    <PreTimes>0</PreTimes>
+    <ShowGotEffect>True</ShowGotEffect>
+    <ShowPickPercentGauge>True</ShowPickPercentGauge>
+    <ShowPickPercentText>True</ShowPickPercentText>
+    <Type>None</Type>
+  </Properties>
   <RemoveOnFinishPick>True</RemoveOnFinishPick>
   <SellGotMoney>False</SellGotMoney>
   <SyncToServer>True</SyncToServer>

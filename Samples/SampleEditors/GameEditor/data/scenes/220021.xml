@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneData type="DeepCore.GameData.Zone.ZoneEditor.SceneData">
+  <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.SceneAbilityData" />
+  <Areas element_type="DeepCore.GameData.Zone.ZoneEditor.AreaData" />
+  <BGM>/res/sound/dynamic/bgm/tiangong.assetbundles</BGM>
+  <ClientSyncRange>20.00</ClientSyncRange>
+  <Decorations element_type="DeepCore.GameData.Zone.ZoneEditor.DecorationData">
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.DecorationAbilityData" />
+      <Blockable>False</Blockable>
+      <BlockValue>-16711936</BlockValue>
+      <Color>-16711936</Color>
+      <Direction>0.00</Direction>
+      <Enable>True</Enable>
+      <GridSizeH>0.00</GridSizeH>
+      <GridSizeW>0.00</GridSizeW>
+      <H>10.00</H>
+      <Height>0.00</Height>
+      <Name>chuansongmen1</Name>
+      <R>5.00</R>
+      <RegionType>ROUND</RegionType>
+      <ResourceID>/res/effect/ef_portal_02.assetbundles</ResourceID>
+      <SavePath>传送点/天宫</SavePath>
+      <Scale>1.00</Scale>
+      <StripDirection>3.14</StripDirection>
+      <W>10.00</W>
+      <X>29.99</X>
+      <Y>58.28</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.DecorationAbilityData" />
+      <Blockable>False</Blockable>
+      <BlockValue>-16711936</BlockValue>
+      <Color>-16711936</Color>
+      <Direction>0.00</Direction>
+      <Enable>True</Enable>
+      <GridSizeH>0.00</GridSizeH>
+      <GridSizeW>0.00</GridSizeW>
+      <H>10.00</H>
+      <Height>0.00</Height>
+      <Name>chuansongmen2</Name>
+      <R>5.00</R>
+      <RegionType>ROUND</RegionType>
+      <ResourceID>/res/effect/ef_portal_02.assetbundles</ResourceID>
+      <SavePath>传送点/十里桃林</SavePath>
+      <Scale>1.00</Scale>
+      <StripDirection>-1.58</StripDirection>
+      <W>10.00</W>
+      <X>14.43</X>
+      <Y>58.51</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.DecorationAbilityData" />
+      <Blockable>True</Blockable>
+      <BlockValue>-16711936</BlockValue>
+      <Color>-16711936</Color>
+      <Direction>0.00</Direction>
+      <Enable>True</Enable>
+      <GridSizeH>0.00</GridSizeH>
+      <GridSizeW>0.00</GridSizeW>
+      <H>3.00</H>
+      <Height>0.00</Height>
+      <Name>zudangdian1</Name>
+      <R>5.00</R>
+      <RegionType>STRIP</RegionType>
+      <SavePath>阻挡点</SavePath>
+      <Scale>3.00</Scale>
+      <StripDirection>0.02</StripDirection>
+      <W>6.00</W>
+      <X>26.39</X>
+      <Y>51.01</Y>
+    </element>
+  </Decorations>
+  <DefaultUnitLevel>0</DefaultUnitLevel>
+  <EnvironmentVars element_type="DeepCore.GameData.IZoneVar">
+    <element type="DeepCore.GameHostEditor.ZoneVar">
+      <Key>countdown</Key>
+      <SyncToClient>True</SyncToClient>
+      <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+        <Value>900</Value>
+      </Value>
+    </element>
+    <element type="DeepCore.GameHostEditor.ZoneVar">
+      <Key>default_countdown</Key>
+      <SyncToClient>True</SyncToClient>
+      <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+        <Value>900</Value>
+      </Value>
+    </element>
+  </EnvironmentVars>
+  <Events element_type="DeepCore.GameData.IEventData">
+    <element type="DeepCore.GameHost.ZoneEditor.ZoneEvent">
+      <Actions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractAction, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractAction">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitTransportAction">
+            <Pos type="DeepCore.GameHost.ZoneEditor.EventTrigger.PositionValue+CenterOfFlag">
+              <Flag type="DeepCore.GameHost.ZoneEditor.EventTrigger.FlagValue+EditorRegion">
+                <EditorName>star</EditorName>
+              </Flag>
+            </Pos>
+            <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+Trigging" />
+          </element>
+        </Datas>
+      </Actions>
+      <Active>False</Active>
+      <Comment></Comment>
+      <Conditions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractCondition, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractCondition">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanCondition">
+            <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitFieldBoolValue">
+              <FieldName>IsPlayer</FieldName>
+              <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+Trigging" />
+            </Value>
+          </element>
+        </Datas>
+      </Conditions>
+      <DelayTimeMS>0</DelayTimeMS>
+      <LocalVars>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.LocalVar, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.LocalVar" />
+      </LocalVars>
+      <Name>jinchang</Name>
+      <SavePath></SavePath>
+      <Triggers>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractTrigger, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractTrigger">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.GenericUnitAdded" />
+        </Datas>
+      </Triggers>
+    </element>
+    <element type="DeepCore.GameHost.ZoneEditor.ZoneEvent">
+      <Actions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractAction, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractAction">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.FlagOpenAction">
+            <Flag type="DeepCore.GameHost.ZoneEditor.EventTrigger.FlagValue+EditorRegion">
+              <EditorName>tengshe</EditorName>
+            </Flag>
+          </element>
+        </Datas>
+      </Actions>
+      <Active>False</Active>
+      <Comment></Comment>
+      <Conditions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractCondition, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractCondition">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanCondition">
+            <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanValue+FlagIsSpawnNoneAlive">
+              <Region type="DeepCore.GameHost.ZoneEditor.EventTrigger.FlagValue+EditorRegion">
+                <EditorName>shamo</EditorName>
+              </Region>
+            </Value>
+          </element>
+        </Datas>
+      </Conditions>
+      <DelayTimeMS>0</DelayTimeMS>
+      <LocalVars>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.LocalVar, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.LocalVar" />
+      </LocalVars>
+      <Name>shamo-finish</Name>
+      <SavePath></SavePath>
+      <Triggers>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractTrigger, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractTrigger">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.GenericUnitDead" />
+        </Datas>
+      </Triggers>
+    </element>
+    <element type="DeepCore.GameHost.ZoneEditor.ZoneEvent">
+      <Actions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractAction, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractAction">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.EventTriggerDeactive">
+            <EventName>win</EventName>
+          </element>
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.DelayedAction">
+            <DelayAction type="DeepCore.GameHost.ZoneEditor.EventTrigger.GameOverAction">
+              <Message>win</Message>
+              <WinForce type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+                <Value>2</Value>
+              </WinForce>
+            </DelayAction>
+            <DelayTimeMS type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+              <Value>0</Value>
+            </DelayTimeMS>
+          </element>
+        </Datas>
+      </Actions>
+      <Active>False</Active>
+      <Comment></Comment>
+      <Conditions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractCondition, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractCondition">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanCondition">
+            <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanValue+FlagIsSpawnNoneAlive">
+              <Region type="DeepCore.GameHost.ZoneEditor.EventTrigger.FlagValue+EditorRegion">
+                <EditorName>tengshe</EditorName>
+              </Region>
+            </Value>
+          </element>
+        </Datas>
+      </Conditions>
+      <DelayTimeMS>0</DelayTimeMS>
+      <LocalVars>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.LocalVar, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.LocalVar" />
+      </LocalVars>
+      <Name>win</Name>
+      <SavePath></SavePath>
+      <Triggers>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractTrigger, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractTrigger">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.GenericUnitDead" />
+        </Datas>
+      </Triggers>
+    </element>
+    <element type="DeepCore.GameHost.ZoneEditor.ZoneEvent">
+      <Actions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractAction, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractAction">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.DelayedAction">
+            <DelayAction type="DeepCore.GameHost.ZoneEditor.EventTrigger.ForceUnitFaceToAction">
+              <Direction type="DeepCore.GameHost.ZoneEditor.EventTrigger.RealValue+VALUE">
+                <Value>4.50</Value>
+              </Direction>
+              <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+Trigging" />
+            </DelayAction>
+            <DelayTimeMS type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+              <Value>1000</Value>
+            </DelayTimeMS>
+          </element>
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.FlagOpenAction">
+            <Flag type="DeepCore.GameHost.ZoneEditor.EventTrigger.FlagValue+EditorRegion">
+              <EditorName>shamo</EditorName>
+            </Flag>
+          </element>
+        </Datas>
+      </Actions>
+      <Active>False</Active>
+      <Comment></Comment>
+      <Conditions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractCondition, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractCondition">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanCondition">
+            <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitFieldBoolValue">
+              <FieldName>IsPlayer</FieldName>
+              <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+Trigging" />
+            </Value>
+          </element>
+        </Datas>
+      </Conditions>
+      <DelayTimeMS>500</DelayTimeMS>
+      <LocalVars>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.LocalVar, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.LocalVar" />
+      </LocalVars>
+      <Name>进场事件</Name>
+      <SavePath></SavePath>
+      <Triggers>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractTrigger, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractTrigger">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.GenericPlayReady" />
+        </Datas>
+      </Triggers>
+    </element>
+  </Events>
+  <FileName>/res/scene/xuzhang_map01.assetbundles</FileName>
+  <ID>220021</ID>
+  <Items element_type="DeepCore.GameData.Zone.ZoneEditor.ItemData" />
+  <MaxPlayer>10</MaxPlayer>
+  <MaxUnit>10000</MaxUnit>
+  <Name>诛仙台</Name>
+  <Points element_type="DeepCore.GameData.Zone.ZoneEditor.PointData">
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>Pr1</Name>
+      <NextNames element_type="System.String" />
+      <SavePath></SavePath>
+      <X>15.01</X>
+      <Y>10.05</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_fengsuozhuxian</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>采集物/封锁诛仙台</SavePath>
+      <X>14.54</X>
+      <Y>17.14</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_wm_jieleiqiongqi</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>位面战/雷劫穷奇</SavePath>
+      <X>16.30</X>
+      <Y>19.50</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_wm_shamo</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>位面战/煞魔</SavePath>
+      <X>14.55</X>
+      <Y>17.13</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_wm_tengshe</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>位面战/冰麒麟</SavePath>
+      <X>14.55</X>
+      <Y>17.19</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_wm_tianbing</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>位面战/天兵</SavePath>
+      <X>14.41</X>
+      <Y>28.72</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_wm_tianjiang</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>位面战/天将</SavePath>
+      <X>14.49</X>
+      <Y>28.74</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_zhuxiantailiansong</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>npc/连宋</SavePath>
+      <X>11.00</X>
+      <Y>25.00</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_zhuxiantaisujin</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>npc/素锦</SavePath>
+      <X>16.96</X>
+      <Y>17.95</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_zhuxiantaisusu</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>npc/素素</SavePath>
+      <X>10.79</X>
+      <Y>18.14</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_zhuxiantaitianjun</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>npc/天君</SavePath>
+      <X>14.27</X>
+      <Y>26.84</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_zhuxiantaiyehua</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>npc/夜华</SavePath>
+      <X>14.47</X>
+      <Y>19.76</Y>
+    </element>
+  </Points>
+  <Properties type="TLBattle.Common.Plugins.TLSceneProperties">
+    <CurSceneType>Dungeon</CurSceneType>
+    <ServerSceneData>
+      <AllowAutoGuard>True</AllowAutoGuard>
+      <CalPKValue>True</CalPKValue>
+      <DataID>0</DataID>
+      <SceneType>Dungeon</SceneType>
+    </ServerSceneData>
+    <Sync_InRange>40</Sync_InRange>
+    <Sync_OutRange>50</Sync_OutRange>
+  </Properties>
+  <Regions element_type="DeepCore.GameData.Zone.ZoneEditor.RegionData">
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.RegionAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <H>10.00</H>
+      <Name>shilitaolin_jinru</Name>
+      <R>1.50</R>
+      <RegionType>ROUND</RegionType>
+      <SavePath>传送点/十里桃林</SavePath>
+      <W>10.00</W>
+      <X>14.43</X>
+      <Y>45.39</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.RegionAbilityData">
+        <element type="DeepCore.GameData.Zone.ZoneEditor.PlayerStartAbilityData">
+          <Direction>0.00</Direction>
+          <START_Force>2</START_Force>
+          <TestActorLevel>0</TestActorLevel>
+          <TestActorTemplateID>601</TestActorTemplateID>
+        </element>
+      </Abilities>
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <H>3.00</H>
+      <Name>star</Name>
+      <R>1.00</R>
+      <RegionType>ROUND</RegionType>
+      <SavePath></SavePath>
+      <W>3.00</W>
+      <X>14.41</X>
+      <Y>45.37</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.RegionAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <H>10.00</H>
+      <Name>tiangong_jinru</Name>
+      <R>1.50</R>
+      <RegionType>ROUND</RegionType>
+      <SavePath>传送点/天宫</SavePath>
+      <W>10.00</W>
+      <X>14.46</X>
+      <Y>45.38</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.RegionAbilityData" />
+      <Color>-16711936</Color>
+      <DisplayName>去天宫</DisplayName>
+      <Enable>True</Enable>
+      <H>10.00</H>
+      <Name>to_shilitaolin</Name>
+      <R>3.00</R>
+      <RegionType>ROUND</RegionType>
+      <SavePath>传送点/十里桃林</SavePath>
+      <W>10.00</W>
+      <X>14.44</X>
+      <Y>58.65</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.RegionAbilityData" />
+      <Color>-16711936</Color>
+      <DisplayName>去天宫</DisplayName>
+      <Enable>True</Enable>
+      <H>10.00</H>
+      <Name>to_tiangong</Name>
+      <R>3.00</R>
+      <RegionType>ROUND</RegionType>
+      <SavePath>传送点/天宫</SavePath>
+      <W>10.00</W>
+      <X>29.60</X>
+      <Y>58.40</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.RegionAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <H>10.00</H>
+      <Name>zhuxiantai_jinru</Name>
+      <R>1.50</R>
+      <RegionType>ROUND</RegionType>
+      <SavePath>天宫</SavePath>
+      <W>10.00</W>
+      <X>14.42</X>
+      <Y>45.36</Y>
+    </element>
+  </Regions>
+  <RemoveUnitOnDisconnect>False</RemoveUnitOnDisconnect>
+  <SpaceDiv>8</SpaceDiv>
+  <Terrain>
+    <GridCellH>1</GridCellH>
+    <GridCellW>1</GridCellW>
+    <ResourceOffsetX>0.00</ResourceOffsetX>
+    <ResourceOffsetY>0.00</ResourceOffsetY>
+    <ResourceRotate>0.00</ResourceRotate>
+    <ResourceScaleX>1.00</ResourceScaleX>
+    <ResourceScaleY>1.00</ResourceScaleY>
+    <TerrainTextData>
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,0,0,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,0,0,FF000000,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+</TerrainTextData>
+    <XCount>40</XCount>
+    <YCount>70</YCount>
+  </Terrain>
+  <TotalTimeLimitSEC>0</TotalTimeLimitSEC>
+  <Units element_type="DeepCore.GameData.Zone.ZoneEditor.UnitData">
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.UnitAbilityData" />
+      <Color>-16711936</Color>
+      <Direction>1.49</Direction>
+      <Enable>True</Enable>
+      <Force>0</Force>
+      <Name>liansong</Name>
+      <SavePath>npc/连宋</SavePath>
+      <Scale>1.00</Scale>
+      <UnitLevel>0</UnitLevel>
+      <UnitTemplateID>30223</UnitTemplateID>
+      <X>11.18</X>
+      <Y>24.91</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.UnitAbilityData" />
+      <Color>-16711936</Color>
+      <Direction>1.54</Direction>
+      <Enable>True</Enable>
+      <Force>0</Force>
+      <Name>sujin</Name>
+      <SavePath>npc/素锦</SavePath>
+      <Scale>1.00</Scale>
+      <UnitLevel>0</UnitLevel>
+      <UnitTemplateID>30218</UnitTemplateID>
+      <X>17.01</X>
+      <Y>17.87</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.UnitAbilityData" />
+      <Color>-16711936</Color>
+      <Direction>1.50</Direction>
+      <Enable>True</Enable>
+      <Force>0</Force>
+      <Name>susu</Name>
+      <SavePath>npc/素素</SavePath>
+      <Scale>1.00</Scale>
+      <UnitLevel>0</UnitLevel>
+      <UnitTemplateID>30217</UnitTemplateID>
+      <X>10.85</X>
+      <Y>18.05</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.UnitAbilityData" />
+      <Color>-16711936</Color>
+      <Direction>1.53</Direction>
+      <Enable>True</Enable>
+      <Force>0</Force>
+      <Name>tianjun</Name>
+      <SavePath>npc/天君</SavePath>
+      <Scale>1.00</Scale>
+      <UnitLevel>0</UnitLevel>
+      <UnitTemplateID>30219</UnitTemplateID>
+      <X>14.31</X>
+      <Y>26.78</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.UnitAbilityData" />
+      <Color>-16711936</Color>
+      <Direction>1.54</Direction>
+      <Enable>True</Enable>
+      <Force>0</Force>
+      <Name>yehua</Name>
+      <SavePath>npc/夜华</SavePath>
+      <Scale>1.00</Scale>
+      <UnitLevel>0</UnitLevel>
+      <UnitTemplateID>30216</UnitTemplateID>
+      <X>14.44</X>
+      <Y>19.77</Y>
+    </element>
+  </Units>
+  <property.EditorPath>场景/正式场景/单人剧情副本/诛仙台(220021)</property.EditorPath>
+</SceneData>

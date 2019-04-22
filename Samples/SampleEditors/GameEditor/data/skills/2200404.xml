@@ -89,9 +89,25 @@
   <IsSelectRange>False</IsSelectRange>
   <IsSingleAction>True</IsSingleAction>
   <Name>重击雕文-普通攻击_战斗机甲-炼金师</Name>
-  <Properties type="SampleBattle.Plugins.SampleSkillProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLSkillProperties">
+    <DisplayConfig>
+      <FaceToTarget>True</FaceToTarget>
+    </DisplayConfig>
+    <LaunchModeData>
+      <Mode>Mode_None</Mode>
+      <Shape_Angle>0</Shape_Angle>
+      <Shape_LaunchCenterOffset>0.00</Shape_LaunchCenterOffset>
+      <Shape_Radius>0.00</Shape_Radius>
+      <Shape_Width>0.00</Shape_Width>
+      <ShowLaunchGuide>True</ShowLaunchGuide>
+    </LaunchModeData>
+    <LoadConfig>False</LoadConfig>
+    <SkillType>active</SkillType>
+    <StopSkillOnUnitDead>False</StopSkillOnUnitDead>
+    <TargetType>NeedTarget</TargetType>
+  </Properties>
   <SelectRangeSize>0.00</SelectRangeSize>
   <SelectRangeType>NA</SelectRangeType>
   <SingleActionCoolDownMS>100</SingleActionCoolDownMS>
-  <property.EditorPath>技能/玩家职业/炼金师/战斗机甲/重击雕文-普通攻击_战斗机甲-炼金师(2200404)</property.EditorPath>
+  <property.EditorPath>技能/重击雕文-普通攻击_战斗机甲-炼金师(2200404)</property.EditorPath>
 </SkillTemplate>

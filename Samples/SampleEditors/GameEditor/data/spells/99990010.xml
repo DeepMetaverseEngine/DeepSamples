@@ -23,15 +23,21 @@
       <MaskKnockDown>False</MaskKnockDown>
       <MaskMustCritical>False</MaskMustCritical>
       <MaskMustHit>False</MaskMustHit>
-      <Properties type="SampleBattle.Plugins.SampleAttackProperties">
-        <DamageModiferID>0</DamageModiferID>
-        <DamagePerID>0</DamagePerID>
+      <Properties type="TLBattle.Common.Plugins.TLAttackProperties">
+        <ElementCoefficient>0</ElementCoefficient>
+        <ElementDamage>0</ElementDamage>
+        <ElementType>0</ElementType>
+        <SkillArgu_1>0</SkillArgu_1>
+        <SkillArgu_2>0</SkillArgu_2>
+        <SkillCoefficient>0</SkillCoefficient>
+        <SkillDamage>0</SkillDamage>
         <SkillTemplateID>0</SkillTemplateID>
+        <UseConfig>True</UseConfig>
       </Properties>
       <StopFrameAction>0</StopFrameAction>
       <StopFrameMS>0</StopFrameMS>
       <Weight>1</Weight>
-      <property.SerialNumber>525850</property.SerialNumber>
+      <property.SerialNumber>232</property.SerialNumber>
     </Attack>
     <Effect>
       <BindBody>False</BindBody>
@@ -54,7 +60,7 @@
       <WarnScaleZ>1.00</WarnScaleZ>
       <WarnSpeed>1.00</WarnSpeed>
       <WarnType>WARNING_TYPE_NONE</WarnType>
-      <property.SerialNumber>525851</property.SerialNumber>
+      <property.SerialNumber>231</property.SerialNumber>
     </Effect>
     <FrameMS>0</FrameMS>
   </HitIntervalKeyFrame>
@@ -76,7 +82,9 @@
   <Name>大风车</Name>
   <OrbitDistance>0.00</OrbitDistance>
   <ParabolaHeight>0.00</ParabolaHeight>
-  <Properties type="SampleBattle.Plugins.SampleSpellProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLSpellProperties">
+    <BallisticType>Linear</BallisticType>
+  </Properties>
   <RectWide>1.00</RectWide>
   <RemoveOnBindingSkillOver>False</RemoveOnBindingSkillOver>
   <RemoveOnBindingUncontrollable>True</RemoveOnBindingUncontrollable>
@@ -86,5 +94,5 @@
   <SeekingRange>10.00</SeekingRange>
   <SeekingTurningAngleSEC>3.00</SeekingTurningAngleSEC>
   <StopBindingSkillOnRemoved>False</StopBindingSkillOnRemoved>
-  <property.EditorPath>法术/00_zyf_test/大风车(99990010)</property.EditorPath>
+  <property.EditorPath>法术/大风车(99990010)</property.EditorPath>
 </SpellTemplate>

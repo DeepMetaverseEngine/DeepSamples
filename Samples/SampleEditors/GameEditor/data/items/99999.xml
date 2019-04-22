@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemTemplate type="DeepCore.GameData.Zone.ItemTemplate">
+  <BodySize>1.50</BodySize>
+  <BuyCostMoney>False</BuyCostMoney>
+  <ClientVisible>True</ClientVisible>
+  <DropForAll>True</DropForAll>
+  <DropMoneyMax>0</DropMoneyMax>
+  <DropMoneyMin>0</DropMoneyMin>
+  <EquipBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <GotCoolDownTimeMS>500</GotCoolDownTimeMS>
+  <GotOnUse>True</GotOnUse>
+  <HoldingLimit>0</HoldingLimit>
+  <ID>99999</ID>
+  <IsDuplicateInventory>True</IsDuplicateInventory>
+  <IsInventoryUseable>True</IsInventoryUseable>
+  <LifeTimeMS>10000</LifeTimeMS>
+  <MaxStackCount>999999999</MaxStackCount>
+  <Name>测试血瓶</Name>
+  <NoLifeTime>True</NoLifeTime>
+  <Pickable>True</Pickable>
+  <PickTimeMS>2000</PickTimeMS>
+  <PlayerOnly>True</PlayerOnly>
+  <Properties type="TLBattle.Common.Plugins.TLItemProperties">
+    <AllowAutoPick>False</AllowAutoPick>
+    <HandPick>False</HandPick>
+    <PickAction>n_gather</PickAction>
+    <PickBtnName>拾取中...</PickBtnName>
+    <PickIcon>#static/TL_hud/output/TL_hud.xml|TL_hud|23</PickIcon>
+    <PickUnitForce>0</PickUnitForce>
+    <PreTimes>0</PreTimes>
+    <ShowGotEffect>False</ShowGotEffect>
+    <ShowPickPercentGauge>True</ShowPickPercentGauge>
+    <ShowPickPercentText>True</ShowPickPercentText>
+    <Type>None</Type>
+  </Properties>
+  <RemoveOnFinishPick>True</RemoveOnFinishPick>
+  <SellGotMoney>False</SellGotMoney>
+  <SyncToServer>False</SyncToServer>
+  <UseBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <UseCoolDownTimeMS>0</UseCoolDownTimeMS>
+  <UseEffect>
+    <BindBody>False</BindBody>
+    <BindBodyDirection>True</BindBodyDirection>
+    <BlurBeginTime>0</BlurBeginTime>
+    <BlurEndTime>0</BlurEndTime>
+    <BlurStrength>0.00</BlurStrength>
+    <BlurWaitTime>0</BlurWaitTime>
+    <CameraBeginTime>0</CameraBeginTime>
+    <CameraDistance>0.00</CameraDistance>
+    <CameraEndTime>0</CameraEndTime>
+    <CameraWaitTime>0</CameraWaitTime>
+    <EarthQuakeMS>0</EarthQuakeMS>
+    <EarthQuakeXYZ>0.00</EarthQuakeXYZ>
+    <EffectTimeMS>0</EffectTimeMS>
+    <IsLoop>False</IsLoop>
+    <Name>/res/effect/ef_hit.assetbundles</Name>
+    <ScaleToBodySize>0.00</ScaleToBodySize>
+    <WarnDegree>80.00</WarnDegree>
+    <WarnScaleX>1.00</WarnScaleX>
+    <WarnScaleZ>1.00</WarnScaleZ>
+    <WarnSpeed>1.00</WarnSpeed>
+    <WarnType>WARNING_TYPE_NONE</WarnType>
+    <property.SerialNumber>35177</property.SerialNumber>
+  </UseEffect>
+  <UseInProgressTimeMS>0</UseInProgressTimeMS>
+  <property.EditorPath>物品/任务类物品/俊疾山/事件类/测试血瓶(99999)</property.EditorPath>
+</ItemTemplate>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneData type="DeepCore.GameData.Zone.ZoneEditor.SceneData">
+  <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.SceneAbilityData" />
+  <Areas element_type="DeepCore.GameData.Zone.ZoneEditor.AreaData" />
+  <BGM>/res/sound/dynamic/bgm/zhandou1.assetbundles</BGM>
+  <ClientSyncRange>20.00</ClientSyncRange>
+  <Decorations element_type="DeepCore.GameData.Zone.ZoneEditor.DecorationData" />
+  <DefaultUnitLevel>0</DefaultUnitLevel>
+  <EnvironmentVars element_type="DeepCore.GameData.IZoneVar">
+    <element type="DeepCore.GameHostEditor.ZoneVar">
+      <Key>count_down</Key>
+      <SyncToClient>True</SyncToClient>
+      <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+        <Value>300</Value>
+      </Value>
+    </element>
+    <element type="DeepCore.GameHostEditor.ZoneVar">
+      <Key>default_countdown</Key>
+      <SyncToClient>True</SyncToClient>
+      <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+        <Value>300</Value>
+      </Value>
+    </element>
+    <element type="DeepCore.GameHostEditor.ZoneVar">
+      <Key>time</Key>
+      <SyncToClient>True</SyncToClient>
+      <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+        <Value>300</Value>
+      </Value>
+    </element>
+  </EnvironmentVars>
+  <Events element_type="DeepCore.GameData.IEventData">
+    <element type="DeepCore.GameHost.ZoneEditor.ZoneEvent">
+      <Actions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractAction, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractAction">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.ForceUnitFaceToAction">
+            <Direction type="DeepCore.GameHost.ZoneEditor.EventTrigger.RealValue+VALUE">
+              <Value>4.50</Value>
+            </Direction>
+            <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+Trigging" />
+          </element>
+        </Datas>
+      </Actions>
+      <Active>True</Active>
+      <Comment></Comment>
+      <Conditions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractCondition, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractCondition">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanCondition">
+            <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitFieldBoolValue">
+              <FieldName>IsPlayer</FieldName>
+              <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+Trigging" />
+            </Value>
+          </element>
+        </Datas>
+      </Conditions>
+      <DelayTimeMS>0</DelayTimeMS>
+      <LocalVars>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.LocalVar, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.LocalVar" />
+      </LocalVars>
+      <Name>jinchang</Name>
+      <SavePath></SavePath>
+      <Triggers>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractTrigger, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractTrigger">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.GenericUnitAdded" />
+        </Datas>
+      </Triggers>
+    </element>
+    <element type="DeepCore.GameHost.ZoneEditor.ZoneEvent">
+      <Actions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractAction, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractAction">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.EventTriggerDeactive">
+            <EventName>timeover</EventName>
+          </element>
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.EveryForceUnitDoAction">
+            <Action type="DeepCore.GameHost.ZoneEditor.EventTrigger.UpdateQuestStatus">
+              <Key type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>state</Value>
+              </Key>
+              <Quest>5010008</Quest>
+              <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+PickingIteratingUnit" />
+              <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>1</Value>
+              </Value>
+            </Action>
+            <SelectForce type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+              <Value>2</Value>
+            </SelectForce>
+          </element>
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.EveryForceUnitDoAction">
+            <Action type="DeepCore.GameHost.ZoneEditor.EventTrigger.UpdateQuestStatus">
+              <Key type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>state</Value>
+              </Key>
+              <Quest>5020008</Quest>
+              <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+PickingIteratingUnit" />
+              <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>1</Value>
+              </Value>
+            </Action>
+            <SelectForce type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+              <Value>2</Value>
+            </SelectForce>
+          </element>
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.EveryForceUnitDoAction">
+            <Action type="DeepCore.GameHost.ZoneEditor.EventTrigger.UpdateQuestStatus">
+              <Key type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>state</Value>
+              </Key>
+              <Quest>5030008</Quest>
+              <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+PickingIteratingUnit" />
+              <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>1</Value>
+              </Value>
+            </Action>
+            <SelectForce type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+              <Value>2</Value>
+            </SelectForce>
+          </element>
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.EveryForceUnitDoAction">
+            <Action type="DeepCore.GameHost.ZoneEditor.EventTrigger.UpdateQuestStatus">
+              <Key type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>state</Value>
+              </Key>
+              <Quest>5040008</Quest>
+              <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+PickingIteratingUnit" />
+              <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>1</Value>
+              </Value>
+            </Action>
+            <SelectForce type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+              <Value>2</Value>
+            </SelectForce>
+          </element>
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.EveryForceUnitDoAction">
+            <Action type="DeepCore.GameHost.ZoneEditor.EventTrigger.UpdateQuestStatus">
+              <Key type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>state</Value>
+              </Key>
+              <Quest>5050008</Quest>
+              <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+PickingIteratingUnit" />
+              <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>1</Value>
+              </Value>
+            </Action>
+            <SelectForce type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+              <Value>2</Value>
+            </SelectForce>
+          </element>
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.DelayedAction">
+            <DelayAction type="DeepCore.GameHost.ZoneEditor.EventTrigger.GameOverAction">
+              <Message>win</Message>
+              <WinForce type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+                <Value>2</Value>
+              </WinForce>
+            </DelayAction>
+            <DelayTimeMS type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+              <Value>500</Value>
+            </DelayTimeMS>
+          </element>
+        </Datas>
+      </Actions>
+      <Active>True</Active>
+      <Comment></Comment>
+      <Conditions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractCondition, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractCondition">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanCondition">
+            <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanValue+StringComparison">
+              <Op>EQUAL</Op>
+              <String1 type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitFieldStringValue">
+                <FieldName>Name</FieldName>
+                <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+Trigging" />
+              </String1>
+              <String2 type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>boss</Value>
+              </String2>
+            </Value>
+          </element>
+        </Datas>
+      </Conditions>
+      <DelayTimeMS>2000</DelayTimeMS>
+      <LocalVars>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.LocalVar, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.LocalVar" />
+      </LocalVars>
+      <Name>jinnishou_dead</Name>
+      <SavePath>击杀金猊兽</SavePath>
+      <Triggers>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractTrigger, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractTrigger">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.GenericUnitDead" />
+        </Datas>
+      </Triggers>
+    </element>
+    <element type="DeepCore.GameHost.ZoneEditor.ZoneEvent">
+      <Actions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractAction, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractAction">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.SetEnvironmentInteger">
+            <Key>count_down</Key>
+            <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+IntegerOP">
+              <OP>SUB</OP>
+              <Value1 type="DeepCore.GameHost.ZoneEditor.EventTrigger.GetEnvironmentAsInteger">
+                <Key>count_down</Key>
+              </Value1>
+              <Value2 type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+                <Value>1</Value>
+              </Value2>
+            </Value>
+          </element>
+        </Datas>
+      </Actions>
+      <Active>True</Active>
+      <Comment></Comment>
+      <Conditions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractCondition, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractCondition">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.AlwaysTrue" />
+        </Datas>
+      </Conditions>
+      <DelayTimeMS>0</DelayTimeMS>
+      <LocalVars>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.LocalVar, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.LocalVar" />
+      </LocalVars>
+      <Name>time</Name>
+      <SavePath></SavePath>
+      <Triggers>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractTrigger, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractTrigger">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.TimePeriodic">
+            <EveryTimeSEC>1.00</EveryTimeSEC>
+          </element>
+        </Datas>
+      </Triggers>
+    </element>
+    <element type="DeepCore.GameHost.ZoneEditor.ZoneEvent">
+      <Actions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractAction, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractAction">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.GameOverAction">
+            <Message>lose</Message>
+            <WinForce type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+              <Value>1</Value>
+            </WinForce>
+          </element>
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.EventTriggerDeactive">
+            <EventName>timeover</EventName>
+          </element>
+        </Datas>
+      </Actions>
+      <Active>True</Active>
+      <Comment></Comment>
+      <Conditions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractCondition, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractCondition">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanCondition">
+            <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanValue+IntegerComparison">
+              <Op>LESS_THAN_OR_EQUAL</Op>
+              <Value1 type="DeepCore.GameHost.ZoneEditor.EventTrigger.GetEnvironmentAsInteger">
+                <Key>count_down</Key>
+              </Value1>
+              <Value2 type="DeepCore.GameHost.ZoneEditor.EventTrigger.IntegerValue+VALUE">
+                <Value>0</Value>
+              </Value2>
+            </Value>
+          </element>
+        </Datas>
+      </Conditions>
+      <DelayTimeMS>0</DelayTimeMS>
+      <LocalVars>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.LocalVar, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.LocalVar" />
+      </LocalVars>
+      <Name>timeover</Name>
+      <SavePath></SavePath>
+      <Triggers>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractTrigger, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractTrigger">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.TimePeriodic">
+            <EveryTimeSEC>1.00</EveryTimeSEC>
+          </element>
+        </Datas>
+      </Triggers>
+    </element>
+    <element type="DeepCore.GameHost.ZoneEditor.ZoneEvent">
+      <Actions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractAction, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractAction">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.FlagOpenAction">
+            <Flag type="DeepCore.GameHost.ZoneEditor.EventTrigger.FlagValue+EditorRegion">
+              <EditorName>jinnishou</EditorName>
+            </Flag>
+          </element>
+        </Datas>
+      </Actions>
+      <Active>False</Active>
+      <Comment></Comment>
+      <Conditions>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractCondition, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractCondition">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanCondition">
+            <Value type="DeepCore.GameHost.ZoneEditor.EventTrigger.BooleanValue+StringComparison">
+              <Op>EQUAL</Op>
+              <String1 type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitFieldStringValue">
+                <FieldName>Name</FieldName>
+                <Unit type="DeepCore.GameHost.ZoneEditor.EventTrigger.UnitValue+Trigging" />
+              </String1>
+              <String2 type="DeepCore.GameHost.ZoneEditor.EventTrigger.StringValue+VALUE">
+                <Value>jinnishou2</Value>
+              </String2>
+            </Value>
+          </element>
+        </Datas>
+      </Conditions>
+      <DelayTimeMS>0</DelayTimeMS>
+      <LocalVars>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.LocalVar, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.LocalVar" />
+      </LocalVars>
+      <Name>金猊兽刷新</Name>
+      <SavePath></SavePath>
+      <Triggers>
+        <Datas type="DeepCore.ArrayList`1[[DeepCore.GameHost.EventTrigger.AbstractTrigger, DeepCore.GameHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="DeepCore.GameHost.EventTrigger.AbstractTrigger">
+          <element type="DeepCore.GameHost.ZoneEditor.EventTrigger.GenericUnitDead" />
+        </Datas>
+      </Triggers>
+    </element>
+  </Events>
+  <FileName>/res/scene/jnsdong_map01.assetbundles</FileName>
+  <ID>620108</ID>
+  <Items element_type="DeepCore.GameData.Zone.ZoneEditor.ItemData" />
+  <MaxPlayer>10</MaxPlayer>
+  <MaxUnit>10000</MaxUnit>
+  <Name>仙盟悬赏</Name>
+  <Points element_type="DeepCore.GameData.Zone.ZoneEditor.PointData">
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.PointAbilityData" />
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <Name>xl_jinnishou</Name>
+      <NextNames element_type="System.String" />
+      <SavePath>寻路点/boss刷新区域</SavePath>
+      <X>23.31</X>
+      <Y>25.01</Y>
+    </element>
+  </Points>
+  <Properties type="TLBattle.Common.Plugins.TLSceneProperties">
+    <CurSceneType>Dungeon</CurSceneType>
+    <ServerSceneData>
+      <AllowAutoGuard>True</AllowAutoGuard>
+      <CalPKValue>True</CalPKValue>
+      <DataID>0</DataID>
+      <SceneType>Dungeon</SceneType>
+    </ServerSceneData>
+    <Sync_InRange>20</Sync_InRange>
+    <Sync_OutRange>30</Sync_OutRange>
+  </Properties>
+  <Regions element_type="DeepCore.GameData.Zone.ZoneEditor.RegionData">
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.RegionAbilityData">
+        <element type="DeepCore.GameData.Zone.ZoneEditor.SpawnUnitAbilityData">
+          <AliveLimit>1</AliveLimit>
+          <Force>1</Force>
+          <IntervalMS>0</IntervalMS>
+          <OnceCount>1</OnceCount>
+          <ResetOnWithoutAlive>False</ResetOnWithoutAlive>
+          <StartDirection>1.50</StartDirection>
+          <StartPathHoldMaxTimeMS>0</StartPathHoldMaxTimeMS>
+          <StartPathHoldMinTimeMS>0</StartPathHoldMinTimeMS>
+          <StartTimeDelayMS>0</StartTimeDelayMS>
+          <TotalLimit>1</TotalLimit>
+          <UnitLevel>0</UnitLevel>
+          <UnitName>boss</UnitName>
+          <UnitTemplates element_type="DeepCore.GameData.Zone.ZoneEditor.SpawnUnitAbilityData+SpawnUnit" />
+          <UnitTemplatesID element_type="System.Int32">
+            <element>23608</element>
+          </UnitTemplatesID>
+          <WithoutAlive>False</WithoutAlive>
+        </element>
+      </Abilities>
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <H>10.00</H>
+      <Name>boss</Name>
+      <R>1.00</R>
+      <RegionType>ROUND</RegionType>
+      <SavePath>寻路点/boss刷新区域</SavePath>
+      <W>10.00</W>
+      <X>23.51</X>
+      <Y>22.59</Y>
+    </element>
+    <element>
+      <Abilities element_type="DeepCore.GameData.Zone.ZoneEditor.RegionAbilityData">
+        <element type="DeepCore.GameData.Zone.ZoneEditor.PlayerStartAbilityData">
+          <Direction>4.50</Direction>
+          <START_Force>2</START_Force>
+          <TestActorLevel>0</TestActorLevel>
+          <TestActorTemplateID>220</TestActorTemplateID>
+        </element>
+      </Abilities>
+      <Color>-16711936</Color>
+      <Enable>True</Enable>
+      <H>10.00</H>
+      <Name>star</Name>
+      <R>2.00</R>
+      <RegionType>ROUND</RegionType>
+      <SavePath>出生点</SavePath>
+      <W>10.00</W>
+      <X>21.74</X>
+      <Y>36.16</Y>
+    </element>
+  </Regions>
+  <RemoveUnitOnDisconnect>False</RemoveUnitOnDisconnect>
+  <SpaceDiv>18</SpaceDiv>
+  <Terrain>
+    <GridCellH>1</GridCellH>
+    <GridCellW>1</GridCellW>
+    <ResourceOffsetX>0.00</ResourceOffsetX>
+    <ResourceOffsetY>0.00</ResourceOffsetY>
+    <ResourceRotate>0.00</ResourceRotate>
+    <ResourceScaleX>1.00</ResourceScaleX>
+    <ResourceScaleY>1.00</ResourceScaleY>
+    <TerrainTextData>
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,0,0,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,FF000000,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,0,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,0,0,0,0,0,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,0,0,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,0,0,0,0,FF000000,FF000000,0,FF000000,0,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,0,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,0,0,0,0,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF000000,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+{FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00,FF00FF00},
+</TerrainTextData>
+    <XCount>40</XCount>
+    <YCount>60</YCount>
+  </Terrain>
+  <TotalTimeLimitSEC>0</TotalTimeLimitSEC>
+  <Units element_type="DeepCore.GameData.Zone.ZoneEditor.UnitData" />
+  <property.EditorPath>场景/正式场景/仙盟场景/仙盟悬赏/仙盟悬赏(620108)</property.EditorPath>
+</SceneData>

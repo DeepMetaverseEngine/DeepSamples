@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuffTemplate type="DeepCore.GameData.Zone.BuffTemplate">
+  <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <BodyHitSize>0.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>0.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <EndKeyFrame>
+    <Effect>
+      <BindBody>True</BindBody>
+      <BindBodyDirection>True</BindBodyDirection>
+      <BlurBeginTime>0</BlurBeginTime>
+      <BlurEndTime>0</BlurEndTime>
+      <BlurStrength>0.00</BlurStrength>
+      <BlurWaitTime>0</BlurWaitTime>
+      <CameraBeginTime>0</CameraBeginTime>
+      <CameraDistance>0.00</CameraDistance>
+      <CameraEndTime>0</CameraEndTime>
+      <CameraWaitTime>0</CameraWaitTime>
+      <EarthQuakeMS>0</EarthQuakeMS>
+      <EarthQuakeXYZ>0.00</EarthQuakeXYZ>
+      <EffectTimeMS>0</EffectTimeMS>
+      <IsLoop>False</IsLoop>
+      <Name>/res/effect/ef_shapeshift_01.assetbundles</Name>
+      <ScaleToBodySize>0.00</ScaleToBodySize>
+      <WarnDegree>80.00</WarnDegree>
+      <WarnScaleX>1.00</WarnScaleX>
+      <WarnScaleZ>1.00</WarnScaleZ>
+      <WarnSpeed>1.00</WarnSpeed>
+      <WarnType>WARNING_TYPE_NONE</WarnType>
+      <property.SerialNumber>837857</property.SerialNumber>
+    </Effect>
+    <FrameMS>0</FrameMS>
+  </EndKeyFrame>
+  <ExclusiveCatgory>11</ExclusiveCatgory>
+  <ExclusivePriority>1</ExclusivePriority>
+  <FirstTimeEnable>True</FirstTimeEnable>
+  <HitIntervalMS>0</HitIntervalMS>
+  <IconName>#static/skill_icon/output/skill_icon.xml|skill_icon|5</IconName>
+  <ID>410008</ID>
+  <IsCancelBySelf>False</IsCancelBySelf>
+  <IsDuplicating>False</IsDuplicating>
+  <IsHarmful>False</IsHarmful>
+  <IsInvincible>False</IsInvincible>
+  <IsInvisible>False</IsInvisible>
+  <IsNoneBlock>False</IsNoneBlock>
+  <IsOverlay>False</IsOverlay>
+  <IsPassive>False</IsPassive>
+  <IsRemoveOnSenderRemoved>False</IsRemoveOnSenderRemoved>
+  <IsSilent>False</IsSilent>
+  <KeyFrames element_type="DeepCore.GameData.Zone.BuffTemplate+KeyFrame" />
+  <LifeTimeMS>15000</LifeTimeMS>
+  <MakeAvatar>True</MakeAvatar>
+  <MakeStun>False</MakeStun>
+  <MaxOverlay>1</MaxOverlay>
+  <Name>怪变擎苍</Name>
+  <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>True</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
+  <UnitChangeSkills>False</UnitChangeSkills>
+  <UnitFileName>/res/unit/partner_qingcang.assetbundles</UnitFileName>
+  <UnitKeepSkillsID element_type="System.Int32" />
+  <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
+  <property.EditorPath>BUFF/镜像用仙侣变身/怪变擎苍(410008)</property.EditorPath>
+</BuffTemplate>

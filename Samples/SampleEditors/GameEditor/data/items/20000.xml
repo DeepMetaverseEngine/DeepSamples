@@ -20,12 +20,21 @@
   <Pickable>True</Pickable>
   <PickTimeMS>0</PickTimeMS>
   <PlayerOnly>True</PlayerOnly>
-  <Properties type="SampleBattle.Plugins.SampleItemProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLItemProperties">
+    <AllowAutoPick>True</AllowAutoPick>
+    <HandPick>True</HandPick>
+    <PickUnitForce>0</PickUnitForce>
+    <PreTimes>0</PreTimes>
+    <ShowGotEffect>True</ShowGotEffect>
+    <ShowPickPercentGauge>True</ShowPickPercentGauge>
+    <ShowPickPercentText>True</ShowPickPercentText>
+    <Type>None</Type>
+  </Properties>
   <RemoveOnFinishPick>True</RemoveOnFinishPick>
   <SellGotMoney>False</SellGotMoney>
   <SyncToServer>False</SyncToServer>
   <UseBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
   <UseCoolDownTimeMS>0</UseCoolDownTimeMS>
   <UseInProgressTimeMS>0</UseInProgressTimeMS>
-  <property.EditorPath>物品/数据物品/战场分值(20000)</property.EditorPath>
+  <property.EditorPath>物品/战场分值(20000)</property.EditorPath>
 </ItemTemplate>

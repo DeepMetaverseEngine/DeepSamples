@@ -46,9 +46,25 @@
   <IsSelectRange>False</IsSelectRange>
   <IsSingleAction>False</IsSingleAction>
   <Name>狂风打击-飓风-狂战士</Name>
-  <Properties type="SampleBattle.Plugins.SampleSkillProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLSkillProperties">
+    <DisplayConfig>
+      <FaceToTarget>True</FaceToTarget>
+    </DisplayConfig>
+    <LaunchModeData>
+      <Mode>Mode_None</Mode>
+      <Shape_Angle>0</Shape_Angle>
+      <Shape_LaunchCenterOffset>0.00</Shape_LaunchCenterOffset>
+      <Shape_Radius>0.00</Shape_Radius>
+      <Shape_Width>0.00</Shape_Width>
+      <ShowLaunchGuide>True</ShowLaunchGuide>
+    </LaunchModeData>
+    <LoadConfig>False</LoadConfig>
+    <SkillType>active</SkillType>
+    <StopSkillOnUnitDead>False</StopSkillOnUnitDead>
+    <TargetType>NeedTarget</TargetType>
+  </Properties>
   <SelectRangeSize>0.00</SelectRangeSize>
   <SelectRangeType>NA</SelectRangeType>
   <SingleActionCoolDownMS>100</SingleActionCoolDownMS>
-  <property.EditorPath>技能/玩家职业/狂战士/狂风打击/狂风打击-飓风-狂战士(120023)</property.EditorPath>
+  <property.EditorPath>技能/狂风打击-飓风-狂战士(120023)</property.EditorPath>
 </SkillTemplate>

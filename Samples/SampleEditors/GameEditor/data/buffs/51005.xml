@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuffTemplate type="DeepCore.GameData.Zone.BuffTemplate">
+  <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <BodyHitSize>4.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>4.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <ExclusiveCatgory>0</ExclusiveCatgory>
+  <ExclusivePriority>0</ExclusivePriority>
+  <FirstTimeEnable>True</FirstTimeEnable>
+  <HitIntervalMS>0</HitIntervalMS>
+  <ID>51005</ID>
+  <IsCancelBySelf>False</IsCancelBySelf>
+  <IsDuplicating>False</IsDuplicating>
+  <IsHarmful>False</IsHarmful>
+  <IsInvincible>False</IsInvincible>
+  <IsInvisible>False</IsInvisible>
+  <IsNoneBlock>False</IsNoneBlock>
+  <IsOverlay>False</IsOverlay>
+  <IsPassive>True</IsPassive>
+  <IsRemoveOnSenderRemoved>False</IsRemoveOnSenderRemoved>
+  <IsSilent>False</IsSilent>
+  <KeyFrames element_type="DeepCore.GameData.Zone.BuffTemplate+KeyFrame" />
+  <LifeTimeMS>500000</LifeTimeMS>
+  <MakeAvatar>True</MakeAvatar>
+  <MakeStun>False</MakeStun>
+  <MaxOverlay>1</MaxOverlay>
+  <Name>英雄金猊兽变身</Name>
+  <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <buffData type="DeepCore.ArrayList`1[[TLBattle.Common.Plugins.TLBuffData, SampleBattle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="TLBattle.Common.Plugins.TLBuffData">
+      <element type="TLBattle.Common.Plugins.TLBuffData_ActiveSkill">
+        <BuffID>0</BuffID>
+        <Skills type="DeepCore.ArrayList`1[[TLBattle.Common.Plugins.GameSkill, SampleBattle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="TLBattle.Common.Plugins.GameSkill">
+          <element>
+            <AutoLaunch>True</AutoLaunch>
+            <SkillID>500021</SkillID>
+            <SkillIndex>0</SkillIndex>
+            <SkillLevel>1</SkillLevel>
+            <SkillTimestampMS>0</SkillTimestampMS>
+            <SkillType>active</SkillType>
+            <TalentLevel>0</TalentLevel>
+          </element>
+          <element>
+            <AutoLaunch>True</AutoLaunch>
+            <SkillID>500022</SkillID>
+            <SkillIndex>0</SkillIndex>
+            <SkillLevel>1</SkillLevel>
+            <SkillTimestampMS>0</SkillTimestampMS>
+            <SkillType>active</SkillType>
+            <TalentLevel>0</TalentLevel>
+          </element>
+          <element>
+            <AutoLaunch>True</AutoLaunch>
+            <SkillID>500023</SkillID>
+            <SkillIndex>0</SkillIndex>
+            <SkillLevel>1</SkillLevel>
+            <SkillTimestampMS>0</SkillTimestampMS>
+            <SkillType>active</SkillType>
+            <TalentLevel>0</TalentLevel>
+          </element>
+        </Skills>
+        <TipsType>None</TipsType>
+      </element>
+    </buffData>
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
+  <UnitBaseSkillID>
+    <AutoLaunch>True</AutoLaunch>
+    <Priority>0</Priority>
+    <SkillID>210241</SkillID>
+    <property.SerialNumber>1544384</property.SerialNumber>
+  </UnitBaseSkillID>
+  <UnitChangeSkills>False</UnitChangeSkills>
+  <UnitFileName>/res/unit/monster_jjs_jinnishou01_hero.assetbundles</UnitFileName>
+  <UnitKeepSkillsID element_type="System.Int32" />
+  <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill">
+    <element>
+      <AutoLaunch>True</AutoLaunch>
+      <Priority>0</Priority>
+      <SkillID>210242</SkillID>
+      <property.SerialNumber>1544385</property.SerialNumber>
+    </element>
+    <element>
+      <AutoLaunch>True</AutoLaunch>
+      <Priority>0</Priority>
+      <SkillID>210243</SkillID>
+      <property.SerialNumber>1544386</property.SerialNumber>
+    </element>
+  </UnitSkills>
+  <property.EditorPath>BUFF/副本boss状态/英雄金猊兽变身(51005)</property.EditorPath>
+</BuffTemplate>

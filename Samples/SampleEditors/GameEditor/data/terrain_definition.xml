@@ -22,5 +22,12 @@
       <Tag></Tag>
       <Value>-12566464</Value>
     </element>
+    <element>
+      <Desc></Desc>
+      <IsBlock>True</IsBlock>
+      <Name></Name>
+      <Tag></Tag>
+      <Value>-65281</Value>
+    </element>
   </Brushes>
 </TerrainDefinitionMap>

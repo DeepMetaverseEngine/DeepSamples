@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemTemplate type="DeepCore.GameData.Zone.ItemTemplate">
+  <BodySize>1.00</BodySize>
+  <BuyCostMoney>False</BuyCostMoney>
+  <ClientVisible>True</ClientVisible>
+  <DropForAll>False</DropForAll>
+  <DropMoneyMax>0</DropMoneyMax>
+  <DropMoneyMin>0</DropMoneyMin>
+  <EquipBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <FileName>/res/effect/item/ef_item_equip_041.assetbundles</FileName>
+  <GotCoolDownTimeMS>500</GotCoolDownTimeMS>
+  <GotOnUse>True</GotOnUse>
+  <HoldingLimit>0</HoldingLimit>
+  <ID>41</ID>
+  <IsDuplicateInventory>True</IsDuplicateInventory>
+  <IsInventoryUseable>True</IsInventoryUseable>
+  <LifeTimeMS>999999</LifeTimeMS>
+  <MaxStackCount>100</MaxStackCount>
+  <Name>模型011</Name>
+  <NoLifeTime>False</NoLifeTime>
+  <Pickable>False</Pickable>
+  <PickTimeMS>2000</PickTimeMS>
+  <PlayerOnly>True</PlayerOnly>
+  <Properties type="TLBattle.Common.Plugins.TLItemProperties">
+    <AllowAutoPick>True</AllowAutoPick>
+    <HandPick>True</HandPick>
+    <PickUnitForce>0</PickUnitForce>
+    <PreTimes>0</PreTimes>
+    <ShowGotEffect>True</ShowGotEffect>
+    <ShowPickPercentGauge>True</ShowPickPercentGauge>
+    <ShowPickPercentText>True</ShowPickPercentText>
+    <Type>None</Type>
+  </Properties>
+  <RemoveOnFinishPick>True</RemoveOnFinishPick>
+  <SellGotMoney>False</SellGotMoney>
+  <SyncToServer>False</SyncToServer>
+  <UseBuffs element_type="DeepCore.GameData.Zone.LaunchBuff" />
+  <UseCoolDownTimeMS>0</UseCoolDownTimeMS>
+  <UseInProgressTimeMS>0</UseInProgressTimeMS>
+  <property.EditorPath>物品/测试物品/模型011(41)</property.EditorPath>
+</ItemTemplate>

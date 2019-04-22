@@ -89,8 +89,16 @@
       <Y>0.00</Y>
     </element>
   </Points>
-  <Properties type="SampleBattle.Plugins.SampleSceneProperties">
-    <DeathMatch>False</DeathMatch>
+  <Properties type="TLBattle.Common.Plugins.TLSceneProperties">
+    <CurSceneType>None</CurSceneType>
+    <ServerSceneData>
+      <AllowAutoGuard>True</AllowAutoGuard>
+      <CalPKValue>True</CalPKValue>
+      <DataID>0</DataID>
+      <SceneType>Normal</SceneType>
+    </ServerSceneData>
+    <Sync_InRange>20</Sync_InRange>
+    <Sync_OutRange>30</Sync_OutRange>
   </Properties>
   <Regions element_type="DeepCore.GameData.Zone.ZoneEditor.RegionData">
     <element>

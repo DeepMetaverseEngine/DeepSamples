@@ -52,9 +52,14 @@
   <MaxOverlay>1</MaxOverlay>
   <Name>巨神跃击-群体眩晕</Name>
   <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
-  <Properties type="SampleBattle.Plugins.SampleBuffProperties" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>True</SaveOnChangeScene>
+  </Properties>
   <UnitChangeSkills>False</UnitChangeSkills>
   <UnitKeepSkillsID element_type="System.Int32" />
   <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
-  <property.EditorPath>BUFF/状态特效/狂战士技能状态/巨神跃击-群体眩晕(11201)</property.EditorPath>
+  <property.EditorPath>BUFF/巨神跃击-群体眩晕(11201)</property.EditorPath>
 </BuffTemplate>

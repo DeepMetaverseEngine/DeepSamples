@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuffTemplate type="DeepCore.GameData.Zone.BuffTemplate">
+  <BindingEffectList element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <BodyHitSize>0.00</BodyHitSize>
+  <BodyScale>1.00</BodyScale>
+  <BodySize>0.00</BodySize>
+  <ClientVisible>True</ClientVisible>
+  <ExclusiveCatgory>0</ExclusiveCatgory>
+  <ExclusivePriority>0</ExclusivePriority>
+  <FirstTimeEnable>True</FirstTimeEnable>
+  <HitIntervalMS>0</HitIntervalMS>
+  <ID>61001</ID>
+  <IsCancelBySelf>False</IsCancelBySelf>
+  <IsDuplicating>False</IsDuplicating>
+  <IsHarmful>False</IsHarmful>
+  <IsInvincible>False</IsInvincible>
+  <IsInvisible>False</IsInvisible>
+  <IsNoneBlock>False</IsNoneBlock>
+  <IsOverlay>False</IsOverlay>
+  <IsPassive>True</IsPassive>
+  <IsRemoveOnSenderRemoved>False</IsRemoveOnSenderRemoved>
+  <IsSilent>False</IsSilent>
+  <KeyFrames element_type="DeepCore.GameData.Zone.BuffTemplate+KeyFrame" />
+  <LifeTimeMS>99999999</LifeTimeMS>
+  <MakeAvatar>False</MakeAvatar>
+  <MakeStun>False</MakeStun>
+  <MaxOverlay>1</MaxOverlay>
+  <Name>翼族技能引导变身1</Name>
+  <OverlayBindingEffect element_type="DeepCore.GameData.Zone.LaunchEffect" />
+  <Properties type="TLBattle.Common.Plugins.TLBuffProperties">
+    <buffData type="DeepCore.ArrayList`1[[TLBattle.Common.Plugins.TLBuffData, SampleBattle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="TLBattle.Common.Plugins.TLBuffData">
+      <element type="TLBattle.Common.Plugins.TLBuffData_PlayerActiveSkill">
+        <BuffID>0</BuffID>
+        <Skills type="DeepCore.ArrayList`1[[TLBattle.Common.Plugins.GameSkill, SampleBattle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" element_type="TLBattle.Common.Plugins.GameSkill">
+          <element>
+            <AutoLaunch>True</AutoLaunch>
+            <SkillID>11001</SkillID>
+            <SkillIndex>0</SkillIndex>
+            <SkillLevel>1</SkillLevel>
+            <SkillTimestampMS>0</SkillTimestampMS>
+            <SkillType>normalAtk</SkillType>
+            <TalentLevel>0</TalentLevel>
+          </element>
+          <element>
+            <AutoLaunch>True</AutoLaunch>
+            <SkillID>11010</SkillID>
+            <SkillIndex>1</SkillIndex>
+            <SkillLevel>1</SkillLevel>
+            <SkillTimestampMS>0</SkillTimestampMS>
+            <SkillType>active</SkillType>
+            <TalentLevel>0</TalentLevel>
+          </element>
+          <element>
+            <AutoLaunch>True</AutoLaunch>
+            <SkillID>11020</SkillID>
+            <SkillIndex>3</SkillIndex>
+            <SkillLevel>1</SkillLevel>
+            <SkillTimestampMS>0</SkillTimestampMS>
+            <SkillType>active</SkillType>
+            <TalentLevel>0</TalentLevel>
+          </element>
+          <element>
+            <AutoLaunch>True</AutoLaunch>
+            <SkillID>11030</SkillID>
+            <SkillIndex>2</SkillIndex>
+            <SkillLevel>1</SkillLevel>
+            <SkillTimestampMS>0</SkillTimestampMS>
+            <SkillType>active</SkillType>
+            <TalentLevel>0</TalentLevel>
+          </element>
+        </Skills>
+        <TipsType>None</TipsType>
+      </element>
+    </buffData>
+    <CanBePurged>True</CanBePurged>
+    <IsShowLabel>False</IsShowLabel>
+    <IsShowWord>False</IsShowWord>
+    <SaveOnChangeScene>False</SaveOnChangeScene>
+  </Properties>
+  <UnitChangeSkills>False</UnitChangeSkills>
+  <UnitKeepSkillsID element_type="System.Int32" />
+  <UnitSkills element_type="DeepCore.GameData.Zone.LaunchSkill" />
+  <property.EditorPath>BUFF/引导用buff/翼族技能引导变身1(61001)</property.EditorPath>
+</BuffTemplate>
